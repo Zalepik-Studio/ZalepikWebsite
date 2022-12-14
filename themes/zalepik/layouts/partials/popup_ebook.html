@@ -1,0 +1,37 @@
+<div id="zpopup_ebook" style="position:fixed;">
+    <a id="zclose_ebook" onclick="zclose_ebook()">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"/></svg>
+    </a>
+    <div id="zclose_ebook_title">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M13 10h5l-6 6-6-6h5V3h2v7zm-9 9h16v-7h2v8a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-8h2v7z"></path></svg>
+        <span>Ebook Gratis</span>
+    </div>
+If you scroll 50 pixels down from the top of this page, the class "test" is added to this paragraph.
+Scroll up again to remove the class.
+<a id="zstatus_popup" href=""></a></div>
+
+<script>
+    var zstatus_popup = document.getElementById("zstatus_popup").innerHTML;
+    window.onscroll = function() {
+        if (zstatus_popup != "Tutup"){
+            zpopup_ebook_show()
+        }
+    };
+    
+    function zpopup_ebook_show() {
+      if (document.documentElement.scrollTop > 50) {
+        document.getElementById("zpopup_ebook").className = "zpopup_ebook_show";
+        document.getElementById("zclose_ebook").style.visibility = "visible";
+      } else {
+        document.getElementById("zpopup_ebook").className = "";
+        document.getElementById("zclose_ebook").style.visibility = "hidden";
+      }
+    }
+    
+    function zclose_ebook(){
+        document.getElementById("zclose_ebook").style.visibility = "hidden";
+        document.getElementById("zpopup_ebook").classList.remove("zpopup_ebook_show");
+        document.getElementById("zpopup_ebook").style.opacity = "0.24";
+        zstatus_popup = "Tutup";
+    }
+    </script>

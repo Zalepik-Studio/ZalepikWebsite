@@ -1,0 +1,45 @@
+<!-- ... -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="/css/tailwind/tailwind.css" rel="stylesheet">
+<link href="/css/tailwind/custom.css" rel="stylesheet">
+<link href="/css/tailwind/tailwind_sm.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<title>
+    {{ if .IsHome }}
+        {{.Site.Title}} | Zalepik.com
+    {{ else if .IsPage }}
+        {{.Title}} | Zalepik.com
+    {{ else if .Params.zlist }}
+        {{.Title}} | Zalepik.com
+    {{ else if .Params.writer }}
+        {{.Params.zname_writer}} | Zalepik.com
+    {{ else if .Page }}
+        {{.Title}} | Zalepik.com
+    {{ else }}
+        Error 404 | Zalepik.com
+    {{ end }}
+</title>
+<link rel="icon" type="image/png" href="https://mzainulmuttaqin.github.io/Zalepik_Images/logo-color-small.png">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+{{ if or (.Params.zartikel) (.Params.zvideo) }}
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    {{/*  <link href="/css/rainbow.css" rel="stylesheet" type="text/css">  */}}
+    <link href="/css/paraiso-dark.css" rel="stylesheet" type="text/css">
+{{ end }}
+<style>
+    /*  @media only screen and (max-width: 640px) {
+        header>img {
+            content: url("https://mzainulmuttaqin.github.io/Zalepik_Images/slider-home-1-zalepik_640px.png") !important;
+        }
+    }  */
+</style>
+{{ if .Description }}
+    <meta name="description" content="{{ .Description }}"/>
+{{ else if eq .Kind "section" }}
+    <meta name="description" content="{{ .Summary }}"/>
+{{ else }}
+    <meta name="description" content="{{ .Site.Params.Description }}"/>
+{{ end }}  

@@ -1,0 +1,26 @@
+<div id="galery_freebies" class="zalepik_galery zlist_artikel zrelate_artikel">
+    <div id="zcontent_after">
+        <div><b>Topik Terkait</b></div>
+        <a href="{{ .Site.BaseURL}}{{ .Params.topik }}">{{/*  {{ .Params.topik }}*/}}</a>  
+        <div id="zwrap_list_relate_artikel">
+            {{ range last 6 (where (where .Site.Pages.ByPublishDate "Params.zartikel" "artikel") "Params.zlist" "!=" "Ini Halaman List")}}
+                <a href="{{ .Permalink }}" class="zalepik_image_galery">
+                    <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+                    <div class="py-5">
+                    <h4>
+                        <b>
+                            {{ .Title }}
+                        </b>
+                        {{/*  <p>{{ or .Params.description .Summary }}</p>  */}}
+                    </h4>
+                    {{/*  <hr>
+                    <div class="text-2xsm opacity-80 mt-1 zdate">
+                        {{ .Date.Format "2006-01-02" }}
+                    </div>  */}}
+                    </div>
+                </a>
+            {{ end }}
+        </div>
+        <div style="clear: both"></div>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Zalepik'
+# Novela settings
+theme = "zalepik"
+summaryLength = 10
+paginate = 15
+[params]
+    Description = "Tempat belajar IT"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+[[redirects]]
+    from   = "/**"
+    to     = "/404.html"
+    status = 404
+
+# paginate = 6
+
+# [social]
+# twitter= "https://twitter.com/forestryio"
+# github= "https://github.com/forestryio/novela-hugo-starter"
+# linkedin= "https://www.linkedin.com/company/forestry.io"
+# instagram = "#"
+# dribbble = "#"
+# youtube = "#"
+
+# [taxonomies]
+# author = "authors"

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body class="text-DEFAULT tracking-wide text-base bg-white duration-1000">
+        {{- partial "nav.html" . -}}
+        {{- partial "header.html" . -}}
+        <div id="content">
+        {{- block "main" . }}
+        {{- end }}
+        </div>
+        {{- partial "footer.html" . -}}
+        
+    </body>
+</html>

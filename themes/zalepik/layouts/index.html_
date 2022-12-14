@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div style="background: green; color: white">
+    Text
+</div>
+<div>
+    <h1>Daftar Isi Konten</h1>
+    <div>
+        <ul>
+            {{ range where .Site.RegularPages "Section" "post"}}
+            <li>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                <span>{{ .Date.Format "2006-01-02" }}</span>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,30 @@
+{{ if .Params.hello }}
+{{ else }}
+<!-- Learn -->
+    <div>
+        <div class="grid grid-cols-12 bg-cyan_gray zalepik_learn">
+            <div id="title_header_home" class="zalepik_wrap_large_area text-center md:text-left">
+                <h1 class="md:col-span-8 col-span-12 after_line_yellow"><span class="no_after text-green-500 zalepik_title_border zalepik_title_shadow_2" title="Mari Belajar Desain">Mari Belajar Desain</span><br>
+                    <span class="no_after zalepik_title_border zalepik_title_shadow_2" title="Dan Programming">Dan Programming</span><br>
+                    <span class="no_after zalepik_title_border zalepik_title_shadow_2 text-green-500" title="Bersama Kami">Bersama Kami</span></h1>
+                <div class="col-start-1 col-end-13  md:col-start-9 md:col-span-4 md:text-right pt-16 mb:pt-0">
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-12 bg-cyan_gray">
+            <div id="title_header_home" class="zalepik_box hover:opacity-80 zalepik_box_baca">
+                <a class="text-l uppercase" href="{{ .Site.BaseURL }}/artikel/"><b>
+                        <div class="text-white pl-12">Tambah wawasan dengan membaca</div>
+                        <div class="pl-12 zalepik_arrow_white">→</div>
+                    </b></a>
+            </div>
+            <div id="title_header_home" class="zalepik_box bg-green-500 hover:opacity-80 zalepik_box_nonton">
+                <a class="text-l uppercase" href="{{ .Site.BaseURL }}/video/"><b>
+                        <div class="text-white pl-12">Akses video belajar tanpa biaya</div>
+                        <div class="pl-12 zalepik_arrow_white">→</div>
+                    </b></a>
+            </div>
+        </div>
+    </div>
+<!-- End Learn-->
+{{ end }}

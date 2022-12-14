@@ -1,0 +1,240 @@
+{{ define "main" }}
+<div>
+    <div>
+        {{ if .Params.zartikel}}
+            <div id="zcontent_left">
+                <div id="zcontent_left_index_wrap">
+                    <b>Daftar Isi</b>
+                </div>
+                <!-- AddToAny BEGIN -->
+                <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                    <b>Share</b><br>
+                    <a class="a2a_button_copy_link"></a>
+                    <a class="a2a_button_whatsapp"></a>
+                    <a class="a2a_button_facebook"></a>
+                    <a class="a2a_button_twitter"></a>
+                    <a class="a2a_button_email"></a>
+                    <a class="a2a_button_linkedin"></a>
+                    <a class="a2a_button_telegram"></a>
+                    <a class="a2a_button_pinterest"></a>
+                    <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                </div>
+                <script async src="https://static.addtoany.com/menu/page.js"></script>
+                <!-- AddToAny END -->
+            </div>
+            <div id="zcontent_right">
+                <a href="http://" target="_blank">
+                    <div id="zcontent_right_download_ebook">
+                        <img src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png" alt="" srcset="">
+                        <div>
+                            <span>Ebook<br>Gratis</span><br>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M13 10h5l-6 6-6-6h5V3h2v7zm-9 9h16v-7h2v8a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-8h2v7z"/></svg>
+                        </div>
+                    </div>
+                </a>
+                <div id="zcontent_right_recent_posts">
+                    <b>Postingan Terbaru</b>
+                        {{ range last 6 (where (where .Site.Pages.ByPublishDate "Params.zartikel" "artikel") "Params.zlist" "!=" "Ini Halaman List")}}
+                            <div class="zcontent_right_list_item">
+                                <a href="{{ .Permalink }}">
+                                    <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+                                    <div>
+                                        <h1>{{ .Title }}</h1>
+                                        <time>{{ .Date | time.Format ":date_long" }}</time>
+                                    </div>
+                                </a>
+                            </div>
+                            <hr>
+                        {{ end }}
+                        <a class="artikel_lainnya" href="{{ .Site.BaseURL }}artikel/">Artikel lainnya</a>
+                </div>
+            </div>
+            <div id="zcontent_clear_both"></div>
+            <div id="zcontent_artikel">
+                <div id="zcontent_paper">
+                    {{ .Content }}
+                    <h3>Sekian, Semoga Bermanfaat!</h3>
+                    <p>Jangan lupa share artikel ini ke orang lain, barangkali mereka membutuhkan. Jangan sungkan hubungi kami bila ada pertanyan. Atau silahkan tinggalkan komentar di bawah dan mari kita berdiskusi.</p>
+                    <!-- AddToAny BEGIN -->
+                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="margin-bottom: 80px">
+                        <b>Share</b><br>
+                        <a class="a2a_button_copy_link"></a>
+                        <a class="a2a_button_whatsapp"></a>
+                        <a class="a2a_button_facebook"></a>
+                        <a class="a2a_button_twitter"></a>
+                        <a class="a2a_button_linkedin"></a>
+                        <a class="a2a_button_telegram"></a>
+                        <a class="a2a_button_pinterest"></a>
+                        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                    </div>
+                    <!-- AddToAny BEGIN -->
+                    <hr>
+                    <div id="zcontent_bottom">
+                        <div><b>Pennulis:</b></div>
+                        <div id="zcontent_top">    
+                            <div id="zcontent_paper_top_penulis">
+                                <div>
+                                    <a href="{{ .Site.BaseURL }}artikel/{{ .Params.writer }}">
+                                        <img class="zimg_profile" src="" alt="" srcset="">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="{{ .Site.BaseURL }}artikel/{{ .Params.writer }}">{{ .Params.zname_writer }}</a><br>
+                                    <a id="" class="zini_jabatan_mas_" href="{{ .Site.BaseURL }}artikel/{{ .Params.writer }}"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="zditulis_pada">
+                            <div>Ditulis pada:</div>
+                            <span>{{ .Params.city }}, </span><span>{{ .Date.Format "2006-01-02" }}</span>
+                        </div>
+                        <hr>
+                        <div id="zcontent_tag">
+                            <b>Tag:</b>
+                            {{ with .Params.tags }}
+                                {{range .}}
+                                    <a href="/tags/{{ . | urlize }}">{{ . }}</a>
+                                {{end}}
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{- partial "profile_writer_display_none.html" . -}}
+            {{- partial "popup_ebook.html" . -}}
+        {{ else if .Params.zvideo}}
+            <div id="zcontent_left">
+                    <div id="zcontent_left_index_wrap">
+                        <b>Daftar Isi</b>
+                    </div>
+                    <!-- AddToAny BEGIN -->
+                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                        <b>Share</b><br>
+                        <a class="a2a_button_copy_link"></a>
+                        <a class="a2a_button_whatsapp"></a>
+                        <a class="a2a_button_facebook"></a>
+                        <a class="a2a_button_twitter"></a>
+                        <a class="a2a_button_email"></a>
+                        <a class="a2a_button_linkedin"></a>
+                        <a class="a2a_button_telegram"></a>
+                        <a class="a2a_button_pinterest"></a>
+                        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                    </div>
+                    <script async src="https://static.addtoany.com/menu/page.js"></script>
+                    <!-- AddToAny END -->
+            </div>
+            <div id="zcontent_right">
+                    <a href="http://" target="_blank">
+                        <div id="zcontent_right_download_ebook">
+                            <img src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png" alt="" srcset="">
+                            <div>
+                                <span>Ebook<br>Gratis</span><br>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M13 10h5l-6 6-6-6h5V3h2v7zm-9 9h16v-7h2v8a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-8h2v7z"/></svg>
+                            </div>
+                        </div>
+                    </a>
+                    <div id="zcontent_right_recent_posts">
+                        <b>Video Terbaru</b>
+                            {{ range last 6 (where (where .Site.Pages.ByPublishDate "Params.zvideo" "video") "Params.zlist" "!=" "Ini Halaman List")}}
+                                <div class="zcontent_right_list_item">
+                                    <a href="{{ .Permalink }}">
+                                        <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+                                        <div>
+                                            <h1>{{ .Title }}</h1>
+                                            <time>{{ .Date | time.Format ":date_long" }}</time>
+                                        </div>
+                                    </a>
+                                </div>
+                                <hr>
+                            {{ end }}
+                            <a class="artikel_lainnya" href="{{ .Site.BaseURL }}artikel/">Artikel lainnya</a>
+                    </div>
+            </div>
+            <div id="zcontent_clear_both"></div>
+            <div id="zcontent_artikel">
+                    <div id="zcontent_paper">
+                        {{ .Content }}
+                        <h3>Sekian, Semoga Bermanfaat!</h3>
+                        <p>Jangan lupa share artikel ini ke orang lain, barangkali mereka membutuhkan. Jangan sungkan hubungi kami bila ada pertanyan. Atau silahkan tinggalkan komentar di bawah dan mari kita berdiskusi.</p>
+                        <!-- AddToAny BEGIN -->
+                        <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="margin-bottom: 80px">
+                            <b>Share</b><br>
+                            <a class="a2a_button_copy_link"></a>
+                            <a class="a2a_button_whatsapp"></a>
+                            <a class="a2a_button_facebook"></a>
+                            <a class="a2a_button_twitter"></a>
+                            <a class="a2a_button_linkedin"></a>
+                            <a class="a2a_button_telegram"></a>
+                            <a class="a2a_button_pinterest"></a>
+                            <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                        </div>
+                        <!-- AddToAny BEGIN -->
+                        <hr>
+                        <div id="zcontent_bottom">
+                            <div><b>Pennulis:</b></div>
+                            <div id="zcontent_top">    
+                                <div id="zcontent_paper_top_penulis">
+                                    <div>
+                                        <a href="{{ .Site.BaseURL }}artikel/{{ .Params.writer }}">
+                                            <img class="zimg_profile" src="" alt="" srcset="">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="{{ .Site.BaseURL }}artikel/{{ .Params.writer }}">{{ .Params.zname_writer }}</a><br>
+                                        <a id="" class="zini_jabatan_mas_" href="{{ .Site.BaseURL }}artikel/{{ .Params.writer }}"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="zditulis_pada">
+                                <div>Ditulis pada:</div>
+                                <span>{{ .Params.city }}, </span><span>{{ .Date.Format "2006-01-02" }}</span>
+                            </div>
+                            <hr>
+                            <div id="zcontent_tag">
+                                <b>Tag:</b>
+                                {{ with .Params.tags }}
+                                    {{range .}}
+                                        <a href="/tags/{{ . | urlize }}">{{ . }}</a>
+                                    {{end}}
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            {{- partial "profile_writer_display_none.html" . -}}
+            {{- partial "popup_ebook.html" . -}}
+        {{ else }}
+            {{ .Content }}
+        {{ end }}
+    </div>
+    {{ if or (.Params.zartikel) (.Params.zvideo) }}
+        {{- partial "relate_artikel.html" . -}}
+        {{ end }}
+    {{ if .Params.zservices}}
+        {{- partial "call_to_action.html" . -}}
+        {{- partial "subscribe.html" . -}}
+    {{ end }}
+
+    <div id="zdisqus">
+        <div id="disqus_thread"></div>
+        <script>
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://zalearning.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+</div>
+{{ end }}
