@@ -1,10 +1,9 @@
 ---
 title: "Cara Menulis Markdown Zalepik"
-date: "2022-12-10"
+date: "2022-12-27"
 city: "Jombang"
-draft: false
-writer: "Heri"
-zname_writer: "Heri Waluyo"
+writer: "Zain"
+zname_writer: "Moh. Zain Muttaqin"
 zartikel: "artikel"
 description: "Ini deskription blog1 lorem ullamcorper tincidunt. Donec ultricies justo sit amet rhoncus hendrerit. Nunc scelerisque velit eu est suscipit, sed congue dui malesuada. Donec ac pretium pur"
 thumbnail: "https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png"
@@ -69,6 +68,7 @@ tags:
 
 https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png
 ![Gambar Zalepik](https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png)
+
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullamporta eros eu quam pellentesque, eu scelerisque odio lobortis. Curabitur malesuada, nisi at placerat interdum, odio elit dictum lorem, vitae pretium nisl metus vitae nisl. Pellentesque semper neque nec leo euismod suscipit. I love supporting the **[EFF](https://eff.org)**. This is the *[Markdown Guide](https://www.markdownguide.org)*. See the section on [`code`](#code).Pellentesque vestibulum eros vitae lorem ullamcorper tincidunt. Donec ultricies justo sit amet rhoncus hendrerit. Nunc scelerisque velit eu est suscipit, sed congue dui malesuada. Donec ac pretium purus, non pharetra justo. Fusce ornare libero odio, iaculis convallis lorem vehicula non.
 
 
@@ -183,6 +183,14 @@ Sed neque mi, condimentum ut lacus ut, fringilla egestas tortor. Nulla dignissim
 <div class="zbarisbaru"></div>
 <div class="zbarisbaru"></div>
 <div class="zbarisbaru"></div>
+
+
+
+
+
+
+
+
 
 Quisque malesuada cursus metus at aliquet.
 
