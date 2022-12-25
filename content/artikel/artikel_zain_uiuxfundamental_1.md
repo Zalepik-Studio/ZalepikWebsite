@@ -2,7 +2,7 @@
 title: "Text"
 date: "2022-12-27"
 city: "Jombang"
-draft: false
+draft: true
 writer: "Zain"
 zname_writer: "Moh. Zain Muttaqin"
 zartikel: "artikel"

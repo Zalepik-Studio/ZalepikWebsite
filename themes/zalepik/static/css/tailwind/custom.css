@@ -1243,3 +1243,8 @@
         margin: auto;
     }
 }
+
+iframe{
+    border: 8px solid #FFBA00;
+    border-radius: 24px;
+}

@@ -1,14 +1,14 @@
 ---
-title: "Cara Membuat Elemen Melayang Saat Discroll pada Website"
+title: "Cara Membuat Elemen Melayang Saat Discroll pada Website Menggunakan Library AOS"
 date: "2022-12-16"
-city: "Jombang"
+city: " Bandar Lampung"
 writer: "Heri"
-zname_writer: "Moh. Zain Muttaqin"
+zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
-# description: "Ini deskription blog1 lorem ullamcorper tincidunt. Donec ultricies justo sit amet rhoncus hendrerit. Nunc scelerisque velit eu est suscipit, sed congue dui malesuada. Donec ac pretium pur"
-# thumbnail: "https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png"
-# banner: "https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png"
-topik: "uiux"
+description: "Pada tutorial kali ini kita akan belajar bagaimana caranya membuat elemen melayang saat discroll pada website. Kita akan menggunakan library yang bernama AOS atau Animate On Scroll. Library ini bisa kalian lihat disini"
+thumbnail: "https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png"
+banner: "https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png"
+topik: "Javascript"
 tags: 
 - html
 - js
@@ -22,7 +22,7 @@ tags:
 - speedup
 ---
 
-Pada tutorial kali ini kita akan belajar bagaimana caranya membuat elemen melayang saat di scroll. Kita akan menggunakan library yang bernama AOS atau Animate On Scroll. Library ini bisa kalian lihat disini <a class="text-blue-600 italic" href="https://michalsnik.github.io/aos/" target="_blank">👉https://michalsnik.github.io/aos/</a> atau kalian juga bisa mengaksesnya di repository GitHub <a class="text-blue-600 italic" href="https://github.com/michalsnik/aos/" target="_blank">👉https://github.com/michalsnik/aos/</a>. Baik, langsung saja kita lanjutkan ke pembahasannya.
+Pada tutorial kali ini kita akan belajar bagaimana caranya membuat elemen melayang saat discroll pada website. Kita akan menggunakan library yang bernama AOS atau Animate On Scroll. Library ini bisa kalian lihat disini <a class="text-blue-600 italic" href="https://michalsnik.github.io/aos/" target="_blank">👉https://michalsnik.github.io/aos/</a> atau kalian juga bisa mengaksesnya di repository GitHub <a class="text-blue-600 italic" href="https://github.com/michalsnik/aos/" target="_blank">👉https://github.com/michalsnik/aos/</a>. Baik, langsung saja kita lanjutkan ke pembahasannya.
 
 <div class="zbarisbaru"></div>
 
@@ -34,8 +34,10 @@ Yang harus kalian lakukan adalah memasang link **CDN CSS dan JS** di codingan ka
     </code>
 </pre>
 Contoh pemasangan CSSnya seperti ini:
-<img class="zwidthfull" src="https://zalepik-studio.github.io/Zalepik_Images_heri/1cara-membuat-elemen-melayang-saat-di-scroll/img/Screenshot%20(2).png" alt="Inisialisasi script AOS JS">
+<img class="" src="https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/Screenshot_126.png" alt="Inisialisasi script AOS JS">
 
+<div class="zbarisbaru"></div>
+<div class="zbarisbaru"></div>
 <div class="zbarisbaru"></div>
 
 Kemudian silahkan copy code CDN untuk **Javascript**nya dan letakkan di bagian tag **body** baris paling bawah sebelum penutup tag **/body**.
@@ -46,7 +48,9 @@ Kemudian silahkan copy code CDN untuk **Javascript**nya dan letakkan di bagian t
 </pre>
 
 Contoh pemasangan CDN **Javascript**nya seperti ini:
-<img class="zwidthfull" src="https://zalepik-studio.github.io/Zalepik_Images_heri/1cara-membuat-elemen-melayang-saat-di-scroll/img/Screenshot%20(2).png" alt="Inisialisasi script AOS JS">
+<img class="" src="https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/Screenshot_127.png" alt="Inisialisasi script AOS JS">
+
+<div class="zbarisbaru"></div>
 
 #### Langkah Kedua
 Setelah itu, **inisialisasi Library AOS**nya dengan cara mengcopy script berikut, letakkan di bawah CDN Javascript sebelumnya:
@@ -60,7 +64,9 @@ Setelah itu, **inisialisasi Library AOS**nya dengan cara mengcopy script berikut
 </pre>
 
 Contohnya seperti ini:
-<img class="zwidthfull" src="https://zalepik-studio.github.io/Zalepik_Images_heri/1cara-membuat-elemen-melayang-saat-di-scroll/img/Screenshot%20(2).png" alt="Inisialisasi script AOS JS">
+<img class="zwidthfull" src="https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/Screenshot_128.png" alt="Inisialisasi script AOS JS">
+
+<div class="zbarisbaru"></div>
 
 #### Langkah Ketiga
 Mari kita insert gambar ke dalam html yang sudah kita buat. Masukkan lebih dari satu gambar untuk melihat hasil yang lebih menarik saat Library AOS sudah berjalan pada website kita. Jangan lupa letakkan di atas/sebelum code script inisialisasi library AOS. Kalian bisa mengcopy contoh code insert gambar melalui code di bawah ini:
@@ -80,7 +86,9 @@ Jika kalian ingin mengganti url gambarnya bisa ubah saja isi dari bagian **src="
 <div class="zbarisbaru"></div>
 
 Berikut contoh insert gambarnya.
-<img class="zwidthfull" src="https://zalepik-studio.github.io/Zalepik_Images_heri/1cara-membuat-elemen-melayang-saat-di-scroll/img/Screenshot%20(3).png" alt="Pemasangan script CDN JS.">
+<img class="zwidthfull" src="https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/Screenshot_129.png" alt="Pemasangan script CDN JS.">
+
+<div class="zbarisbaru"></div>
 
 #### Langkah Kempat
 **Setelah itu**, mari kita animasikan! Kalian bisa memasang **atribut untuk memberi animasi** pada elemen yang ingin kamu animasikan.
@@ -94,6 +102,11 @@ Berikut contoh insert gambarnya.
   </code>
 </pre>
 Silahkan melihat daftar animasi yang tersedia melalui link berikut <a class="text-blue-600 italic" href="https://michalsnik.github.io/aos/" target="_blank">👉https://michalsnik.github.io/aos/</a>.
+
+<div class="zbarisbaru"></div>
+
+Berikut contoh pemasangan atribut untuk animasinya:
+<img class="zwidthfull" src="https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/Screenshot_130.png" alt="Pemasangan script CDN JS.">
 
 
 <div class="zbarisbaru"></div>
@@ -112,6 +125,18 @@ Kalian juga bisa mengatur durasi animasinya. Tinggal tambahkan saja atribut **da
 
 
 <div class="zbarisbaru"></div>
+<div class="zbarisbaru"></div>
+
+Berikut contoh pemasangan atribut untuk animasinya:
+<img class="" src="https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/Screenshot_131.png" alt="Pemasangan script CDN JS.">
+
+<div class="zbarisbaru"></div>
+<div class="zbarisbaru"></div>
+
+#### *Yeiyy!!! Website Kita Sudah Jadi*
+Sekarang kita dapat menikmati animasi pada website kita. Silahkan klik link berikut untuk mendapatkan source codenya. <a class="text-blue-600 italic" href="https://github.com/Zalepik-Studio/Zalepik_Bahan_Belajar/tree/main/AOS" target="_blank">👉https://github.com/Zalepik-Studio/Zalepik_Bahan_Belajar/tree/main/AOS</a>.
+<iframe src="https://zalepik-studio.github.io/Zalepik_Bahan_Belajar/AOS/aos.html" width="100%" height="520px">
+</iframe>
 
 #### Cuma Itu Aja?
 Tentu saja masih banyak pengaturan lainnya yang bisa kita tambah dengan library AOS ini. Silahkan mengunjungi halaman berikut untuk mencari tahu pengaturan lainnya yang dapat kita coba. <a class="text-blue-600 italic" href="https://michalsnik.github.io/aos/" target="_blank">👉https://michalsnik.github.io/aos/</a>.
