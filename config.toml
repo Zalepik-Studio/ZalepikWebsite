@@ -1,6 +1,6 @@
 baseURL = 'https://zalepik.netlify.app/'
 languageCode = 'en-us'
-title = 'Zalepik'
+title = 'Zalepik Studio | Software House di Jombang Jawa Timur'
 # Novela settings
 theme = "zalepik"
 summaryLength = 10
