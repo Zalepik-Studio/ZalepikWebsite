@@ -6,9 +6,9 @@ writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
 description: "Pada tutorial kali ini kita akan belajar bagaimana caranya membuat elemen melayang saat discroll pada website. Kita akan menggunakan library yang bernama AOS atau Animate On Scroll. Library ini bisa kalian lihat disini"
-thumbnail: "https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png"
-banner: "https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png"
-topik: "Javascript"
+thumbnail: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_CARA__MEMBUAT_ELEMEN_MELAYANG_SAAT_DISCROLL_PADA_WEBSITE_MENGGUNAKAN_LIBRARY_AOS.png"
+banner: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/banner/zalepik_banner_CARA__MEMBUAT_ELEMEN_MELAYANG_SAAT_DISCROLL_PADA_WEBSITE_MENGGUNAKAN_LIBRARY_AOS.png.png"
+topik: "AOS"
 tags: 
 - html
 - js
