@@ -1248,3 +1248,7 @@ iframe{
     border: 8px solid #FFBA00;
     border-radius: 24px;
 }
+
+#zcontent_right_download_ebook{
+display: none;
+}
