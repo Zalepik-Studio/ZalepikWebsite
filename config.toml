@@ -6,7 +6,7 @@ theme = "zalepik"
 summaryLength = 10
 paginate = 15
 [params]
-    Description = "Tempat belajar IT"
+    Description = "Studio Kami Memproduksi Website & Aplikasi"
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -28,3 +28,5 @@ paginate = 15
 
 # [taxonomies]
 # author = "authors"
+
+# googleAnalytics = 'G-XHMEH4HT62'
