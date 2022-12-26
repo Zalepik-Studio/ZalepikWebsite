@@ -1249,6 +1249,6 @@ iframe{
     border-radius: 24px;
 }
 
-#zcontent_right_download_ebook{
-display: none;
+#zcontent_right #zcontent_right_download_ebook{
+    display: none !important;
 }
