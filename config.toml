@@ -6,7 +6,7 @@ theme = "zalepik"
 summaryLength = 10
 paginate = 15
 [params]
-    Description = "Studio Kami Memproduksi Website & Aplikasi"
+    Description = "Studio Kami Memproduksi Website & Aplikasi. Melayani kebutuhan terkait website, aplikasi, desain, digital marketing dan lainnya. Temukan promo menarik melalui instagram kami!"
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
