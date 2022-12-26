@@ -1,12 +1,12 @@
 baseURL = 'https://zalepik.netlify.app/'
 languageCode = 'en-us'
-title = 'Zalepik Studio | Software House di Jombang Jawa Timur'
+title = 'Zalepik'
 # Novela settings
 theme = "zalepik"
 summaryLength = 10
 paginate = 15
 [params]
-    Description = "Studio Kami Memproduksi Website & Aplikasi. Melayani kebutuhan terkait website, aplikasi, desain, digital marketing dan lainnya. Temukan promo menarik melalui instagram kami!"
+    Description = "Studio Kami Memproduksi Website & Aplikasi. Melayani kebutuhan terkait website, aplikasi, desain, digital marketing dan lainnya. Berlokasi di Jombang Jawa Timur. Temukan promo menarik layanan kami!"
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
