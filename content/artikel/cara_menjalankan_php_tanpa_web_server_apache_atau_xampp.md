@@ -6,9 +6,9 @@ writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
 description: "Pada kesempatan kali ini kita akan belajar bagaimana caranya menjalankan PHP tanpa web server Apache atau menggunakan XAMPP"
-thumbnail: "https://mzainulmuttaqin.github.io/Zalepik-Studio/Zalepik_Images_heri/blob/main/2cara_menjalankan_php_tanpa_web_server_apache_atau_xampp/zalepik_thumbnail_cara_menjalankan_php_tanpa_web_server_apache_atau_xampp.png"
-images: ["https://mzainulmuttaqin.github.io/Zalepik-Studio/Zalepik_Images_heri/blob/main/2cara_menjalankan_php_tanpa_web_server_apache_atau_xampp/zalepik_thumbnail_cara_menjalankan_php_tanpa_web_server_apache_atau_xampp.png"]
-banner: "https://mzainulmuttaqin.github.io/Zalepik_Images_heri/2cara_menjalankan_php_tanpa_web_server_apache_atau_xampp/zalepik_banner_2cara_menjalankan_php_tanpa_web_server_apache_atau_xampp.png"
+thumbnail: "https://zalepik-studio.github.io/Zalepik_Images_heri/2cara_menjalankan_php_tanpa_web_server_apache_atau_xampp/zalepik_thumbnail_cara_menjalankan_php_tanpa_web_server_apache_atau_xampp.png"
+images: ["https://zalepik-studio.github.io/Zalepik_Images_heri/2cara_menjalankan_php_tanpa_web_server_apache_atau_xampp/zalepik_thumbnail_cara_menjalankan_php_tanpa_web_server_apache_atau_xampp.png"]
+banner: "https://zalepik-studio.github.io/Zalepik_Images_heri/2cara_menjalankan_php_tanpa_web_server_apache_atau_xampp/zalepik_banner_2cara_menjalankan_php_tanpa_web_server_apache_atau_xampp.png"
 topik: "PHP"
 tags: 
 - html
@@ -52,10 +52,10 @@ Untuk mengarahkannya ke direktori atau file lain kita tinggal menambahkan tanda 
 </pre>
 
 ###### Catatan:
-Web server bawaan PHP ini tidak direkomendasikan untuk digunakan pada lingkungan produksi (prodcution).
+Web server bawaan PHP ini tidak direkomendasikan untuk digunakan pada lingkungan produksi (production).
 
 Nah, seperti itu lah cara menjalankan PHP tanpa menggunakan web server Apache atau XAMPP. Untuk lebih lengkapnya bisa dilihat didokumentasi PHP pada link berikut: 
-<a class="text-blue-600 italic" href="https://www.php.net/manual/en/features.commandline.webserver.php" target="_blank">👉https://www.php.net/manual/en/features.commandline.webserver.php</a>.
+<a class="text-blue-600 italic" href="https://www.php.net/manual/en/features.commandline.webserver.php" target="_blank"> 👉https://www.php.net/manual/en/features.commandline.webserver.php</a>.
 
 <div class="zbarisbaru"></div>
 <div class="zbarisbaru"></div>
