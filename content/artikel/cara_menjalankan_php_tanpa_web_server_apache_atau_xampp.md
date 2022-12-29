@@ -5,7 +5,7 @@ city: " Bandar Lampung"
 writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
-description: "Pada tutorial kali ini kita akan belajar bagaimana caranya membuat elemen melayang saat discroll pada website. Kita akan menggunakan library yang bernama AOS atau Animate On Scroll. Library ini bisa kalian lihat disini"
+description: "Pada kesempatan kali ini kita akan belajar bagaimana caranya menjalankan PHP tanpa web server Apache atau menggunakan XAMPP"
 thumbnail: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_CARA__MEMBUAT_ELEMEN_MELAYANG_SAAT_DISCROLL_PADA_WEBSITE_MENGGUNAKAN_LIBRARY_AOS.png"
 images: ["https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_CARA__MEMBUAT_ELEMEN_MELAYANG_SAAT_DISCROLL_PADA_WEBSITE_MENGGUNAKAN_LIBRARY_AOS.png"]
 banner: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/banner/zalepik_banner_CARA__MEMBUAT_ELEMEN_MELAYANG_SAAT_DISCROLL_PADA_WEBSITE_MENGGUNAKAN_LIBRARY_AOS.png.png"
@@ -21,9 +21,10 @@ tags:
 - animate
 - frontend
 - speedup
+- php
 ---
 
-Pada tutorial kali ini kita akan belajar bagaimana caranya membuat elemen melayang saat discroll pada website. Kita akan menggunakan library yang bernama AOS atau Animate On Scroll. Library ini bisa kalian lihat disini <a class="text-blue-600 italic" href="https://michalsnik.github.io/aos/" target="_blank">👉https://michalsnik.github.io/aos/</a> atau kalian juga bisa mengaksesnya di repository GitHub <a class="text-blue-600 italic" href="https://github.com/michalsnik/aos/" target="_blank">👉https://github.com/michalsnik/aos/</a>. Baik, langsung saja kita lanjutkan ke pembahasannya.
+Pada kesempatan kali ini kita akan belajar bagaimana caranya menjalankan PHP tanpa web server Apache atau menggunakan XAMPP. Sebenarnya PHP mempunyai server bawaan sendiri untuk dapat dijalankan. Pada versi PHP 5.4.0 tersedia fitur build-in web server yang memungkinkan kita untuk menjalankan PHP menggunakan perintah command line (CLI).
 
 <div class="zbarisbaru"></div>
 
