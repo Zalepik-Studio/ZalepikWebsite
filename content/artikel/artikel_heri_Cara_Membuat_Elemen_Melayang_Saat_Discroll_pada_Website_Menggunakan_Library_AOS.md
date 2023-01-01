@@ -6,9 +6,9 @@ writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
 description: "Pada tutorial kali ini kita akan belajar bagaimana caranya membuat elemen melayang saat discroll pada website. Kita akan menggunakan library yang bernama AOS atau Animate On Scroll. Library ini bisa kalian lihat disini"
-thumbnail: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_CARA__MEMBUAT_ELEMEN_MELAYANG_SAAT_DISCROLL_PADA_WEBSITE_MENGGUNAKAN_LIBRARY_AOS.png"
-images: ["https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_CARA__MEMBUAT_ELEMEN_MELAYANG_SAAT_DISCROLL_PADA_WEBSITE_MENGGUNAKAN_LIBRARY_AOS.png"]
-banner: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/banner/zalepik_banner_CARA__MEMBUAT_ELEMEN_MELAYANG_SAAT_DISCROLL_PADA_WEBSITE_MENGGUNAKAN_LIBRARY_AOS.png.png"
+thumbnail: "https://zalepik-studio.github.io/zalepik-learning/images/cara-membuat-elemen-melayang-saat-di-scroll/thumbnail.png"
+images: ["https://zalepik-studio.github.io/zalepik-learning/images/cara-membuat-elemen-melayang-saat-di-scroll/images.png"]
+banner: "https://zalepik-studio.github.io/zalepik-learning/images/cara-membuat-elemen-melayang-saat-di-scroll/banner.png"
 topik: "AOS"
 tags: 
 - html
@@ -35,7 +35,7 @@ Yang harus kalian lakukan adalah memasang link **CDN CSS dan JS** di codingan ka
     </code>
 </pre>
 Contoh pemasangan CSSnya seperti ini:
-<img class="" src="https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/Screenshot_126.png" alt="Inisialisasi script AOS JS">
+<img class="" src="https://zalepik-studio.github.io/zalepik-learning/images/cara-membuat-elemen-melayang-saat-di-scroll/Screenshot (1).png">
 
 <div class="zbarisbaru"></div>
 <div class="zbarisbaru"></div>
@@ -49,7 +49,7 @@ Kemudian silahkan copy code CDN untuk **Javascript**nya dan letakkan di bagian t
 </pre>
 
 Contoh pemasangan CDN **Javascript**nya seperti ini:
-<img class="" src="https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/Screenshot_127.png" alt="Inisialisasi script AOS JS">
+<img class="" src="https://zalepik-studio.github.io/zalepik-learning/images/cara-membuat-elemen-melayang-saat-di-scroll/Screenshot (2).png" alt="Inisialisasi script AOS JS">
 
 <div class="zbarisbaru"></div>
 
@@ -65,7 +65,7 @@ Setelah itu, **inisialisasi Library AOS**nya dengan cara mengcopy script berikut
 </pre>
 
 Contohnya seperti ini:
-<img class="zwidthfull" src="https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/Screenshot_128.png" alt="Inisialisasi script AOS JS">
+<img class="zwidthfull" src="https://zalepik-studio.github.io/zalepik-learning/images/cara-membuat-elemen-melayang-saat-di-scroll/Screenshot (3).png">
 
 <div class="zbarisbaru"></div>
 
@@ -87,7 +87,7 @@ Jika kalian ingin mengganti url gambarnya bisa ubah saja isi dari bagian **src="
 <div class="zbarisbaru"></div>
 
 Berikut contoh insert gambarnya.
-<img class="zwidthfull" src="https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/Screenshot_129.png" alt="Pemasangan script CDN JS.">
+<img class="zwidthfull" src="https://zalepik-studio.github.io/zalepik-learning/images/cara-membuat-elemen-melayang-saat-di-scroll/Screenshot (4).png" alt="Pemasangan script CDN JS.">
 
 <div class="zbarisbaru"></div>
 
@@ -107,7 +107,7 @@ Silahkan melihat daftar animasi yang tersedia melalui link berikut <a class="tex
 <div class="zbarisbaru"></div>
 
 Berikut contoh pemasangan atribut untuk animasinya:
-<img class="zwidthfull" src="https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/Screenshot_130.png" alt="Pemasangan script CDN JS.">
+<img class="zwidthfull" src="https://zalepik-studio.github.io/zalepik-learning/images/cara-membuat-elemen-melayang-saat-di-scroll/Screenshot (5).png" alt="Pemasangan script CDN JS.">
 
 
 <div class="zbarisbaru"></div>
@@ -129,14 +129,14 @@ Kalian juga bisa mengatur durasi animasinya. Tinggal tambahkan saja atribut **da
 <div class="zbarisbaru"></div>
 
 Berikut contoh pemasangan atribut untuk animasinya:
-<img class="" src="https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/Screenshot_131.png" alt="Pemasangan script CDN JS.">
+<img class="" src="https://zalepik-studio.github.io/zalepik-learning/images/cara-membuat-elemen-melayang-saat-di-scroll/Screenshot (6).png" alt="Pemasangan script CDN JS.">
 
 <div class="zbarisbaru"></div>
 <div class="zbarisbaru"></div>
 
 #### *Yeiyy!!! Website Kita Sudah Jadi*
-Sekarang kita dapat menikmati animasi pada website kita. Silahkan klik link berikut untuk mendapatkan source codenya. <a class="text-blue-600 italic" href="https://github.com/Zalepik-Studio/Zalepik_Bahan_Belajar/tree/main/AOS" target="_blank">👉https://github.com/Zalepik-Studio/Zalepik_Bahan_Belajar/tree/main/AOS</a>.
-<iframe src="https://zalepik-studio.github.io/Zalepik_Bahan_Belajar/AOS/aos.html" width="100%" height="520px">
+Sekarang kita dapat menikmati animasi pada website kita. Silahkan klik link berikut untuk mendapatkan source codenya. <a class="text-blue-600 italic" href="https://github.com/Zalepik-Studio/zalepik-learning/tree/main/source-code/cara-membuat-elemen-melayang-saat-di-scroll" target="_blank">👉https://github.com/Zalepik-Studio/zalepik-learning/tree/main/source-code/cara-membuat-elemen-melayang-saat-di-scroll/</a>
+<iframe src="https://zalepik-studio.github.io/zalepik-learning/source-code/cara-membuat-elemen-melayang-saat-di-scroll/" width="100%" height="520px">
 </iframe>
 
 #### Cuma Itu Aja?
