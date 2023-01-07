@@ -6,9 +6,9 @@ writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
 description: "Pada kesempatan kali ini kita akan berkenalan dengan Pyscript, Python yang dapat berjalan di sisi browser"
-thumbnail: ""
-images: [""]
-banner: ""
+thumbnail: "https://zalepik-studio.github.io/zalepik-learning/images/berkenalan-dengan-pyscript/thumbnail.png"
+images: ["https://zalepik-studio.github.io/zalepik-learning/images/berkenalan-dengan-pyscript/images.png"]
+banner: "https://zalepik-studio.github.io/zalepik-learning/images/berkenalan-dengan-pyscript/banner.png"
 topik: "Python"
 tags: 
 - html
