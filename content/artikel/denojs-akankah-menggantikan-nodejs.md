@@ -34,18 +34,20 @@ Untuk menginstal Deno di Windows, kita bisa menggunakan perintah berikut:
 
 <div class="zbarisbaru"></div>
 
-Using Chocolatey
-<pre class="language-javascript">
-  <code class="language-javascript">
-choco install deno
-  </code>
-</pre>
 Using PowerShell
 <pre class="language-javascript">
   <code class="language-javascript">
 irm https://deno.land/install.ps1 | iex
   </code>
 </pre>
+
+Using Chocolatey
+<pre class="language-javascript">
+  <code class="language-javascript">
+choco install deno
+  </code>
+</pre>
+
 Using Scoop
 <pre class="language-javascript">
   <code class="language-javascript">
@@ -72,9 +74,11 @@ for await (const req of s) {
 Untuk menjalankan server tersebut, kita bisa menggunakan perintah deno run di terminal:
 <pre class="language-javascript">
   <code class="language-javascript">
-deno run --allow-net server.ts
+deno run server.ts
   </code>
 </pre>
+Maka kita dapat melihat tulisan Hello World tampil di browser.
+<img class="" src="https://zalepik-studio.github.io/zalepik-learning/images/denojs-akankah-menggantikan-nodejs/Screenshot (1).png">
 
 #### Apa kelebihan Deno.js
 Salah satu fitur terpenting dari Deno adalah keamanannya yang lebih baik. Deno menyertakan sistem sandbox yang membatasi akses aplikasi ke sistem file, jaringan, dan environment lainnya. Aplikasi Deno harus memberikan izin secara eksplisit untuk mengakses fitur-fitur tersebut. Deno juga tidak lagi membutuhkan package manager seperti npm, karena ia menyertakan fitur module loading yang built-in.

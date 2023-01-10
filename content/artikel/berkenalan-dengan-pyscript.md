@@ -69,8 +69,6 @@ Yaa, betul sekali...Pyscript ternyata sangat lambat. Pyscript sendiri mendorong 
 Mungkin saat ini Pyscript belum mampu bersaing dengan JavaScript dan masih ada banyak kekurangan didalamnya. Akan
 tetapi, Pyscript terus dikembangkan agar dapat berjalan dengan baik. JavaScript merupakan bahasa pemrograman yang sudah sangat populer dikalangan developer khususnnya untuk pengembangan web, akan sangat sulit menggantikannya.
 
-
-
 <div class="zbarisbaru"></div>
 <div class="zbarisbaru"></div>
 
