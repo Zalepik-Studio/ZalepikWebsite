@@ -201,6 +201,12 @@ Terakhir, kita membuat server untuk menjalankan aplikasi back-end dengan menggun
 
 Berikut ini adalah source code lengkap dari script diatas.<a class="text-blue-600 italic" href="https://github.com/heriwahyudiono/react-nodejs-api" target="_blank">👉https://github.com/heriwahyudiono/react-nodejs-api</a>.
 
+<div class="zbarisbaru"></div>
+
+sumber gambar:
+https://www.flaticon.com/free-icon/react_1183672?term=react&page=1&position=3&origin=search&related_id=1183672
+https://www.flaticon.com/free-icon/api_4180439?term=rest+api&page=1&position=7&origin=search&related_id=4180439
+
 
 
 
