@@ -5,7 +5,7 @@ city: "Lampung"
 writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
-description: "Dalam pembuatan website, terkadang kita ingin menambahkan efek visual yang menarik dan dinamis seperti elemen yang bergerak mengambang. Efek ini bisa dicapai dengan menggunakan CSS dan JavaScript"
+description: "Dalam membuat website, terkadang kita ingin menambahkan efek visual yang menarik dan dinamis seperti elemen yang bergerak mengambang naik turun secara terus menerus. Efek ini bisa dicapai dengan menggunakan CSS dan JavaScript"
 thumbnail: "https://zalepik-studio.github.io/zalepik-learning/images/cara-membuat-elemen-bergerak-mengambang-dengan-css-dan-javascript/thumbnail.png"
 images: ["https://zalepik-studio.github.io/zalepik-learning/images/cara-membuat-elemen-bergerak-mengambang-dengan-css-dan-javascript/images.png"]
 banner: "https://zalepik-studio.github.io/zalepik-learning/images/cara-membuat-elemen-bergerak-mengambang-dengan-css-dan-javascript/banner.png"
@@ -30,50 +30,57 @@ tags:
 - api
 ---
 
-Dalam pembuatan website, terkadang kita ingin menambahkan efek visual yang menarik dan dinamis seperti elemen yang bergerak mengambang. Efek ini bisa dicapai dengan menggunakan CSS dan JavaScript.
+Dalam membuat website, terkadang kita ingin menambahkan efek visual yang menarik dan dinamis seperti elemen yang bergerak mengambang naik turun secara terus menerus. Efek ini bisa dicapai dengan menggunakan CSS dan JavaScript.
 
 <div class="zbarisbaru"></div>
 
 #### Cara Pertama
-Cara pertama adalah dengan menggunakan CSS. Kita bisa menambahkan class pada elemen yang ingin kita buat bergerak mengambang, lalu menambahkan properti animation. Contohnya seperti ini:
+Cara pertama adalah dengan menggunakan CSS. Kita bisa menambahkan class pada elemen yang ingin kita buat bergerak mengambang naik turun, lalu menambahkan properti animation. Contohnya seperti ini:
+
 <pre class="language-css">
     <code class="language-css">
 .floating-element {
-    animation: floating 5s infinite;
+    animation: floating 1s ease-in-out infinite;
 }
 
 @keyframes floating {
-    from {
+    0% {
         transform: translateY(0);
     }
-    to {
+    50% {
         transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
     }
 }
     </code>
 </pre>
 
-Pada kode diatas kita menambahkan class "floating-element" pada elemen yang ingin kita buat bergerak mengambang. Kemudian kita menambahkan properti animation dengan nama "floating" yang berlangsung selama 5 detik dan diulang-ulang. Pada properti @keyframes, kita menentukan dari posisi awal elemen sampai posisi yang ingin kita buat elemen bergerak, dalam hal ini menambahkan translateY sebesar -10px.
+Pada kode diatas kita menambahkan class "floating-element" pada elemen yang ingin kita buat bergerak mengambang naik turun. Kemudian kita menambahkan properti animation dengan nama "floating" yang berlangsung selama 1 detik dan diulang-ulang. Pada properti @keyframes, kita menentukan posisi awal elemen, posisi yang ingin kita buat elemen bergerak naik sebesar -10px dan posisi yang ingin kita buat elemen bergerak turun kembali ke posisi awal, dengan menambahkan translateY (0)
 
 #### Cara Kedua
 
-Cara kedua adalah dengan menggunakan JavaScript. Kita bisa menambahkan event listener pada elemen yang ingin kita buat bergerak mengambang, lalu menambahkan properti style. Contohnya seperti ini:
+Cara kedua adalah dengan menggunakan JavaScript. Kita bisa menambahkan event listener pada elemen yang ingin kita buat bergerak mengambang naik turun, lalu menambahkan properti style. Contohnya seperti ini:
 
 <pre class="language-javascript">
   <code class="language-javascript">
 let floatingElement = document.querySelector('.floating-element');
 
-floatingElement.addEventListener('mouseover', function() {
-    floatingElement.style.transform = 'translateY(-10px)';
-});
+let position = 0;
 
-floatingElement.addEventListener('mouseout', function() {
-    floatingElement.style.transform = 'translateY(0)';
-});
+setInterval(function() {
+    if (position === 0) {
+        position = -10;
+    } else {
+        position = 0;
+    }
+    floatingElement.style.transform = 'translateY(' + position + 'px)';
+}, 1000);
   </code>
 </pre>
 
-Pada kode diatas kita menentukan elemen yang ingin kita buat bergerak mengambang dengan menggunakan querySelector. Kemudian kita menambahkan event listener pada elemen tersebut, yaitu mouseover dan mouseout. Pada saat mouseover, elemen akan bergerak ke posisi yang ditentukan dengan menambahkan properti style transform sebesar -10px. Sedangkan pada saat mouseout, elemen akan kembali ke posisi awal dengan menambahkan properti style transform sebesar 0.
+Pada kode diatas kita menentukan elemen yang ingin kita buat bergerak mengambang naik turun dengan menggunakan querySelector. Kemudian kita menambahkan variable position yang digunakan untuk menentukan posisi elemen. Kemudian kita menambahkan setInterval yang akan dijalankan setiap 1 detik. Pada setInterval kita mengecek posisi saat ini. jika posisi saat ini adalah 0 maka posisi diubah menjadi -10, jika tidak posisi kembali menjadi 0. Kemudian kita menambahkan properti style transform pada elemen dengan menambahkan posisi yang telah ditentukan sebelumnya. Dengan demikian, elemen akan bergerak naik turun secara terus menerus setiap 1 detik.
 
 <div class="zbarisbaru"></div>
 
@@ -99,15 +106,18 @@ Menggunakan CSS
 <pre class="language-css">
     <code class="language-css">
 .floating-element {
-    animation: floating 5s infinite;
+    animation: floating 1s ease-in-out infinite;
 }
 
 @keyframes floating {
-    from {
+    0% {
         transform: translateY(0);
     }
-    to {
+    50% {
         transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
     }
 }
     </code>
@@ -118,17 +128,20 @@ Menggunakan JavaScript
   <code class="language-javascript">
 let floatingElement = document.querySelector('.floating-element');
 
-floatingElement.addEventListener('mouseover', function() {
-    floatingElement.style.transform = 'translateY(-10px)';
-});
+let position = 0;
 
-floatingElement.addEventListener('mouseout', function() {
-    floatingElement.style.transform = 'translateY(0)';
-});
+setInterval(function() {
+    if (position === 0) {
+        position = -10;
+    } else {
+        position = 0;
+    }
+    floatingElement.style.transform = 'translateY(' + position + 'px)';
+}, 1000);
   </code>
 </pre>
 
-Dari contoh kode diatas, kita menambahkan class "floating-element" pada elemen div yang berisi gambar, lalu menambahkan properti animation dan event listener pada script javascript. Dengan demikian, elemen gambar akan bergerak mengambang pada saat mouseover dan kembali ke posisi awal pada saat mouseout.
+Dari contoh di atas, kita menambahkan class "floating-element" pada elemen div yang berisi gambar, lalu menambahkan properti animation dan setInterval pada script javascript. Dengan demikian, elemen gambar akan bergerak naik turun secara terus menerus setiap 1 detik.
 
 <div class="zbarisbaru"></div>
 
@@ -138,7 +151,7 @@ Kamu dapat melihat animasi elemen tersebut disini:
 
 <div class="zbarisbaru"></div>
 
-Kamu juga bisa mengunduh source code nya disini:<a class="text-blue-600 italic" href="https://github.com/zalepik-studio/zalepik-learning/source-code/cara-membuat-elemen-bergerak-mengambang-dengan-css-danjavascript/" target="_blank">👉https://github.com/zalepik-studio/zalepik-learning/source-code/cara-membuat-elemen-bergerak-mengambang-dengan-css-dan-javascript/</a>.
+Kamu juga bisa mengunduh source code nya disini:<a class="text-blue-600 italic" href="https://github.com/Zalepik-Studio/zalepik-learning/tree/main/source-code/cara-membuat-elemen-bergerak-mengambang-dengan-css-dan-javascript/" target="_blank">👉https://github.com/Zalepik-Studio/zalepik-learning/tree/main/source-code/cara-membuat-elemen-bergerak-mengambang-dengan-css-dan-javascript/</a>
 
 
 <div class="zbarisbaru"></div>
