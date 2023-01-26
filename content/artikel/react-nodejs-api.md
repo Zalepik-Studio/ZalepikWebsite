@@ -1,7 +1,7 @@
 ---
 title: "React Nodejs API"
 date: "2023-01-11"
-city: " Bandar Lampung"
+city: "Lampung"
 writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"

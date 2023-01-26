@@ -1,7 +1,7 @@
 ---
 title: "Deno.js, akankah menggantikan Node.js"
 date: "2023-01-08"
-city: " Bandar Lampung"
+city: "Lampung"
 writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"

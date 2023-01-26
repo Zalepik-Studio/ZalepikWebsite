@@ -1,7 +1,7 @@
 ---
 title: "Cara Menjalankan PHP Tanpa Web Server Apache atau XAMPP"
 date: "2022-12-27"
-city: " Bandar Lampung"
+city: "Lampung"
 writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"

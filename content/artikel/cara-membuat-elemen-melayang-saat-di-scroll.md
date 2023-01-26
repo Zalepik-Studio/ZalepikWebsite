@@ -1,7 +1,7 @@
 ---
 title: "Cara Membuat Elemen Melayang Saat Discroll pada Website Menggunakan Library AOS"
 date: "2022-12-16"
-city: " Bandar Lampung"
+city: "Lampung"
 writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
