@@ -27,7 +27,7 @@ import React, { useState } from "react";
   </code>
 </pre>
 
-Kemudian, kita dapat membuat state untuk mengetahui apakah elemen harus ditampilkan atau tidak. Dalam hal ini, kita dapat menggunakan useState. Misalnya, kita akan membuat state showElement dengan nilai awal false:
+Kemudian, kita dapat membuat state untuk mengetahui apakah elemen harus ditampilkan atau tidak. Dalam hal ini, kita dapat menggunakan useState. Misalnya, kita akan membuat state **showElement** dengan nilai awal false:
 
 <pre class="language-javascript">
   <code class="language-javascript">
@@ -35,7 +35,7 @@ const [showElement, setShowElement] = useState(false);
   </code>
 </pre>
 
-Lalu, kita membuat function yang akan mengubah state showElement saat ditekan. Function ini disebut toggleElement:
+Lalu, kita membuat function yang akan mengubah state **showElement** saat ditekan. Function ini disebut toggleElement:
 
 <pre class="language-javascript">
   <code class="language-javascript">
@@ -45,11 +45,11 @@ const toggleElement = () => {
   </code>
 </pre>
 
-Function toggleElement menggunakan setShowElement untuk mengubah state showElement ke nilai yang berlawanan. Kita menggunakan (prev) => !prev untuk mengubah state showElement dari false menjadi true dan sebaliknya.
+Function toggleElement menggunakan **setShowElement** untuk mengubah state showElement ke nilai yang berlawanan. Kita menggunakan **(prev) => !prev** untuk mengubah state **showElement** dari **false** menjadi **true** dan sebaliknya.
 
 <div class="zbarisbaru"></div>
 
-Setelah itu, kita dapat menggunakan kondisional rendering untuk memunculkan atau menyembunyikan elemen. Kita dapat menggunakan syntax {showElement && ...} untuk melakukan kondisional rendering. Misalnya, kita akan memunculkan elemen div yang berisi teks "Element" jika showElement bernilai true:
+Setelah itu, kita dapat menggunakan kondisional rendering untuk memunculkan atau menyembunyikan elemen. Kita dapat menggunakan syntax **{showElement && ...}** untuk melakukan kondisional rendering. Misalnya, kita akan memunculkan elemen **div** yang berisi teks "Element" jika **showElement** bernilai true:
 
 <pre class="language-javascript">
   <code class="language-javascript">
@@ -68,7 +68,7 @@ Setelah itu, kita dapat menggunakan kondisional rendering untuk memunculkan atau
   </code>
 </pre>
 
-Terakhir, kita membuat tombol untuk mengaktifkan function toggleElement:
+Terakhir, kita membuat tombol untuk mengaktifkan **function toggleElement**:
 
 <pre class="language-javascript">
   <code class="language-javascript">
@@ -112,15 +112,15 @@ export default App;
   </code>
 </pre>
 
-Pertama, kita mengimport useState dari react dengan sintaks import React, { useState } from "react";. Kemudian, kita membuat komponen App dengan const App = () => {...}.
+Pertama, kita mengimport useState dari react dengan sintaks **import React, { useState } from "react";. Kemudian, kita membuat komponen App dengan const App = () => {...}**.
 
 <div class="zbarisbaru"></div>
 
-Dalam komponen App, kita membuat state showElement menggunakan const [showElement, setShowElement] = useState(false);. State ini berguna untuk menentukan apakah elemen akan ditampilkan atau tidak. Awalnya, elemen akan disembunyikan karena kita menetapkan nilai awal sebagai false.
+Dalam komponen App, kita membuat state showElement menggunakan **const [showElement, setShowElement] = useState(false);**. State ini berguna untuk menentukan apakah elemen akan ditampilkan atau tidak. Awalnya, elemen akan disembunyikan karena kita menetapkan nilai awal sebagai **false**.
 
 <div class="zbarisbaru"></div>
 
-Kemudian, kita membuat fungsi toggleElement yang digunakan untuk memunculkan dan menyembunyikan elemen. Fungsi ini menggunakan sintaks setShowElement((prev) => !prev); untuk membalikkan nilai dari state showElement dari false menjadi true atau sebaliknya.
+Kemudian, kita membuat fungsi **toggleElement** yang digunakan untuk memunculkan dan menyembunyikan elemen. Fungsi ini menggunakan sintaks **setShowElement((prev) => !prev);** untuk membalikkan nilai dari state **showElement** dari **false** menjadi **true** atau sebaliknya.
 
 <div class="zbarisbaru"></div>
 
