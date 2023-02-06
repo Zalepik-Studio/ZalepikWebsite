@@ -83,36 +83,39 @@ Setelah membuat component halaman, selanjutnya kita akan membuat routing pada Ap
 App.js
 <pre class="language-javascript">
   <code class="language-javascript">
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import Home from './pages/Home';
-import Portofolio from './pages/Portofolio';
-import Blog from './pages/Blog';
-
-const App = () => {
-  return (
-    <Router>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/portofolio">Portofolio</Link>
-          </li>
-          <li>
-            <Link to="/blog">Blog</Link>
-          </li>
-        </ul>
-      </nav>
-
-      <Route exact path="/" component={Home} />
-      <Route path="/portofolio" component={Portofolio} />
-      <Route path="/blog" component={Blog} />
-    </Router>
-  );
-};
-
-export default App;
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom' 
+import Home from './pages/Home' 
+import Portofolio from './pages/Portofolio' 
+import Blog from './pages/Blog' 
+ 
+const App = () => { 
+  return ( 
+    <Router> 
+      <div> 
+        <nav> 
+          <ul> 
+            <li> 
+              <Link to="/">Home</Link> 
+            </li> 
+            <li> 
+              <Link to="/portofolio">Portofolio</Link> 
+            </li> 
+            <li> 
+              <Link to="/blog">Blog</Link> 
+            </li> 
+          </ul> 
+        </nav> 
+        <Routes> 
+          <Route exact path='/' element={<Home />} /> 
+          <Route path='/portofolio' element={<Portofolio />} /> 
+          <Route path='/blog' element={<Blog />} /> 
+        </Routes> 
+      </div> 
+    </Router> 
+  ); 
+} 
+ 
+export default App; 
   </code>
 </pre>
 
