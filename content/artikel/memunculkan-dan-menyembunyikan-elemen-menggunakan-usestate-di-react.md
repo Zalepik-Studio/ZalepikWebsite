@@ -112,7 +112,7 @@ export default App;
   </code>
 </pre>
 
-Pertama, kita mengimport useState dari react dengan sintaks **import React, { useState } from "react";. Kemudian, kita membuat komponen App dengan const App = () => {...}**.
+Pertama, kita mengimport useState dari react dengan sintaks **import React, { useState } from "react";**. Kemudian, kita membuat komponen App dengan **const App = () => {...}**.
 
 <div class="zbarisbaru"></div>
 
