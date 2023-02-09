@@ -1,14 +1,14 @@
 ---
-title: "Cara Membuat Elemen Bergerak Mengambang dengan CSS dan JavaScript"
+title: "Cara Membuat Animasi Bergerak Mengambang dengan CSS dan JavaScript"
 date: "2023-01-19"
 city: "Lampung"
 writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
-description: "Dalam membuat website, terkadang kita ingin menambahkan efek visual yang menarik dan dinamis seperti elemen yang bergerak mengambang naik turun secara terus menerus. Efek ini bisa dicapai dengan menggunakan CSS dan JavaScript"
-thumbnail: "https://zalepik-studio.github.io/zalepik-learning/images/cara-membuat-elemen-bergerak-mengambang-dengan-css-dan-javascript/thumbnail.png"
-images: ["https://zalepik-studio.github.io/zalepik-learning/images/cara-membuat-elemen-bergerak-mengambang-dengan-css-dan-javascript/images.png"]
-banner: "https://zalepik-studio.github.io/zalepik-learning/images/cara-membuat-elemen-bergerak-mengambang-dengan-css-dan-javascript/banner.png"
+description: "Dalam membuat website, terkadang kita ingin menambahkan efek visual yang menarik dan dinamis seperti animasi yang bergerak mengambang naik turun secara terus menerus. Efek ini bisa dicapai dengan menggunakan CSS dan JavaScript"
+thumbnail: "https://zalepik-studio.github.io/zalepik-learning/images/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript/thumbnail.png"
+images: ["https://zalepik-studio.github.io/zalepik-learning/images/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript/images.png"]
+banner: "https://zalepik-studio.github.io/zalepik-learning/images/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript/banner.png"
 topik: "CSS & JavaScript"
 tags: 
 - html
@@ -30,7 +30,7 @@ tags:
 - api
 ---
 
-Dalam membuat website, terkadang kita ingin menambahkan efek visual yang menarik dan dinamis seperti elemen yang bergerak mengambang naik turun secara terus menerus. Efek ini bisa dicapai dengan menggunakan CSS dan JavaScript.
+Dalam membuat website, terkadang kita ingin menambahkan efek visual yang menarik dan dinamis seperti animasi yang bergerak mengambang naik turun secara terus menerus. Efek ini bisa dicapai dengan menggunakan CSS dan JavaScript.
 
 <div class="zbarisbaru"></div>
 
@@ -39,7 +39,7 @@ Cara pertama adalah dengan menggunakan CSS. Kita bisa menambahkan class pada ele
 
 <pre class="language-css">
     <code class="language-css">
-.floating-element {
+.floating-animation {
     animation: floating 1s ease-in-out infinite;
 }
 
@@ -57,7 +57,7 @@ Cara pertama adalah dengan menggunakan CSS. Kita bisa menambahkan class pada ele
     </code>
 </pre>
 
-Pada kode diatas kita menambahkan class "floating-element" pada elemen yang ingin kita buat bergerak mengambang naik turun. Kemudian kita menambahkan properti animation dengan nama "floating" yang berlangsung selama 1 detik dan diulang-ulang. Pada properti @keyframes, kita menentukan posisi awal elemen, posisi yang ingin kita buat elemen bergerak naik sebesar -10px dan posisi yang ingin kita buat elemen bergerak turun kembali ke posisi awal, dengan menambahkan translateY (0)
+Pada kode diatas kita menambahkan class "floating-animation" pada elemen yang ingin kita buat bergerak mengambang naik turun. Kemudian kita menambahkan properti animation dengan nama "floating" yang berlangsung selama 1 detik dan diulang-ulang. Pada properti @keyframes, kita menentukan posisi awal elemen, posisi yang ingin kita buat elemen bergerak naik sebesar -10px dan posisi yang ingin kita buat elemen bergerak turun kembali ke posisi awal, dengan menambahkan translateY (0)
 
 #### Cara Kedua
 
@@ -65,7 +65,7 @@ Cara kedua adalah dengan menggunakan JavaScript. Kita bisa menambahkan event lis
 
 <pre class="language-javascript">
   <code class="language-javascript">
-let floatingElement = document.querySelector('.floating-element');
+let floatingAnimation = document.querySelector('.floating-animation');
 
 let position = 0;
 
@@ -75,7 +75,7 @@ setInterval(function() {
     } else {
         position = 0;
     }
-    floatingElement.style.transform = 'translateY(' + position + 'px)';
+    floatingAnimation.style.transform = 'translateY(' + position + 'px)';
 }, 1000);
   </code>
 </pre>
@@ -96,8 +96,8 @@ Contoh kode yang dapat digunakan sebagai referensi:
 
 <pre class="language-html">
     <code class="language-html">
-<div class="floating-element">
-    <img src="elemen.jpg">
+<div class="floating-animation">
+    <img src="element.png">
 </div>
     </code>
 </pre>
@@ -105,7 +105,7 @@ Contoh kode yang dapat digunakan sebagai referensi:
 Menggunakan CSS
 <pre class="language-css">
     <code class="language-css">
-.floating-element {
+.floating-animation {
     animation: floating 1s ease-in-out infinite;
 }
 
@@ -126,7 +126,7 @@ Menggunakan CSS
 Menggunakan JavaScript
 <pre class="language-javascript">
   <code class="language-javascript">
-let floatingElement = document.querySelector('.floating-element');
+let floatingAnimation = document.querySelector('.floating-animation');
 
 let position = 0;
 
@@ -136,22 +136,22 @@ setInterval(function() {
     } else {
         position = 0;
     }
-    floatingElement.style.transform = 'translateY(' + position + 'px)';
+    floatingAnimation.style.transform = 'translateY(' + position + 'px)';
 }, 1000);
   </code>
 </pre>
 
-Dari contoh di atas, kita menambahkan class "floating-element" pada elemen div yang berisi gambar, lalu menambahkan properti animation dan setInterval pada script javascript. Dengan demikian, elemen gambar akan bergerak naik turun secara terus menerus setiap 1 detik.
+Dari contoh di atas, kita menambahkan class "floating-animation" pada elemen div yang berisi gambar, lalu menambahkan properti animation dan setInterval pada script javascript. Dengan demikian, elemen gambar akan bergerak naik turun secara terus menerus setiap 1 detik.
 
 <div class="zbarisbaru"></div>
 
 Kamu dapat melihat animasi elemen tersebut disini:
-<iframe src="https://zalepik-studio.github.io/zalepik-learning/source-code/cara-membuat-elemen-bergerak-mengambang-dengan-css-dan-javascript/" width="100%" height="520px">
+<iframe src="https://zalepik-studio.github.io/zalepik-learning/source-code/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript/" width="100%" height="520px">
 </iframe>
 
 <div class="zbarisbaru"></div>
 
-Kamu juga bisa mengunduh source code nya disini:<a class="text-blue-600 italic" href="https://github.com/Zalepik-Studio/zalepik-learning/tree/main/source-code/cara-membuat-elemen-bergerak-mengambang-dengan-css-dan-javascript/" target="_blank">👉https://github.com/Zalepik-Studio/zalepik-learning/tree/main/source-code/cara-membuat-elemen-bergerak-mengambang-dengan-css-dan-javascript/</a>
+Kamu juga bisa mengunduh source code nya disini:<a class="text-blue-600 italic" href="https://github.com/Zalepik-Studio/zalepik-learning/tree/main/source-code/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript/" target="_blank">👉https://github.com/Zalepik-Studio/zalepik-learning/tree/main/source-code/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript/</a>
 
 
 <div class="zbarisbaru"></div>

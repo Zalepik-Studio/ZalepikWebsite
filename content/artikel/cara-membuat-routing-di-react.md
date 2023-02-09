@@ -137,3 +137,8 @@ Untuk membuat halaman baru, kita menggunakan component <Route> dari React Router
 
 Pada kode di atas, path adalah URL yang akan mengarahkan kita ke halaman Portofolio dan component adalah component yang akan digunakan untuk menampilkan halaman tersebut.
 
+<div class="zbarisbaru"></div>
+<div class="zbarisbaru"></div>
+
+---
+
