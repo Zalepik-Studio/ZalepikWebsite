@@ -29,7 +29,27 @@ Untuk mendeklarasikan variabel di JavaScript menggunakan var, gunakan keyword va
 
 <pre class="language-javascript">
   <code class="language-javascript">
-var age;
+var age = 18;
+
+console.log(age);
+
+/* output
+18
+*/
+  </code>
+</pre>
+
+#### let
+
+Variabel yang dideklarasikan menggunakan keyword "let" memiliki akses yang lebih terbatas daripada variabel yang dideklarasikan dengan "var". Variabel ini hanya dapat dideklarasikan sekali dan tidak bisa dideklarasikan ulang.
+
+<div class="zbarisbaru"></div>
+
+Untuk mendeklarasikan variabel di JavaScript menggunakan let, gunakan keyword let kemudian di ikuti dengan nama variabelnya.
+
+<pre class="language-javascript">
+  <code class="language-javascript">
+let age;
   </code>
 </pre>
 
@@ -37,7 +57,7 @@ Kode untuk mendeklarasikan variabel seperti diatas disebut dengan ***declaration
 
 <pre class="language-javascript">
   <code class="language-javascript">
-var age;
+let age;
 age = 18;
 
 console.log(age);
@@ -52,7 +72,7 @@ Kita juga bisa langsung mengisi nilai variabel setelah di deklarasikan seperti b
 
 <pre class="language-javascript">
   <code class="language-javascript">
-var age = 18;
+let age = 18;
 console.log(age);
 
 /* output
@@ -62,26 +82,6 @@ console.log(age);
 </pre>
 
 Variabel yang langsung di inisialiasai setelah di deklarasikan menggunakan (=) seperti diatas disebut dengan ***assignment expression***.
-
-#### let
-
-Variabel yang dideklarasikan menggunakan keyword "let" memiliki akses yang lebih terbatas daripada variabel yang dideklarasikan dengan "var". Variabel ini hanya dapat dideklarasikan sekali dan tidak bisa dideklarasikan ulang.
-
-<div class="zbarisbaru"></div>
-
-Untuk mendeklarasikan variabel di JavaScript menggunakan let, gunakan keyword let kemudian di ikuti dengan nama variabelnya.
-
-<pre class="language-javascript">
-  <code class="language-javascript">
-let age = 18;
-
-console.log(age);
-
-/* output
-18
-*/
-  </code>
-</pre>
 
 #### const
 
