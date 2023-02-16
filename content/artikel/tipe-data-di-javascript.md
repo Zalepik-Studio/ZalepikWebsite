@@ -129,6 +129,41 @@ null
 
 Terkadang kita perlu membuat sebuah variabel, tetapi kita belum memerlukan nilai apa pun dan tidak ingin terikat dengan tipe data lain. Nah, daripada kita tidak menetapkan nilai apa pun (variabel akan undefined), lebih baik kita beri nilai null pada variabel tersebut dan kita ubah nanti ketika kita membutuhkannya.
 
+#### Symbol 
+
+Symbol merupakan tipe data yang digunakan untuk menunjukkan identifier yang unik. Kita bisa memberikan deskripsi atau nama symbol seperti berikut:
+
+<pre class="language-javascript">
+  <code class="language-javascript">
+const symbol1 = Symbol("id");
+
+console.log(symbol1);
+
+/*
+output:
+symbol(id)
+*/
+  </code>
+</pre>
+
+Symbol disebut sebagai identifier yang unik karena meskipun kita membuat dua variabel symbol dengan deskripsi atau nama yang sama, kedua nilainya tetap dianggap berbeda.
+
+<pre class="language-javascript">
+  <code class="language-javascript">
+const symbol1 = Symbol("id");
+const symbol2 = Symbol("id");
+
+console.log(symbol1 == symbol2);
+
+/* 
+output:
+false
+*/
+  </code>
+</pre>
+
+Tipe data symbol diperkenalkan pada ECMAScript 6 (ES6).
+
 <div class="zbarisbaru"></div>
 <div class="zbarisbaru"></div>
 
