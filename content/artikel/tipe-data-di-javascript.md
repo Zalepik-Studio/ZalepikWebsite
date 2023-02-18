@@ -196,6 +196,7 @@ number
 
 Tipe data BigInt diperkenalkan pada ECMAScript 2020 (ES2020).
 
+
 <div class="zbarisbaru"></div>
 <div class="zbarisbaru"></div>
 
