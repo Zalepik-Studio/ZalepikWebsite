@@ -1252,3 +1252,169 @@ iframe{
 #zcontent_right #zcontent_right_download_ebook{
     display: none !important;
 }
+
+.z_bg_gradient{
+    background: linear-gradient(110.01deg, #25D5E8 33.69%, #437BFF 73.59%);
+}
+
+.zalepik_button_yellow{
+    background-color: #FFBA00;
+}
+
+.zalepik_button_yellow:hover{
+    background-color: #FFBA00;
+}
+
+.z_bg_gradient .zalepik_button_cyan{
+    background: #25D5E8 !important;
+}
+
+.zalepik_small_list_card_icon img,
+#software.zalepik_small_list_card_icon img{
+  width: 96px !important;
+  margin-bottom: 16px !important;
+}
+
+.zalepik_small_list_card_icon h1{
+  color: #364250;
+  margin-bottom: 8px !important;
+}
+
+.zalepik_small_list_card_icon a div div{
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .zalepik_small_list_card_icon a{
+    padding: 32px;
+    border-radius: 24px;
+  }
+
+  .bg-cyan_gray_light{
+    background: rgba(237, 239, 248, 0.24);
+  }
+
+  .zalepik_list_mengapa_pilih_kami a h1{
+    color: #364250;
+    margin-bottom: 8px !important;
+}
+
+.zalepik_list_mengapa_pilih_kami a div div{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.zalepik_title_card_list{
+    color:#364250;
+}
+
+.zalepik_price_list b{
+    font-size: 18px;
+}
+
+.zalepik_price_list h3{
+    font-size: 32px;
+    font-weight: 600;
+    color:#FFBA00
+}
+
+.zalepik_price_list a.bg-white{
+    box-shadow: 0px 8px 80px rgba(54, 66, 80, 0.08);
+}
+
+.zalepik_price_list a.bg-white.zalepik_hightlight{
+    box-shadow: 0px 8px 80px rgba(37, 213, 232, 0.4) !important;
+    background-color: #437BFF !important;
+}
+
+.zalepik_price_list a.bg-white.zalepik_hightlight h3{
+    text-shadow: 0px 2px 0px rgba(255, 255, 255, 1), 0px -2px 0px rgba(255, 255, 255, 1),
+    2px 0px 0px rgba(255, 255, 255, 1), 0px -2px 0px rgba(255, 255, 255, 1),
+    2px 2px 0px rgba(255, 255, 255, 1), 2px -2px 0px rgba(255, 255, 255, 1),
+    -2px 2px 0px rgba(255, 255, 255, 1), -2px -2px 0px rgba(255, 255, 255, 1) !important;
+    font-weight: 800 !important;
+}
+
+.zalepik_price_list a.bg-white.zalepik_hightlight,
+.zalepik_price_list a.bg-white.zalepik_hightlight div{
+    color: white;
+}
+
+.zalepik_price_list a.bg-white.zalepik_hightlight b,
+.zalepik_price_list a.bg-white.zalepik_hightlight h1{
+    color: white !important;
+}
+
+.zalepik_price_list a.bg-white.zalepik_hightlight div div{
+    opacity: 0.88;
+}
+
+.zalepik_price_list a.bg-white.zalepik_hightlight .zalepik_title_card_list{
+    color:#364250;
+    padding-bottom: 24px !important;
+}
+ 
+.zalepik_price_list a.bg-white div div{
+    padding-top: 12px !important;
+}
+
+.zalepik_list_mengapa_pilih_kami a img{
+    margin-bottom: 0px !important;
+    width: 104px !important;
+}
+
+.zalepik_list_mengapa_pilih_kami #title_header_home{
+    z-index: 1;
+}
+
+.zalepik_title_harga.zalepik_wrap_large_area{
+    padding-bottom: 56px !important
+}
+
+#software.zalepik_price_list a>div>img{
+    border-radius: 16px !important;
+}
+
+#software.zalepik_price_list .bg-white.rounded-3xl{
+    padding-top: 32px !important;
+    padding-bottom: 32px;
+}
+
+.zalepik_price_list{
+    background: url(https://mzainulmuttaqin.github.io/Zalepik_Images/img_bg_pricelist.svg);
+    background-size: cover;
+}
+
+#software #title_header_home{
+    z-index: 1 !important;
+}
+
+.zalepik_mulai_dari{
+    padding-top: 48px !important;
+    padding-bottom: 12px !important;
+    color: #437BFF;
+    font-size: 14px !important;
+}
+
+.zalepik_hightlight .zalepik_button_blue{
+    background: white;
+    color: #437BFF !important;
+    opacity: 1 !important;
+}
+
+.zalepik_price_list.zalepik_cta a.bg-white.zalepik_hightlight div.zalepik_button_blue{
+    color: #437BFF !important;
+}
+
+.z_bg_gradient .zalepik_title_border:before{
+    opacity: 0.24
+}
+
+.z_bg_gradient p{
+    padding-top: 24px;
+    line-height: 20px
+}
+
+#clients{
+    row-gap: 56px !important;
+}

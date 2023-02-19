@@ -5,6 +5,10 @@
 <link href="/css/tailwind/custom.css" rel="stylesheet">
 <link href="/css/tailwind/tailwind_sm.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 <title>
     {{ if .IsHome }}
         {{.Site.Title}} | Zalepik.com
@@ -55,3 +59,9 @@
 </script>
 
 {{ template "_internal/opengraph.html" . }}
+
+{{ if .IsHome }}
+    <link rel="stylesheet" type="text/css" href="/css/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="/css/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="/css/slider/slider_styling.css">
+{{ end }}
