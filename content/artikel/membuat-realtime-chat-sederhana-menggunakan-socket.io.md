@@ -6,9 +6,9 @@ writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
 description: "Dalam tutorial ini, kita akan belajar bagaimana membuat sebuah aplikasi chat sederhana menggunakan Socket.IO"
-thumbnail: "https://zalepik-studio.github.io/zalepik-learning/images/membuat-realtime-chat-sederhana-menggunakan-socket.io/thumbnail.png"
-images: ["https://zalepik-studio.github.io/zalepik-learning/images/membuat-realtime-chat-sederhana-menggunakan-socket.io/images.png"]
-banner: "https://zalepik-studio.github.io/zalepik-learning/images/membuat-realtime-chat-sederhana-menggunakan-socket.io/banner.png"
+thumbnail: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_membuat_realtime_chat_sederhana_menggunakan_socket.io.png"
+images: ["https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/thumbnail/zalepik_thumbnail_membuat_realtime_chat_sederhana_menggunakan_socket.io.png"]
+banner: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/banner/zalepik_banner_membuat_realtime_chat_sederhana_menggunakan_socket.io.png"
 topik: "Socket.io"
 tags: 
 - html

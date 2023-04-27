@@ -6,12 +6,12 @@ writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
 description: ""
-thumbnail: "https://zalepik-studio.github.io/zalepik-learning/images/javascript-operators/thumbnail.png"
+thumbnail: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_javascript%20operators.png"
 images:
   [
-    "https://zalepik-studio.github.io/zalepik-learning/images/javascript-operators/images.png",
+    "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_javascript%20operators.png",
   ]
-banner: "https://zalepik-studio.github.io/zalepik-learning/images/javascript-operators/banner.png"
+banner: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/banner/zalepik_banner_javascript%20operators.png"
 topik: "Fundamental JavaScript"
 tags:
   - JavaScript

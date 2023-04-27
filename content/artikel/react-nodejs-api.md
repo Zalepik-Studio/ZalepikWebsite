@@ -6,9 +6,9 @@ writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
 description: "Pada kesempatan kali ini kita akan membahas bagaimana caranya mengambil data dari back end Node.js dan database MySQL"
-thumbnail: "https://zalepik-studio.github.io/zalepik-learning/images/react-nodejs-api/thumbnail.png"
-images: ["https://zalepik-studio.github.io/zalepik-learning/images/react-nodejs-api/images.png"]
-banner: "https://zalepik-studio.github.io/zalepik-learning/images/react-nodejs-api/banner.png"
+thumbnail: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_react_nodejs_api.png"
+images: ["https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_react_nodejs_api.png"]
+banner: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/banner/zalepik_banner_react_nodejs_api.png"
 topik: "API"
 tags: 
 - html

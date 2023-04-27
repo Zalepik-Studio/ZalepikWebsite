@@ -6,9 +6,9 @@ writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
 description: "Dalam artikel ini, kita akan membahas bagaimana cara memunculkan dan menyembunyikan elemen menggunakan useState di React"
-thumbnail: "https://zalepik-studio.github.io/zalepik-learning/images/memunculkan-dan-menyembunyikan-elemen-menggunakan-usestate-di-react/thumbnail.png"
-images: ["https://zalepik-studio.github.io/zalepik-learning/images/memunculkan-dan-menyembunyikan-elemen-menggunakan-usestate-di-react/images.png"]
-banner: "https://zalepik-studio.github.io/zalepik-learning/images/memunculkan-dan-menyembunyikan-elemen-menggunakan-usestate-di-react/banner.png"
+thumbnail: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_memunculkan%20dan%20menyembunyikan%20elemen%20menggunakan%20usestate%20di%20react.png"
+images: ["https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_memunculkan%20dan%20menyembunyikan%20elemen%20menggunakan%20usestate%20di%20react.png"]
+banner: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/banner/zalepik_banner_memunculkan%20dan%20menyembunyikan%20elemen%20menggunakan%20usestate%20di%20react.png"
 topik: "React"
 tags: 
 - React

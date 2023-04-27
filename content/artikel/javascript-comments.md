@@ -6,9 +6,9 @@ writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
 description: ""
-thumbnail: "https://zalepik-studio.github.io/zalepik-learning/images/javascript-comments/thumbnail.png"
-images: ["https://zalepik-studio.github.io/zalepik-learning/images/javascript-comments/images.png"]
-banner: "https://zalepik-studio.github.io/zalepik-learning/images/javascript-comments/banner.png"
+thumbnail: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_javascript%20comments.png"
+images: ["https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_javascript%20comments.png"]
+banner: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/banner/zalepik_banner_javascript%20comments.png"
 topik: "Fundamental JavaScript"
 tags: 
 - JavaScript
