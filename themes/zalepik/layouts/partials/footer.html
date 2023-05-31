@@ -307,7 +307,7 @@
         {{ if .Params.zprofile }}
         {{ else }}
         <!-- Popup Menu drawer -->
-        <script src="/js/drawer.js">
+        <script src="{{ .Site.BaseURL }}/js/drawer.js">
         </script>
         {{ end }}
 {{ end }}
@@ -367,13 +367,13 @@
     </script>
 {{ end }}
 <!-- Hide Whatsapp Widget -->
-<script src="/js/whatsapp.js">
+<script src="{{ .Site.BaseURL }}/js/whatsapp.js">
 </script>
 <!-- Hide Language Dropdown -->
-<script src="/js/language.js">
+<script src="{{ .Site.BaseURL }}/js/language.js">
 </script>
 {{ if or (.Params.zartikel) (.Params.zvideo) }}
-    <script src="/js/rainbow-custom.min.js">
+    <script src="{{ .Site.BaseURL }}/js/rainbow-custom.min.js">
     </script>
 {{ end }}
 <!-- Contact Whatsapp -->
@@ -424,7 +424,7 @@
     <br>
     <ul>
         {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-            <li> <a href="/tags/{{$name}}">{{$name}}</a></li>
+            <li> <a href="{{ .Site.BaseURL }}/tags/{{$name}}">{{$name}}</a></li>
         {{ end }}
     </ul>
 </div>  */}}
@@ -435,7 +435,7 @@
 
 {{ if .IsHome }}
 <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-<script src="/css/slick-1.8.1/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script src="{{ .Site.BaseURL }}/css/slick-1.8.1/slick/slick.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
   $(document).on('ready', function() {
     $(".vertical-center-4").slick({
