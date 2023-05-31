@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog Banget on Zalepik</title>
+    <link>localhost/post/</link>
+    <description>Recent content in Blog Banget on Zalepik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 27 Nov 2022 07:52:01 +0700</lastBuildDate><atom:link href="localhost/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog3</title>
+      <link>localhost/post/blog3/</link>
+      <pubDate>Sun, 27 Nov 2022 07:52:01 +0700</pubDate>
+      
+      <guid>localhost/post/blog3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog1</title>
+      <link>localhost/post/blog1/</link>
+      <pubDate>Sun, 27 Nov 2022 07:51:51 +0700</pubDate>
+      
+      <guid>localhost/post/blog1/</guid>
+      <description>Ini text summary https://zalepik.com/dist/img/img_skill_3.png </description>
+    </item>
+    
+    <item>
+      <title>Blog2</title>
+      <link>localhost/post/blog2/</link>
+      <pubDate>Sun, 27 Nov 2022 07:51:51 +0700</pubDate>
+      
+      <guid>localhost/post/blog2/</guid>
+      <description>Ini text konten</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>localhost/post/my-first-post/</link>
+      <pubDate>Fri, 25 Nov 2022 13:53:07 +0700</pubDate>
+      
+      <guid>localhost/post/my-first-post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

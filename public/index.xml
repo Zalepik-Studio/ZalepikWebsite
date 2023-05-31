@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zalepik</title>
+    <link>localhost/</link>
+    <description>Recent content on Zalepik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="localhost/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pengkondisian di JavaScript</title>
+      <link>localhost/artikel/pengkondisian-di-javascript/</link>
+      <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/artikel/pengkondisian-di-javascript/</guid>
+      <description>Pengkondisian adalah pernyataan atau statement yang digunakan untuk membuat keputusan berdasarkan kondisi tertentu.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Operators</title>
+      <link>localhost/artikel/javascript-operators/</link>
+      <pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/artikel/javascript-operators/</guid>
+      <description>Operator di JavaScript adalah simbol atau tanda yang digunakan untuk melakukan operasi pada nilai atau variabel.</description>
+    </item>
+    
+    <item>
+      <title>Tipe Data di JavaScript</title>
+      <link>localhost/artikel/tipe-data-di-javascript/</link>
+      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/artikel/tipe-data-di-javascript/</guid>
+      <description>Tipe data adalah jenis nilai yang dapat disimpan atau dimanipulasi oleh program.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Variable</title>
+      <link>localhost/artikel/javascript-variable/</link>
+      <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/artikel/javascript-variable/</guid>
+      <description>Variabel adalah suatu deklarasi yang digunakan untuk menyimpan data atau nilai yang akan dikelola dalam sebuah program.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Comments</title>
+      <link>localhost/artikel/javascript-comments/</link>
+      <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/artikel/javascript-comments/</guid>
+      <description>Dalam menulis sebuah kode program, mungkin kita juga ingin supaya kode yang kita tulis tidak dijalankan atau di eksekusi oleh interpreter atau compiler.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript &#34;Hello World!&#34;</title>
+      <link>localhost/artikel/javascript-hello-world/</link>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/artikel/javascript-hello-world/</guid>
+      <description>Dalam belajar suatu bahasa pemrograman, biasanya program yang pertama kita buat adalah mencetak tulisan &amp;ldquo;Hello World&amp;rdquo; menggunakan bahasa pemrograman tersebut.</description>
+    </item>
+    
+    <item>
+      <title>Pengenalan dan Sejarah JavaScript</title>
+      <link>localhost/artikel/pengenalan-dan-sejarah-javascript/</link>
+      <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/artikel/pengenalan-dan-sejarah-javascript/</guid>
+      <description>Apa Itu JavaScript JavaScript adalah bahasa pemrograman scripting yang digunakan untuk membuat interaktifitas pada halaman web.</description>
+    </item>
+    
+    <item>
+      <title>Memunculkan dan Menyembunyikan Elemen Menggunakan UseState di React</title>
+      <link>localhost/artikel/memunculkan-dan-menyembunyikan-elemen-menggunakan-usestate-di-react/</link>
+      <pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/artikel/memunculkan-dan-menyembunyikan-elemen-menggunakan-usestate-di-react/</guid>
+      <description>React merupakan salah satu library JavaScript yang banyak digunakan untuk membuat aplikasi web.</description>
+    </item>
+    
+    <item>
+      <title>Cara Membuat Routing di React</title>
+      <link>localhost/artikel/cara-membuat-routing-di-react/</link>
+      <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/artikel/cara-membuat-routing-di-react/</guid>
+      <description>Routing adalah salah satu hal penting dalam pembuatan aplikasi web dengan React.</description>
+    </item>
+    
+    <item>
+      <title>Query SQL Penting Untuk Mengelola Database MySQL di phpMyAdmin</title>
+      <link>localhost/artikel/query-sql-penting-untuk-mengelola-database-mysql-di-phpmyadmin/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/artikel/query-sql-penting-untuk-mengelola-database-mysql-di-phpmyadmin/</guid>
+      <description>SQL adalah bahasa standar untuk mengelola database. Berikut adalah beberapa query SQL penting yang perlu dipelajari untuk mengelola database MySQL di phpMyAdmin:</description>
+    </item>
+    
+    <item>
+      <title>Membuat Realtime Chat Sederhana Menggunakan Socket.io</title>
+      <link>localhost/artikel/membuat-realtime-chat-sederhana-menggunakan-socket.io/</link>
+      <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/artikel/membuat-realtime-chat-sederhana-menggunakan-socket.io/</guid>
+      <description>Socket.IO adalah library JavaScript yang digunakan untuk membuat aplikasi realtime seperti chat.</description>
+    </item>
+    
+    <item>
+      <title>Cara Membuat Animasi Bergerak Mengambang dengan CSS dan JavaScript</title>
+      <link>localhost/artikel/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/artikel/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript/</guid>
+      <description>Dalam membuat website, terkadang kita ingin menambahkan efek visual yang menarik dan dinamis seperti animasi yang bergerak mengambang naik turun secara terus menerus.</description>
+    </item>
+    
+    <item>
+      <title>Deno.js, akankah menggantikan Node.js</title>
+      <link>localhost/artikel/denojs-akankah-menggantikan-nodejs/</link>
+      <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/artikel/denojs-akankah-menggantikan-nodejs/</guid>
+      <description>Pada kesempatan kali ini kita akan belajar tentang Deno.js. Nama Deno.</description>
+    </item>
+    
+    <item>
+      <title>Berkenalan dengan Pyscript</title>
+      <link>localhost/artikel/berkenalan-dengan-pyscript/</link>
+      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/artikel/berkenalan-dengan-pyscript/</guid>
+      <description>Pada kesempatan kali ini kita akan berkenalan dengan Pyscript, Python yang dapat berjalan di sisi browser.</description>
+    </item>
+    
+    <item>
+      <title>Cara Menjalankan PHP Tanpa Web Server Apache atau XAMPP</title>
+      <link>localhost/artikel/cara-menjalankan-php-tanpa-web-server-apache-atau-xampp/</link>
+      <pubDate>Tue, 27 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/artikel/cara-menjalankan-php-tanpa-web-server-apache-atau-xampp/</guid>
+      <description>Pada kesempatan kali ini kita akan belajar bagaimana caranya menjalankan PHP tanpa web server Apache atau menggunakan XAMPP.</description>
+    </item>
+    
+    <item>
+      <title>Cara Membuat Elemen Melayang Saat Discroll pada Website Menggunakan Library AOS</title>
+      <link>localhost/artikel/cara-membuat-elemen-melayang-saat-di-scroll/</link>
+      <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/artikel/cara-membuat-elemen-melayang-saat-di-scroll/</guid>
+      <description>Pada tutorial kali ini kita akan belajar bagaimana caranya membuat elemen melayang saat discroll pada website.</description>
+    </item>
+    
+    <item>
+      <title>Blog3</title>
+      <link>localhost/post/blog3/</link>
+      <pubDate>Sun, 27 Nov 2022 07:52:01 +0700</pubDate>
+      
+      <guid>localhost/post/blog3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog1</title>
+      <link>localhost/post/blog1/</link>
+      <pubDate>Sun, 27 Nov 2022 07:51:51 +0700</pubDate>
+      
+      <guid>localhost/post/blog1/</guid>
+      <description>Ini text summary https://zalepik.com/dist/img/img_skill_3.png </description>
+    </item>
+    
+    <item>
+      <title>Blog2</title>
+      <link>localhost/post/blog2/</link>
+      <pubDate>Sun, 27 Nov 2022 07:51:51 +0700</pubDate>
+      
+      <guid>localhost/post/blog2/</guid>
+      <description>Ini text konten</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>localhost/post/my-first-post/</link>
+      <pubDate>Fri, 25 Nov 2022 13:53:07 +0700</pubDate>
+      
+      <guid>localhost/post/my-first-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gratisan</title>
+      <link>localhost/gratisan/</link>
+      <pubDate>Fri, 25 Nov 2022 13:45:45 +0700</pubDate>
+      
+      <guid>localhost/gratisan/</guid>
+      <description>Aset Gratis
+Untuk Kalian    All --   Figma --   Adobe XD --   Invision Studio --   Inkscape --   HTML --                          Tertarik Go Digital Bersama Kami Mari mengembangkan bisnis dan kebutuhan lain anda dengan teknologi bersama kami!</description>
+    </item>
+    
+    <item>
+      <title>Harga</title>
+      <link>localhost/harga/</link>
+      <pubDate>Fri, 25 Nov 2022 13:45:45 +0700</pubDate>
+      
+      <guid>localhost/harga/</guid>
+      <description>Daftar Sekarang      Tabel Harga    Website    Landing Page Mulai dari Rp.</description>
+    </item>
+    
+    <item>
+      <title>Hello Zain</title>
+      <link>localhost/hello/zain/</link>
+      <pubDate>Fri, 25 Nov 2022 13:45:45 +0700</pubDate>
+      
+      <guid>localhost/hello/zain/</guid>
+      <description>Visit my Personal site
+      Zalepik.</description>
+    </item>
+    
+    <item>
+      <title>Hubungi</title>
+      <link>localhost/hubungi/</link>
+      <pubDate>Fri, 25 Nov 2022 13:45:45 +0700</pubDate>
+      
+      <guid>localhost/hubungi/</guid>
+      <description>  Tinggalkan Pesan       </description>
+    </item>
+    
+    <item>
+      <title>Layanan</title>
+      <link>localhost/layanan/</link>
+      <pubDate>Fri, 25 Nov 2022 13:45:45 +0700</pubDate>
+      
+      <guid>localhost/layanan/</guid>
+      <description>Kami Melayani       Development Website/Aplikasi        Desain UI/UX        Desain Ilustrasi        Desain Ikon dan Logo    Hubungi Kami       01 Pembuatan Website dan Aplikasi  Membantu kehidupan menjadi lebih baik dan sederhana menggunakan teknologi digital.</description>
+    </item>
+    
+    <item>
+      <title>Page</title>
+      <link>localhost/page/</link>
+      <pubDate>Fri, 25 Nov 2022 13:45:45 +0700</pubDate>
+      
+      <guid>localhost/page/</guid>
+      <description>Text</description>
+    </item>
+    
+    <item>
+      <title>Profile Zain</title>
+      <link>localhost/profile/Zain/</link>
+      <pubDate>Fri, 25 Nov 2022 13:45:45 +0700</pubDate>
+      
+      <guid>localhost/profile/Zain/</guid>
+      <description>Hello I am Zain  Moh. Zainul Muttaqin UI/UX Designer</description>
+    </item>
+    
+    <item>
+      <title>Promo</title>
+      <link>localhost/promo/</link>
+      <pubDate>Fri, 25 Nov 2022 13:45:45 +0700</pubDate>
+      
+      <guid>localhost/promo/</guid>
+      <description>Daftar Sekarang      Tabel Harga    Website    Landing Page Mulai dari Rp.</description>
+    </item>
+    
+    <item>
+      <title>Services Development</title>
+      <link>localhost/services/development/</link>
+      <pubDate>Fri, 25 Nov 2022 13:45:45 +0700</pubDate>
+      
+      <guid>localhost/services/development/</guid>
+      <description>Butuh Aplikasi Untuk Kebutuhan Berikut?       Finance   Akuntansi Faktur Pengeluaran Spreadsheet (BI) Dokumen Tanda tangani        Penjualan   CRM Penjualan Kasir Langganan Penyewaan Integrasi Amazon        Website   Pembuatan Situs Web eNiaga Blog Forum Obrolan Langsung eLearning        Inventaris &amp; MRP   Inventaris Produksi PLM Pembelian Pemeliharaan Kualitas        Sumber Daya Manusia   Karyawan Perekrutan Cuti Penilaian Rujukan Armada        Pemasaran   Pemasaran sosial Email Pemasaran SMS Pemasaran Acara Otomatisasi Pemasaran Survei        Layanan   Proyek Timesheet Servis Lapangan Pusat bantuan Perencanaan Janji Bertemu        Produktivitas   Diskusi Persetujuan IoT VoIP       Kami Siap Melayani Kebutuhan Anda       Website        Aplikasi Desktop        Android        iOS    Hubungi Kami   Tools dan Teknologi Favorit Kami          --     --  Tidak Perlu Khawatir Mengenai Harga  Kami sudah menyiapkan paket lengkap, sudah termasuk gratis logo, biaya server, ui design aplikasi, biaya maintenance selama 1 bulan setelah aplikasi launching.</description>
+    </item>
+    
+    <item>
+      <title>Services Icon and Logo</title>
+      <link>localhost/services/icon_and_logo/</link>
+      <pubDate>Fri, 25 Nov 2022 13:45:45 +0700</pubDate>
+      
+      <guid>localhost/services/icon_and_logo/</guid>
+      <description>    Karya Kami      --     </description>
+    </item>
+    
+    <item>
+      <title>Services Illustration</title>
+      <link>localhost/services/illustration/</link>
+      <pubDate>Fri, 25 Nov 2022 13:45:45 +0700</pubDate>
+      
+      <guid>localhost/services/illustration/</guid>
+      <description>    Karya Kami      --     </description>
+    </item>
+    
+    <item>
+      <title>Services UIUX</title>
+      <link>localhost/services/uiux/</link>
+      <pubDate>Fri, 25 Nov 2022 13:45:45 +0700</pubDate>
+      
+      <guid>localhost/services/uiux/</guid>
+      <description>3 Prinsip Bahagia Dalam Mendesain    01 Research First Before Design  Whatever your product and service, don&#39;t leave this step.</description>
+    </item>
+    
+    <item>
+      <title>Tentang Kami</title>
+      <link>localhost/tentang/</link>
+      <pubDate>Fri, 25 Nov 2022 13:45:45 +0700</pubDate>
+      
+      <guid>localhost/tentang/</guid>
+      <description>Hello We are ZALEPIK  Software Developer | Design Studio</description>
+    </item>
+    
+    <item>
+      <title>Website Gratis</title>
+      <link>localhost/website_gratis/</link>
+      <pubDate>Fri, 25 Nov 2022 13:45:45 +0700</pubDate>
+      
+      <guid>localhost/website_gratis/</guid>
+      <description> Daftar Sekarang                   </description>
+    </item>
+    
+    <item>
+      <title>Arabic Home</title>
+      <link>localhost/arabic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/arabic/</guid>
+      <description>Back to main page                   </description>
+    </item>
+    
+    <item>
+      <title>English Contact Us</title>
+      <link>localhost/english/contact_us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/english/contact_us/</guid>
+      <description> Send Us a Message       </description>
+    </item>
+    
+    <item>
+      <title>English Home</title>
+      <link>localhost/english/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/english/</guid>
+      <description>Back to main page                </description>
+    </item>
+    
+  </channel>
+</rss>

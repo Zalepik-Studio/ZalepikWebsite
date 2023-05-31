@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hello on Zalepik</title>
+    <link>localhost/hello/</link>
+    <description>Recent content in Hello on Zalepik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Nov 2022 13:45:45 +0700</lastBuildDate><atom:link href="localhost/hello/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello Zain</title>
+      <link>localhost/hello/zain/</link>
+      <pubDate>Fri, 25 Nov 2022 13:45:45 +0700</pubDate>
+      
+      <guid>localhost/hello/zain/</guid>
+      <description>Visit my Personal site
+      Zalepik.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+
+
+<!-- Header -->
+<!-- End Header -->
+<!-- Main -->
+<main>
+    <div class="zalepik_wrap_title_section">
+          <div id="galery_freebies" class="zalepik_galery zlist_artikel">
+                  {{ range .Paginator.Pages }}
+                  <a href="{{ .Permalink }}" class="zalepik_image_galery">
+                    <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+                    <div class="py-5">
+                      <h4>
+                        <b>
+                              {{ .Title }}
+                        </b>
+                        <p>{{ or .Params.description .Summary }}</p>
+                      </h4>
+                      <hr>
+                      <div class="text-2xsm opacity-80 mt-1 zdate">
+                        {{ .Date.Format "2006-01-02" }}
+                      </div>
+                    </div>
+                  </a>
+                  {{ end }}
+          </div>
+    </div>
+    <div id="zpaginator">
+        {{ template "_internal/pagination.html" . }}
+    </div>
+</main>
+    <!-- End Main -->

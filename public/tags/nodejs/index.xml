@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nodejs on Zalepik</title>
+    <link>localhost/tags/nodejs/</link>
+    <description>Recent content in nodejs on Zalepik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="localhost/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara Membuat Animasi Bergerak Mengambang dengan CSS dan JavaScript</title>
+      <link>localhost/artikel/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/artikel/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript/</guid>
+      <description>Dalam membuat website, terkadang kita ingin menambahkan efek visual yang menarik dan dinamis seperti animasi yang bergerak mengambang naik turun secara terus menerus.</description>
+    </item>
+    
+    <item>
+      <title>Deno.js, akankah menggantikan Node.js</title>
+      <link>localhost/artikel/denojs-akankah-menggantikan-nodejs/</link>
+      <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/artikel/denojs-akankah-menggantikan-nodejs/</guid>
+      <description>Pada kesempatan kali ini kita akan belajar tentang Deno.js. Nama Deno.</description>
+    </item>
+    
+  </channel>
+</rss>
