@@ -26,7 +26,7 @@ url: "english"
     </main>
     <!-- End Main -->
     <!-- Contact Whatsapp -->
-    <a class="zalepik_whatsapp" href="https://api.whatsapp.com/send?phone=6281330876992&text=&source=&data="
+    <a class="zalepik_whatsapp" href="https://api.whatsapp.com/send?phone=6285720075826&text=&source=&data="
         target="_blank">
         <svg class="zalepik_hello_whatsapp" width="316" height="152" viewBox="0 0 316 152" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M240 80L268 60V104L240 80Z" fill="white"/>

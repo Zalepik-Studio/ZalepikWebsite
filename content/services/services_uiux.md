@@ -93,7 +93,7 @@ zservices: "uiux"
       <div class="sm:col-start-3 sm:col-end-11 col-start-2 col-end-12">Kami sudah menyiapkan paket lengkap, sudah termasuk gratis logo, biaya server, ui design aplikasi, biaya maintenance selama 1 bulan setelah aplikasi launching. 1 tahun perawatan server.
       </div>
     </div>
-    <a class="sm:col-start-1 sm:col-end-5 col-start-2 col-end-12 bg-white rounded-3xl" href="https://wa.me/6281330876992?text=Assalamu%27alaikum...%0A%0A%F0%9F%91%8BHalo...%20Saya%20ingin%20memesan%20jasa%20pembuatan%20aplikasi%0A%0A">
+    <a class="sm:col-start-1 sm:col-end-5 col-start-2 col-end-12 bg-white rounded-3xl" href="https://wa.me/6285720075826?text=Assalamu%27alaikum...%0A%0A%F0%9F%91%8BHalo...%20Saya%20ingin%20memesan%20jasa%20pembuatan%20aplikasi%0A%0A">
       <div>
         <img class="rounded-2xl" src="https://zenzalepik.github.io/Zalepik_Images/img_pice_list_enterprise.png"
           alt="">
@@ -111,7 +111,7 @@ zservices: "uiux"
             class="zalepik_button_blue py-4 px-10 zalepik_button_banner_home mx-auto inset-x-0 w-56 text-center rounded-lg">Pesan Sekarang</div></div>
       </div>
     </a>
-    <a class="sm:col-start-5 sm:col-end-9 col-start-2 col-end-12 bg-white rounded-3xl" href="https://wa.me/6281330876992?text=Assalamu%27alaikum...%0A%0A%F0%9F%91%8BHalo...%20Saya%20ingin%20memesan%20jasa%20pembuatan%20aplikasi%0A%0A">
+    <a class="sm:col-start-5 sm:col-end-9 col-start-2 col-end-12 bg-white rounded-3xl" href="https://wa.me/6285720075826?text=Assalamu%27alaikum...%0A%0A%F0%9F%91%8BHalo...%20Saya%20ingin%20memesan%20jasa%20pembuatan%20aplikasi%0A%0A">
       <div>
         <img class="rounded-2xl" src="https://zenzalepik.github.io/Zalepik_Images/img_pice_list_standart.png"
           alt="">
@@ -130,7 +130,7 @@ zservices: "uiux"
             >Pesan Sekarang</div></div>
       </div>
     </a>
-    <a class="zalepik_hightlight zalepik_cta sm:col-start-9 sm:col-end-13 col-start-2 col-end-12 bg-white rounded-3xl" href="https://wa.me/6281330876992?text=Assalamu%27alaikum...%0A%0A%F0%9F%91%8BHalo...%20Saya%20ingin%20memesan%20jasa%20pembuatan%20aplikasi%0A%0A">
+    <a class="zalepik_hightlight zalepik_cta sm:col-start-9 sm:col-end-13 col-start-2 col-end-12 bg-white rounded-3xl" href="https://wa.me/6285720075826?text=Assalamu%27alaikum...%0A%0A%F0%9F%91%8BHalo...%20Saya%20ingin%20memesan%20jasa%20pembuatan%20aplikasi%0A%0A">
       <div>
         <img class="rounded-2xl" src="https://zenzalepik.github.io/Zalepik_Images/img_pice_list_enterprise.png"
           alt="">
