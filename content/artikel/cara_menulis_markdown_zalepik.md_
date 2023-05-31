@@ -6,8 +6,8 @@ writer: "Zain"
 zname_writer: "Moh. Zain Muttaqin"
 zartikel: "artikel"
 description: "Ini deskription blog1 lorem ullamcorper tincidunt. Donec ultricies justo sit amet rhoncus hendrerit. Nunc scelerisque velit eu est suscipit, sed congue dui malesuada. Donec ac pretium pur"
-thumbnail: "https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png"
-banner: "https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png"
+thumbnail: "https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png"
+banner: "https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png"
 topik: "uiux"
 tags: 
 - uiux
@@ -64,10 +64,10 @@ tags:
     </code>
 </pre>
 
-<img src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png" alt="Logo">
+<img src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png" alt="Logo">
 
-https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png
-![Gambar Zalepik](https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png)
+https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png
+![Gambar Zalepik](https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png)
 
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullamporta eros eu quam pellentesque, eu scelerisque odio lobortis. Curabitur malesuada, nisi at placerat interdum, odio elit dictum lorem, vitae pretium nisl metus vitae nisl. Pellentesque semper neque nec leo euismod suscipit. I love supporting the **[EFF](https://eff.org)**. This is the *[Markdown Guide](https://www.markdownguide.org)*. See the section on [`code`](#code).Pellentesque vestibulum eros vitae lorem ullamcorper tincidunt. Donec ultricies justo sit amet rhoncus hendrerit. Nunc scelerisque velit eu est suscipit, sed congue dui malesuada. Donec ac pretium purus, non pharetra justo. Fusce ornare libero odio, iaculis convallis lorem vehicula non.
@@ -90,23 +90,23 @@ Pellentesque quis ipsum ex. Duis vel tincidunt elit. Nulla facilisi. Nunc nec se
 ###### Judul 6 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta eros
 
 <figure>
-  <img src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png" alt="Trulli">
+  <img src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png" alt="Trulli">
   <figcaption>Ini Caption Gambar</figcaption>
 </figure>
 
 <figure class="zwidthfull">
-  <img src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png" alt="Trulli">
+  <img src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png" alt="Trulli">
   <figcaption>Ini Caption Gambar</figcaption>
 </figure>
 
 <figure class="zaligncenter">
-  <img src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png" alt="Trulli">
+  <img src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png" alt="Trulli">
   <figcaption>Ini Caption Gambar</figcaption>
 </figure>
 
-<img class="zaligncenter" src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png" alt="Logo">
+<img class="zaligncenter" src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png" alt="Logo">
 
-<img class="zwidthfull" src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png" alt="Logo">
+<img class="zwidthfull" src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png" alt="Logo">
 
 Donec sollicitudin viverra ex. Vivamus tristique nisi vitae interdum fringilla. Pellentesque bibendum ante non felis suscipit, cursus tincidunt nisi volutpat. Duis vulputate nulla ac purus rhoncus venenatis. Cras sollicitudin varius gravida. Nam luctus malesuada velit, vitae efficitur urna efficitur ut. Nulla arcu nulla, efficitur sit amet mollis ut, tristique pulvinar nulla.
 

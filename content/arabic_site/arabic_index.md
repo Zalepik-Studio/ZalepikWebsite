@@ -16,7 +16,7 @@ url: "arabic"
 <header class="h-full">
         <div class="grid grid-cols-12">
             <div id="title_header_home" class="zalepik_wrap_large_area sm:pt-4 pt-32 text-center grid grid-cols-12 pb-0 zalepik_index9" style="z-index: 9 !important;">
-                <img class="sm:col-start-3 sm:col-end-11 col-start-1 col-end-13 sm:p-0 p-4" src="https://mzainulmuttaqin.github.io/Zalepik_Images/img-coming-soon-arabic.png" alt="" srcset="">
+                <img class="sm:col-start-3 sm:col-end-11 col-start-1 col-end-13 sm:p-0 p-4" src="https://zenzalepik.github.io/Zalepik_Images/img-coming-soon-arabic.png" alt="" srcset="">
                 <div class="col-start-1 col-end-13">
                     <a class="zalepik_button_blue block py-4 px-10 zalepik_button_banner_home mx-auto inset-x-0 w-56 text-center rounded-lg" href="../index.html">
                         <span class="inline-block text-black" target="_blank">Back to main page</span></a>

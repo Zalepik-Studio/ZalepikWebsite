@@ -6,9 +6,9 @@ writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
 description: ""
-thumbnail: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_Pengenalan%20dan%20Sejarah%20JavaScript%20(1).png"
-images: ["https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_Pengenalan%20dan%20Sejarah%20JavaScript%20(1).png"]
-banner: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/banner/zalepik_thumbnail_Pengenalan dan Sejarah JavaScript.png"
+thumbnail: "https://zenzalepik.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_Pengenalan%20dan%20Sejarah%20JavaScript%20(1).png"
+images: ["https://zenzalepik.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_Pengenalan%20dan%20Sejarah%20JavaScript%20(1).png"]
+banner: "https://zenzalepik.github.io/Zalepik_Images/artikel/banner/zalepik_thumbnail_Pengenalan dan Sejarah JavaScript.png"
 topik: "JavaScript"
 tags: 
 - JavaScript

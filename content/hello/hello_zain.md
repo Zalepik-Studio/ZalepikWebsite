@@ -16,7 +16,7 @@ hello_zain: "hello"
             <div id="title_header_home" class="py-2 zalepik_wrap_button_iconcontact box-border mx-auto">
                 <a href="../../profile/zain/"
                     class="transition duration-200 inline-block border border-white px-4 py-5 w-full mt-4 text-blue-500 hover:border-white bg-white shadow-8xl hover:shadow-2xl text-left">
-                    <img class="inline-block align-middle mr-3" src="https://mzainulmuttaqin.github.io/Zalepik_Images/logo-color-small-zen.png" alt="" srcset=""><span class="align-middle">Visit my Personal site</span></a><br>
+                    <img class="inline-block align-middle mr-3" src="https://zenzalepik.github.io/Zalepik_Images/logo-color-small-zen.png" alt="" srcset=""><span class="align-middle">Visit my Personal site</span></a><br>
                 <a href="../../index.html"
                     class="mb-20 mt-12 transition duration-200 inline-block border border-blue-500 px-4 py-5 w-full mt-4 text-white hover:border-blue-500 bg-blue-500 shadow-8xl hover:shadow-2xl text-left">
                     <svg class="inline-block align-middle mr-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">

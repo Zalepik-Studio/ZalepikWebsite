@@ -6,9 +6,9 @@ writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
 description: "Pada tutorial kali ini kita akan belajar mengenai query SQL penting untuk mengelola database MySQL di phpMyAdmin"
-thumbnail: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_query%20sql%20penting%20untuk%20mengelola%20database%20mysql%20di%20phpmyadmin.png"
-images: ["https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_query%20sql%20penting%20untuk%20mengelola%20database%20mysql%20di%20phpmyadmin.png"]
-banner: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/banner/zalepik_banner_query%20sql%20penting%20untuk%20mengelola%20database%20mysql%20di%20phpmyadmin.png"
+thumbnail: "https://zenzalepik.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_query%20sql%20penting%20untuk%20mengelola%20database%20mysql%20di%20phpmyadmin.png"
+images: ["https://zenzalepik.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_query%20sql%20penting%20untuk%20mengelola%20database%20mysql%20di%20phpmyadmin.png"]
+banner: "https://zenzalepik.github.io/Zalepik_Images/artikel/banner/zalepik_banner_query%20sql%20penting%20untuk%20mengelola%20database%20mysql%20di%20phpmyadmin.png"
 topik: "MySQL"
 tags: 
 - MySQL

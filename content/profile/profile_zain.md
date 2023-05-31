@@ -66,9 +66,9 @@ zprofile_zain: "Zain"
                     </div>
                 </div>
                 <div class="order-1 lg:order-2 col-start-1 lg:col-start-7 col-end-13 text-right bg_natural h-full">
-                    <img src="https://mzainulmuttaqin.github.io/Zalepik_Images/img_zain_profile.png" class="inline-block mt-20">
+                    <img src="https://zenzalepik.github.io/Zalepik_Images/img_zain_profile.png" class="inline-block mt-20">
                 </div>
-                <img src="https://mzainulmuttaqin.github.io/Zalepik_Images/element_head.svg" class="absolute w-full mt-64 lg:mt-0 opacity-20 lg:opacity-100">
+                <img src="https://zenzalepik.github.io/Zalepik_Images/element_head.svg" class="absolute w-full mt-64 lg:mt-0 opacity-20 lg:opacity-100">
             </div>
         </div>
         <div>
@@ -80,12 +80,12 @@ zprofile_zain: "Zain"
                     class="col-start-2 col-end-12 grid lg:grid-cols-5 md:grid-cols-3 text-center pb-32 grid-cols-2 gap-y-20 items-center">
                     <div class="zalepik_category grid items-center">
                         <a href="https://www.linkedin.com/in/moh-zainul-muttaqin-zalepik-52382a171/" target="_blank" class="pb-0 box-border">
-                            <img src="https://mzainulmuttaqin.github.io/Zalepik_Images/icon-social-LinkedIn.png" alt="" class="shadow-4xl hover:shadow-img_hover no-padding redius-linkedin box-border">
+                            <img src="https://zenzalepik.github.io/Zalepik_Images/icon-social-LinkedIn.png" alt="" class="shadow-4xl hover:shadow-img_hover no-padding redius-linkedin box-border">
                         </a>
                     </div>
                     <div class="zalepik_category">
                         <a href="https://api.whatsapp.com/send?phone=6281330876992&text=&source=&data=" target="_blank">
-                            <img src="https://mzainulmuttaqin.github.io/Zalepik_Images/icons/icon-social-whatsapp.svg" alt="">
+                            <img src="https://zenzalepik.github.io/Zalepik_Images/icons/icon-social-whatsapp.svg" alt="">
                             <br>
                             <span>
                                 WhatsApp
@@ -94,7 +94,7 @@ zprofile_zain: "Zain"
                     </div>
                     <div class="zalepik_category">
                         <a href="https://www.dribbble.com/zalepik" target="_blank">
-                            <img src="https://mzainulmuttaqin.github.io/Zalepik_Images/icons/icon-social-dribbble.svg" alt="">
+                            <img src="https://zenzalepik.github.io/Zalepik_Images/icons/icon-social-dribbble.svg" alt="">
                             <br>
                             <span>
                                 dribbble
@@ -103,7 +103,7 @@ zprofile_zain: "Zain"
                     </div>
                     <div class="zalepik_category">
                         <a href="https://www.behance.net/zalepik" target="_blank">
-                            <img src="https://mzainulmuttaqin.github.io/Zalepik_Images/icons/icon-social-behance.svg" alt="">
+                            <img src="https://zenzalepik.github.io/Zalepik_Images/icons/icon-social-behance.svg" alt="">
                             <br>
                             <span>
                                 Behance
@@ -112,7 +112,7 @@ zprofile_zain: "Zain"
                     </div>
                     <div class="zalepik_category">
                         <a href="https://www.instagram.com/zalepik_studio/" target="_blank">
-                            <img src="https://mzainulmuttaqin.github.io/Zalepik_Images/icons/icon-social-instagram.svg" alt="">
+                            <img src="https://zenzalepik.github.io/Zalepik_Images/icons/icon-social-instagram.svg" alt="">
                             <br>
                             <span>
                                 Instagram
@@ -121,15 +121,15 @@ zprofile_zain: "Zain"
                     </div>
                 </div>
             </div>
-            <img class="w-full img_home_banner_main" src="https://mzainulmuttaqin.github.io/Zalepik_Images/zalepik_zain_full_1.png" alt="">
+            <img class="w-full img_home_banner_main" src="https://zenzalepik.github.io/Zalepik_Images/zalepik_zain_full_1.png" alt="">
             <div class="grid grid-cols-12 text-center pt-40 mb-40">
                 <div class="zalepik_wrap_large_area col-start-1 col-end-13">
                     <h1 class="col-start-1 col-end-13 zalepik_title">Tools</h1>
                 </div>
-                <img class="col-start-1 md:col-end-7 col-end-13" src="https://mzainulmuttaqin.github.io/Zalepik_Images/img_skill_tools_design.png" alt="" srcset="">
-                <img class="md:col-start-7 col-start-1 col-end-13" src="https://mzainulmuttaqin.github.io/Zalepik_Images/img_skill_tools_code.png" alt="" srcset="">
+                <img class="col-start-1 md:col-end-7 col-end-13" src="https://zenzalepik.github.io/Zalepik_Images/img_skill_tools_design.png" alt="" srcset="">
+                <img class="md:col-start-7 col-start-1 col-end-13" src="https://zenzalepik.github.io/Zalepik_Images/img_skill_tools_code.png" alt="" srcset="">
             </div>            
-            <img class="w-full img_home_banner_main" src="https://mzainulmuttaqin.github.io/Zalepik_Images/zalepik_zain_full_2.png" alt="">
+            <img class="w-full img_home_banner_main" src="https://zenzalepik.github.io/Zalepik_Images/zalepik_zain_full_2.png" alt="">
         </div>
     </header>
     <!-- End Header -->
@@ -153,7 +153,7 @@ zprofile_zain: "Zain"
                 </div>
             </div>
             <div class="md:order-2 order-1 zalepik_illustration">
-                <img src="https://mzainulmuttaqin.github.io/Zalepik_Images/img_3things_1.png">
+                <img src="https://zenzalepik.github.io/Zalepik_Images/img_3things_1.png">
             </div>
             <div class="order-3 bg-gray-500 h-px w-full col-start-1 col-end-13"></div>
             <div class="md:order-4 order-5 zalepik_wrap_text_illustration text-left">
@@ -170,11 +170,11 @@ zprofile_zain: "Zain"
                 </div>
             </div>
             <div class="md:order-5 order-4 zalepik_illustration">
-                <img src="https://mzainulmuttaqin.github.io/Zalepik_Images/img_3things_2.png">
+                <img src="https://zenzalepik.github.io/Zalepik_Images/img_3things_2.png">
             </div>
             <div class="order-6 bg-gray-500 h-px w-full col-start-1 col-end-13"></div>
             <div class="md:order-7 order-6 zalepik_illustration">
-                <img src="https://mzainulmuttaqin.github.io/Zalepik_Images/img_3things_3.png">
+                <img src="https://zenzalepik.github.io/Zalepik_Images/img_3things_3.png">
             </div>
             <div class="md:order-6 order-7 zalepik_wrap_text_illustration text-left">
                 <div class="px-4 md:px-0 col-start-1 md:col-start-2 col-span-4">
@@ -191,7 +191,7 @@ zprofile_zain: "Zain"
             </div>
         </div>
         <div>
-            <img src="https://mzainulmuttaqin.github.io/Zalepik_Images/zalepik_zain_full_3.png" alt="" class="w-full">
+            <img src="https://zenzalepik.github.io/Zalepik_Images/zalepik_zain_full_3.png" alt="" class="w-full">
         </div>
         <!-- Portfolio -->
         <div class="zalepik_wrap_title_section pt-40">
@@ -201,38 +201,38 @@ zprofile_zain: "Zain"
             <a href="https://www.behance.net/gallery/119182661/USG-Website"
                 class="zalepik_galery mb-12 col-start-2 col-end-12 block" target="_blank">
                 <img class="zalepik_image_galery w-full md:block hidden"
-                    src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_usg.png">
+                    src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_usg.png">
                 <img class="zalepik_image_galery w-full block md:hidden"
-                    src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_usg_sm.png">
+                    src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_usg_sm.png">
             </a>
             <a href="https://www.behance.net/gallery/122360945/Try-It-IRO-Color-Inspect-Zalepik-NyanDevId"
                 class="zalepik_galery mb-12 col-start-2 col-end-12 block" target="_blank">
                 <img class="zalepik_image_galery w-full md:block hidden"
-                    src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_iro.png">
+                    src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_iro.png">
                 <img class="zalepik_image_galery w-full block md:hidden"
-                    src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_iro_sm.png">
+                    src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_iro_sm.png">
             </a>
             <a href="https://www.behance.net/gallery/122363789/Zenvideo-Redesign-Levideo-Website-By-Zalepik"
                 class="zalepik_galery mb-12 col-start-2 col-end-12 block" target="_blank">
                 <img class="zalepik_image_galery w-full md:block hidden"
-                    src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zenvideo.png">
+                    src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zenvideo.png">
                 <img class="zalepik_image_galery w-full block md:hidden"
-                    src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zenvideo_sm.png">
+                    src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zenvideo_sm.png">
             </a>
             <div id="portfolio_home" class="zalepik_galery_home pt-24">
                 <img class="zalepik_image_galery_home"
-                    src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_dribbble_invite_inspire_by...png">
-                <img class="zalepik_image_galery_home" src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png">
+                    src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_dribbble_invite_inspire_by...png">
+                <img class="zalepik_image_galery_home" src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png">
                 <img class="zalepik_image_galery_home"
-                    src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_Zalepik_Website1.png">
-                <img class="zalepik_image_galery_home" src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_porfolio_4.png">
+                    src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_Zalepik_Website1.png">
+                <img class="zalepik_image_galery_home" src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_porfolio_4.png">
                 <img class="zalepik_image_galery_home"
-                    src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_pesawat_luar_angkasa.png">
+                    src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_pesawat_luar_angkasa.png">
                 <img class="zalepik_image_galery_home"
-                    src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_All_Gimpscape_Banner.png">
-                <img class="zalepik_image_galery_home" src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/todolist.png">
+                    src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_All_Gimpscape_Banner.png">
+                <img class="zalepik_image_galery_home" src="https://zenzalepik.github.io/Zalepik_Images/portfolio/todolist.png">
                 <img class="zalepik_image_galery_home"
-                    src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_mengarungi_samudra.png">
+                    src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_mengarungi_samudra.png">
             </div>
         </div>
         <div class="text-center pb-32">
@@ -258,7 +258,7 @@ zprofile_zain: "Zain"
             </a>
         </div>
         <div class="w-full">
-            <img class="w-full" src="https://mzainulmuttaqin.github.io/Zalepik_Images/zalepik_zain_full_4.png" alt="" srcset="">
+            <img class="w-full" src="https://zenzalepik.github.io/Zalepik_Images/zalepik_zain_full_4.png" alt="" srcset="">
         </div>
     </main>
     <!-- End Main -->

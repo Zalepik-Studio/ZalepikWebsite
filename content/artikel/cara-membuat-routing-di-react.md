@@ -6,9 +6,9 @@ writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
 description: "Dalam artikel ini, kita akan membahas cara membuat routing di React dengan menggunakan React Router DOM"
-thumbnail: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_cara%20membuat%20routing%20di%20react.png"
-images: ["https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_cara%20membuat%20routing%20di%20react.png"]
-banner: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/banner/zalepik_banner_cara%20membuat%20routing%20di%20react.png"
+thumbnail: "https://zenzalepik.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_cara%20membuat%20routing%20di%20react.png"
+images: ["https://zenzalepik.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_cara%20membuat%20routing%20di%20react.png"]
+banner: "https://zenzalepik.github.io/Zalepik_Images/artikel/banner/zalepik_banner_cara%20membuat%20routing%20di%20react.png"
 topik: "Routing in React"
 tags: 
 - JavaScript

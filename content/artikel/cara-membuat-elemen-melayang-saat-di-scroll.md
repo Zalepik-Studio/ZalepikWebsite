@@ -74,11 +74,11 @@ Mari kita insert gambar ke dalam html yang sudah kita buat. Masukkan lebih dari 
 
 <pre class="language-html">
   <code class="language-html">
-<img src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_Zalepik_Website1.png">
-<img src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png">
-<img src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_dribbble_invite_inspire_by...png">
-<img src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_porfolio_4.png">
-<img src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_All_Gimpscape_Banner.png">
+<img src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_Zalepik_Website1.png">
+<img src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png">
+<img src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_dribbble_invite_inspire_by...png">
+<img src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_porfolio_4.png">
+<img src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_All_Gimpscape_Banner.png">
   </code>
 </pre>
 
@@ -95,11 +95,11 @@ Berikut contoh insert gambarnya.
 **Setelah itu**, mari kita animasikan! Kalian bisa memasang **atribut untuk memberi animasi** pada elemen yang ingin kamu animasikan.
 <pre class="language-html">
   <code class="language-html">
-<img data-aos="fade-up" src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_Zalepik_Website1.png">
-<img data-aos="fade-down" src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png">
-<img data-aos="fade-right" src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_dribbble_invite_inspire_by...png">
-<img data-aos="fade-up-left" src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_porfolio_4.png">
-<img data-aos="fade-up-right" src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_All_Gimpscape_Banner.png">
+<img data-aos="fade-up" src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_Zalepik_Website1.png">
+<img data-aos="fade-down" src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png">
+<img data-aos="fade-right" src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_dribbble_invite_inspire_by...png">
+<img data-aos="fade-up-left" src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_porfolio_4.png">
+<img data-aos="fade-up-right" src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_All_Gimpscape_Banner.png">
   </code>
 </pre>
 Silahkan melihat daftar animasi yang tersedia melalui link berikut <a class="text-blue-600 italic" href="https://michalsnik.github.io/aos/" target="_blank">👉https://michalsnik.github.io/aos/</a>.
@@ -116,11 +116,11 @@ Berikut contoh pemasangan atribut untuk animasinya:
 Kalian juga bisa mengatur durasi animasinya. Tinggal tambahkan saja atribut **data-aos-duration**.
 <pre class="language-html">
   <code class="language-html">
-<img data-aos="fade-up" data-aos-duration="500" src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_Zalepik_Website1.png">
-<img data-aos="fade-down" data-aos-duration="500" src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png">
-<img data-aos="fade-right" data-aos-duration="500" src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_dribbble_invite_inspire_by...png">
-<img data-aos="fade-up-left" data-aos-duration="500" src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_porfolio_4.png">
-<img data-aos="fade-up-right" data-aos-duration="500" src="https://mzainulmuttaqin.github.io/Zalepik_Images/portfolio/zalepik_portfolio_All_Gimpscape_Banner.png">
+<img data-aos="fade-up" data-aos-duration="500" src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_Zalepik_Website1.png">
+<img data-aos="fade-down" data-aos-duration="500" src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_zhop_sm.png">
+<img data-aos="fade-right" data-aos-duration="500" src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_dribbble_invite_inspire_by...png">
+<img data-aos="fade-up-left" data-aos-duration="500" src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_porfolio_4.png">
+<img data-aos="fade-up-right" data-aos-duration="500" src="https://zenzalepik.github.io/Zalepik_Images/portfolio/zalepik_portfolio_All_Gimpscape_Banner.png">
   </code>
 </pre>
 

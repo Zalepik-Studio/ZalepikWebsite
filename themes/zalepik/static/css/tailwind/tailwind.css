@@ -342,7 +342,7 @@ template {
 }
 
 #error404{
-  background: url("https://mzainulmuttaqin.github.io/Zalepik_Images/img_background_404.png");
+  background: url("https://zenzalepik.github.io/Zalepik_Images/img_background_404.png");
   background-size: cover;
   background-position: center;
 }
@@ -1234,11 +1234,11 @@ p{
 }
 
 .zalepik_box_baca{
-  background-image: url("https://mzainulmuttaqin.github.io/Zalepik_Images/img_articles_bottom_start.png");
+  background-image: url("https://zenzalepik.github.io/Zalepik_Images/img_articles_bottom_start.png");
 }
 
 .zalepik_box_nonton{
-  background-image: url("https://mzainulmuttaqin.github.io/Zalepik_Images/img_video_bottom_start.png");
+  background-image: url("https://zenzalepik.github.io/Zalepik_Images/img_video_bottom_start.png");
 }
 
 .zalepik_wrap_title_section{
@@ -1780,7 +1780,7 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 }
 
 .zalepik_learn{
-  background-image: url("https://mzainulmuttaqin.github.io/Zalepik_Images/img_education_sm.svg"), linear-gradient(white, #F1F0F8);
+  background-image: url("https://zenzalepik.github.io/Zalepik_Images/img_education_sm.svg"), linear-gradient(white, #F1F0F8);
   padding-bottom: 240px;
   padding-top: 6rem;
 }
@@ -1792,7 +1792,7 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
 }
 
 .background_hubungi_kami{
-  background-image: url("https://mzainulmuttaqin.github.io/Zalepik_Images/background_hubungi_kami.png");
+  background-image: url("https://zenzalepik.github.io/Zalepik_Images/background_hubungi_kami.png");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: unset;
@@ -1803,7 +1803,7 @@ header#zalepik_portfolio #title_header_home .zalepik_title:before{
   box-shadow: 0 16px 24px 4px rgba(37, 213, 232, 0.04);
   height: 120px;
   width: 120px;
-  background: url("https://mzainulmuttaqin.github.io/Zalepik_Images/icon_download.svg");
+  background: url("https://zenzalepik.github.io/Zalepik_Images/icon_download.svg");
   margin: auto;
   top: -20px !important;
   bottom: 0;
@@ -2207,7 +2207,7 @@ header.bg_pricing{
 }
 
 .zalepik_bg_subscribe{
-  background-image: linear-gradient(#437bff85, #437BFF), url("https://mzainulmuttaqin.github.io/Zalepik_Images/background_hubungi_kami.png");
+  background-image: linear-gradient(#437bff85, #437BFF), url("https://zenzalepik.github.io/Zalepik_Images/background_hubungi_kami.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -13059,19 +13059,19 @@ header.bg_pricing{
   }
 
   .zalepik-uiux{
-    content: url("https://mzainulmuttaqin.github.io/Zalepik_Images/img-service-header-uiux.png");
+    content: url("https://zenzalepik.github.io/Zalepik_Images/img-service-header-uiux.png");
   }
 
   .zalepik-icon-and-logo{
-    content: url("https://mzainulmuttaqin.github.io/Zalepik_Images/img-service-header-icon-and-logo.png");
+    content: url("https://zenzalepik.github.io/Zalepik_Images/img-service-header-icon-and-logo.png");
   }
 
   .zalepik-development{
-    content: url("https://mzainulmuttaqin.github.io/Zalepik_Images/img-service-header-development.png");
+    content: url("https://zenzalepik.github.io/Zalepik_Images/img-service-header-development.png");
   }
 
   .zalepik-illustration{
-    content: url("https://mzainulmuttaqin.github.io/Zalepik_Images/img-service-header-illustration.png");
+    content: url("https://zenzalepik.github.io/Zalepik_Images/img-service-header-illustration.png");
   }
 
   .zalepik_sm_7xl{
@@ -13083,7 +13083,7 @@ header.bg_pricing{
   }
 
   .zalepik_bg_subscribe{
-    background-image: linear-gradient(#437bff85, #437BFF), url("https://mzainulmuttaqin.github.io/Zalepik_Images/background_hubungi_kami.png");
+    background-image: linear-gradient(#437bff85, #437BFF), url("https://zenzalepik.github.io/Zalepik_Images/background_hubungi_kami.png");
     background-size: cover;
   }
 
@@ -13096,7 +13096,7 @@ header.bg_pricing{
   }
 
   #error404{
-    background: url("https://mzainulmuttaqin.github.io/Zalepik_Images/img_background_404.png");
+    background: url("https://zenzalepik.github.io/Zalepik_Images/img_background_404.png");
     background-size: cover;
   }
 
@@ -13171,19 +13171,19 @@ header.bg_pricing{
   }
 
   .header_gratisan{
-    background-image: url("https://mzainulmuttaqin.github.io/Zalepik_Images/img_head_freebies.svg"), linear-gradient(#F1F0F8, white);
+    background-image: url("https://zenzalepik.github.io/Zalepik_Images/img_head_freebies.svg"), linear-gradient(#F1F0F8, white);
   }
 
   .header_artikel{
-    background-image: url("https://mzainulmuttaqin.github.io/Zalepik_Images/img_head_articles.svg"), linear-gradient(#F1F0F8, white);
+    background-image: url("https://zenzalepik.github.io/Zalepik_Images/img_head_articles.svg"), linear-gradient(#F1F0F8, white);
   }
 
   .header_video{
-    background-image: url("https://mzainulmuttaqin.github.io/Zalepik_Images/img_head_videos.svg"), linear-gradient(#F1F0F8, white);
+    background-image: url("https://zenzalepik.github.io/Zalepik_Images/img_head_videos.svg"), linear-gradient(#F1F0F8, white);
   }
 
   .zalepik_learn{
-    background-image: url("https://mzainulmuttaqin.github.io/Zalepik_Images/img_education_sm.svg"), linear-gradient(white, #F1F0F8);
+    background-image: url("https://zenzalepik.github.io/Zalepik_Images/img_education_sm.svg"), linear-gradient(white, #F1F0F8);
     background-position: right;
     padding-top: 10rem;
     padding-bottom: 10rem;

@@ -6,9 +6,9 @@ writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
 description: "Dalam membuat website, terkadang kita ingin menambahkan efek visual yang menarik dan dinamis seperti animasi yang bergerak mengambang naik turun secara terus menerus. Efek ini bisa dicapai dengan menggunakan CSS dan JavaScript"
-thumbnail: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/tumbnail/zalepik_banner_cara membuat animasi bergerak mengambang dengan css dan javascript.png"
-images: ["https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/tumbnail/zalepik_banner_cara membuat animasi bergerak mengambang dengan css dan javascript.png"]
-banner: "https://mzainulmuttaqin.github.io/Zalepik_Images/artikel/banner/zalepik_thumbnail_cara membuat animasi bergerak mengambang dengan css dan javascript.png"
+thumbnail: "https://zenzalepik.github.io/Zalepik_Images/artikel/tumbnail/zalepik_banner_cara membuat animasi bergerak mengambang dengan css dan javascript.png"
+images: ["https://zenzalepik.github.io/Zalepik_Images/artikel/tumbnail/zalepik_banner_cara membuat animasi bergerak mengambang dengan css dan javascript.png"]
+banner: "https://zenzalepik.github.io/Zalepik_Images/artikel/banner/zalepik_thumbnail_cara membuat animasi bergerak mengambang dengan css dan javascript.png"
 topik: "CSS & JavaScript"
 tags: 
 - html
