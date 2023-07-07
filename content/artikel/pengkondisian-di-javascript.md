@@ -11,7 +11,7 @@ images:
   [
     "https://zenzalepik.github.io/Zalepik_Images/artikel/tumbnail/zalepik_thumbnail_pengkondisian%20di%20javascript.png",
   ]
-banner: "https://zenzalepik.github.io/Zalepik_Images/artikel/banner/zalepik_banner_pengkondisian di javascript.png"
+banner: "https://zenzalepik.github.io/Zalepik_Images/artikel/banner/zalepik_banner_pengkondisian%20di%20javascript.png"
 topik: "Fundamental JavaScript"
 tags:
   - JavaScript
