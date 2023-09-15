@@ -8,7 +8,7 @@ zartikel: "artikel"
 description: "Pada tutorial kali ini kita akan belajar bagaimana caranya membuat elemen melayang saat discroll pada website. Kita akan menggunakan library yang bernama AOS atau Animate On Scroll. Library ini bisa kalian lihat disini"
 thumbnail: "https://zalepik-studio.github.io/zalepik-learning/images/cara-membuat-elemen-melayang-saat-di-scroll/thumbnail.png"
 images: ["https://zalepik-studio.github.io/zalepik-learning/images/cara-membuat-elemen-melayang-saat-di-scroll/images.png"]
-banner: "https://zalepik-studio.github.io/zalepik-learning/images/cara-membuat-elemen-melayang-saat-di-scroll/banner.png"
+banner: "https://zalepik-studio.github.io/ZalepikWebsite/static/banner/cara-membuat-elemen-melayang-saat-di-scroll.png"
 topik: "AOS"
 tags: 
 - html
