@@ -135,7 +135,7 @@ Berikut contoh pemasangan atribut untuk animasinya:
 <div class="zbarisbaru"></div>
 
 #### *Yeiyy!!! Website Kita Sudah Jadi*
-Sekarang kita dapat menikmati animasi pada website kita. Silahkan klik link berikut untuk mendapatkan source codenya. <a class="text-blue-600 italic" href="https://github.com/Zalepik-Studio/zalepik-learning/tree/main/source-code/cara-membuat-elemen-melayang-saat-di-scroll" target="_blank">👉https://github.com/Zalepik-Studio/zalepik-learning/tree/main/source-code/cara-membuat-elemen-melayang-saat-di-scroll/</a>
+Sekarang kita dapat menikmati animasi pada website kita. Silahkan klik link berikut untuk mendapatkan source codenya. <a class="text-blue-600 italic" href="https://github.com/Zalepik-Studio/ZalepikWebsite/blob/master/static/source-code/cara-membuat-elemen-melayang-saat-di-scroll.html" target="_blank">👉https://github.com/Zalepik-Studio/zalepik-learning/tree/main/source-code/cara-membuat-elemen-melayang-saat-di-scroll/</a>
 <iframe src="https://zalepik-studio.github.io/zalepik-learning/source-code/cara-membuat-elemen-melayang-saat-di-scroll/" width="100%" height="520px">
 </iframe>
 
