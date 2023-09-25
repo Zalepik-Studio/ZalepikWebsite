@@ -50,11 +50,9 @@ Kita akan mencoba menulis "Hello World" menggunakan Pyscript, silakan cloning re
 <div class="zbarisbaru"></div>
 
 Dapat dilihat dibawah ini bahwa runtime Pyscript load terlebih dahulu.
-
 <img class="" src="https://zalepik-studio.github.io/ZalepikWebsite/static/images/Screenshot (1).png" alt="">
 
 Setelah itu kalimat "Hello World" baru ditampilkan.
-
 <img class="" src="https://zalepik-studio.github.io/ZalepikWebsite/static/images/Screenshot (2).png" alt="Pemasangan script CDN JS.">
 
 Kamu juga bisa melihat loadnya secara realtime disini:<a class="text-blue-600 italic" href="https://zalepik-studio.github.io/ZalepikWebsite/static/source-code/berkenalan-dengan-pyscript.html" target="_blank"> 👉https://zalepik-studio.github.io/ZalepikWebsite/static/source-code/berkenalan-dengan-pyscript.html</a>

@@ -133,7 +133,7 @@ Itulah cara kerja aplikasi chat sederhana menggunakan socket.io. Kamu dapat menc
 <div class="zbarisbaru"></div>
 
 Demo aplikasi:
-<img class="" src="https://zalepik-studio.github.io/zalepik-learning/images/membuat-realtime-chat-menggunakan-socket.io/Screenshot (1).png">
+<img class="" src="https://zalepik-studio.github.io/ZalepikWebsite/static/images/Screenshot (4).png">
 
 <div class="zbarisbaru"></div>
 

@@ -78,7 +78,6 @@ deno run server.ts
   </code>
 </pre>
 Maka kita dapat melihat tulisan Hello World tampil di browser.
-
 <img class="" src="https://zalepik-studio.github.io/ZalepikWebsite/static/images/Screenshot (3).png">
 
 #### Apa kelebihan Deno.js
