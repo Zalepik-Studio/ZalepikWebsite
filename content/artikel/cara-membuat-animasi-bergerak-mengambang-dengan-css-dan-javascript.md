@@ -146,12 +146,12 @@ Dari contoh di atas, kita menambahkan class "floating-animation" pada elemen div
 <div class="zbarisbaru"></div>
 
 Kamu dapat melihat animasi elemen tersebut disini:
-<iframe src="https://zalepik-studio.github.io/zalepik-learning/source-code/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript/" width="100%" height="520px">
+<iframe src="https://zalepik-studio.github.io/ZalepikWebsite/static/source-code/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript" width="100%" height="520px">
 </iframe>
 
 <div class="zbarisbaru"></div>
 
-Kamu juga bisa mengunduh source code nya disini:<a class="text-blue-600 italic" href="https://github.com/Zalepik-Studio/zalepik-learning/tree/main/source-code/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript/" target="_blank">👉https://github.com/Zalepik-Studio/zalepik-learning/tree/main/source-code/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript/</a>
+Kamu juga bisa mengunduh source code nya disini:<a class="text-blue-600 italic" href="https://github.com/Zalepik-Studio/ZalepikWebsite/tree/master/static/source-code/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript" target="_blank">👉https://github.com/Zalepik-Studio/ZalepikWebsite/tree/master/static/source-code/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript</a>
 
 
 <div class="zbarisbaru"></div>
