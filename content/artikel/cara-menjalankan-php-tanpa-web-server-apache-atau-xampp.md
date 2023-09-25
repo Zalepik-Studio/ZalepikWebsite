@@ -54,8 +54,7 @@ Untuk mengarahkannya ke direktori atau file lain kita tinggal menambahkan tanda 
 ###### Catatan:
 Web server bawaan PHP ini tidak direkomendasikan untuk digunakan pada lingkungan produksi (production).
 
-Nah, seperti itu lah cara menjalankan PHP tanpa menggunakan web server Apache atau XAMPP. Untuk lebih lengkapnya bisa dilihat didokumentasi PHP pada link berikut: 
-<a class="text-blue-600 italic" href="https://www.php.net/manual/en/features.commandline.webserver.php" target="_blank"> 👉https://www.php.net/manual/en/features.commandline.webserver.php</a>.
+Nah, seperti itu lah cara menjalankan PHP tanpa menggunakan web server Apache atau XAMPP. Untuk lebih lengkapnya bisa dilihat didokumentasi PHP pada link berikut:<a class="text-blue-600 italic" href="https://www.php.net/manual/en/features.commandline.webserver.php" target="_blank"> 👉https://www.php.net/manual/en/features.commandline.webserver.php</a>.
 
 <div class="zbarisbaru"></div>
 <div class="zbarisbaru"></div>
