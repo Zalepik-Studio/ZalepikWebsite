@@ -8,8 +8,7 @@ zartikel: "artikel"
 description: "Pada kesempatan kali ini kita akan berkenalan dengan Pyscript, Python yang dapat berjalan di sisi browser"
 thumbnail: "https://zalepik-studio.github.io/ZalepikWebsite/static/thumbnail/berkenalan-dengan-pyscript.png"
 images: ["https://zalepik-studio.github.io/ZalepikWebsite/static/images/berkenalan-dengan-pyscript.png"]
-banner: "https://zalepik-studio.github.io/ZalepikWebsite/static/banner/berkenalan-dengan-pyscript.png
-"
+banner: "https://zalepik-studio.github.io/ZalepikWebsite/static/banner/berkenalan-dengan-pyscript.png"
 topik: "Python"
 tags: 
 - html
