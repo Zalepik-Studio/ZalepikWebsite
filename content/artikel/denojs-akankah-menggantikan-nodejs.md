@@ -6,9 +6,9 @@ writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
 description: "Pada kesempatan kali ini kita akan belajar tentang Deno.js. Nama Deno.js diambil dari kata Node.js yang diselewengkan atau dibalik"
-thumbnail: "https://zalepik-studio.github.io/zalepik-learning/images/denojs-akankah-menggantikan-nodejs/thumbnail.png"
-images: ["https://zalepik-studio.github.io/zalepik-learning/images/denojs-akankah-menggantikan-nodejs/images.png"]
-banner: "https://zalepik-studio.github.io/zalepik-learning/images/denojs-akankah-menggantikan-nodejs/banner.png"
+thumbnail: "https://zalepik-studio.github.io/ZalepikWebsite/static/thumbnail/denojs-akankah-menggantikan-nodejs.png"
+images: ["https://zalepik-studio.github.io/ZalepikWebsite/static/images/denojs-akankah-menggantikan-nodejs.png"]
+banner: "https://zalepik-studio.github.io/ZalepikWebsite/static/banner/denojs-akankah-menggantikan-nodejs.png"
 topik: "Deno.js"
 tags: 
 - html
@@ -79,7 +79,7 @@ deno run server.ts
 </pre>
 Maka kita dapat melihat tulisan Hello World tampil di browser.
 
-<img class="" src="https://zalepik-studio.github.io/zalepik-learning/images/denojs-akankah-menggantikan-nodejs/Screenshot (1).png">
+<img class="" src="https://zalepik-studio.github.io/ZalepikWebsite/static/images/Screenshot (3).png">
 
 #### Apa kelebihan Deno.js
 Salah satu fitur terpenting dari Deno adalah keamanannya yang lebih baik. Deno menyertakan sistem sandbox yang membatasi akses aplikasi ke sistem file, jaringan, dan environment lainnya. Aplikasi Deno harus memberikan izin secara eksplisit untuk mengakses fitur-fitur tersebut. Deno juga tidak lagi membutuhkan package manager seperti npm, karena ia menyertakan fitur module loading yang built-in.
