@@ -6,9 +6,10 @@ writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
 description: "Pada kesempatan kali ini kita akan berkenalan dengan Pyscript, Python yang dapat berjalan di sisi browser"
-thumbnail: "https://zalepik-studio.github.io/zalepik-learning/images/berkenalan-dengan-pyscript/thumbnail.png"
-images: ["https://zalepik-studio.github.io/zalepik-learning/images/berkenalan-dengan-pyscript/images.png"]
-banner: "https://zalepik-studio.github.io/zalepik-learning/images/berkenalan-dengan-pyscript/banner.png"
+thumbnail: "https://zalepik-studio.github.io/ZalepikWebsite/static/thumbnail/berkenalan-dengan-pyscript.png"
+images: ["https://zalepik-studio.github.io/ZalepikWebsite/static/thumbnail/berkenalan-dengan-pyscript.png"]
+banner: "https://zalepik-studio.github.io/ZalepikWebsite/static/thumbnail/berkenalan-dengan-pyscript.png
+"
 topik: "Python"
 tags: 
 - html
@@ -45,19 +46,18 @@ JS
   </code>
 </pre>
 
-Kita akan mencoba menulis "Hello World" menggunakan Pyscript, silakan cloning repository GitHub dibawah ini:<br>
-<a class="text-blue-600 italic" href="https://github.com/Zalepik-Studio/zalepik-learning/tree/main/source-code/berkenalan-dengan-pyscript" target="_blank"> 👉https://github.com/Zalepik-Studio/zalepik-learning/tree/main/source-code/berkenalan-dengan-pyscript/</a>
+Kita akan mencoba menulis "Hello World" menggunakan Pyscript, silakan cloning repository GitHub dibawah ini:<a class="text-blue-600 italic" href="https://github.com/Zalepik-Studio/ZalepikWebsite/blob/master/static/source-code/berkenalan-dengan-pyscript.html" target="_blank"> 👉https://github.com/Zalepik-Studio/ZalepikWebsite/blob/master/static/source-code/berkenalan-dengan-pyscript.html</a>
 
 <div class="zbarisbaru"></div>
 
 Dapat dilihat dibawah ini bahwa runtime Pyscript load terlebih dahulu.
 
-<img class="" src="https://zalepik-studio.github.io/zalepik-learning/images/berkenalan-dengan-pyscript/Screenshot (1).png" alt="">
+<img class="" src="https://zalepik-studio.github.io/ZalepikWebsite/static/images/Screenshot (1).png" alt="">
 
 Setelah itu kalimat "Hello World" baru ditampilkan.
-<img class="" src="https://zalepik-studio.github.io/zalepik-learning/images/berkenalan-dengan-pyscript/Screenshot (2).png" alt="Pemasangan script CDN JS.">
+<img class="" src="https://zalepik-studio.github.io/ZalepikWebsite/static/images/Screenshot (2).png" alt="Pemasangan script CDN JS.">
 
-Kamu juga bisa melihat loadnya secara realtime disini :<a class="text-blue-600 italic" href="https://zalepik-studio.github.io/zalepik-learning/source-code/berkenalan-dengan-pyscript/" target="_blank"> 👉https://zalepik-studio.github.io/zalepik-learning/source-code/berkenalan-dengan-pyscript/</a>
+Kamu juga bisa melihat loadnya secara realtime disini:<a class="text-blue-600 italic" href="https://zalepik-studio.github.io/ZalepikWebsite/static/source-code/berkenalan-dengan-pyscript.html" target="_blank"> 👉https://zalepik-studio.github.io/ZalepikWebsite/static/source-code/berkenalan-dengan-pyscript.html</a>
 
 #### Apa kelemahannya?
 Yaa, betul sekali...Pyscript ternyata sangat lambat. Pyscript sendiri mendorong orang untuk bermain dan menjelajah dengan PyScript, tetapi saat ini tidak menyarankan menggunakannya untuk produksi.
