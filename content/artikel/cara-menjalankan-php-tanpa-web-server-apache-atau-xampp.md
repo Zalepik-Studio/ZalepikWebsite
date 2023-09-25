@@ -6,9 +6,9 @@ writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
 description: "Pada kesempatan kali ini kita akan belajar bagaimana caranya menjalankan PHP tanpa web server Apache atau menggunakan XAMPP"
-thumbnail: "https://zalepik-studio.github.io/zalepik-learning/images/cara-menjalankan-php-tanpa-web-server-apache-atau-xampp/thumbnail.png"
-images: ["https://zalepik-studio.github.io/zalepik-learning/images/cara-menjalankan-php-tanpa-web-server-apache-atau-xampp/images.png"]
-banner: "https://zalepik-studio.github.io/zalepik-learning/images/cara-menjalankan-php-tanpa-web-server-apache-atau-xampp/banner.png"
+thumbnail: "https://zalepik-studio.github.io/ZalepikWebsite/static/thumbnail/cara-menjalankan-php-tanpa-web-server-apache-atau-xampp.png"
+images: ["https://zalepik-studio.github.io/ZalepikWebsite/static/images/cara-menjalankan-php-tanpa-web-server-apache-atau-xampp.png"]
+banner: "https://zalepik-studio.github.io/ZalepikWebsite/static/banner/cara-menjalankan-php-tanpa-web-server-apache-atau-xampp.png"
 topik: "PHP"
 tags: 
 - html
