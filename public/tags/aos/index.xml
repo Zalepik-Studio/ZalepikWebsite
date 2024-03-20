@@ -1,56 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>aos on Zalepik</title>
-    <link>localhost/tags/aos/</link>
-    <description>Recent content in aos on Zalepik</description>
+    <title>Aos on Zalepik</title>
+    <link>http://localhost:1313/tags/aos/</link>
+    <description>Recent content in Aos on Zalepik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="localhost/tags/aos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/aos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cara Membuat Animasi Bergerak Mengambang dengan CSS dan JavaScript</title>
-      <link>localhost/artikel/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript/</link>
+      <link>http://localhost:1313/artikel/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>localhost/artikel/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript/</guid>
+      <guid>http://localhost:1313/artikel/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript/</guid>
       <description>Dalam membuat website, terkadang kita ingin menambahkan efek visual yang menarik dan dinamis seperti animasi yang bergerak mengambang naik turun secara terus menerus.</description>
     </item>
-    
     <item>
       <title>Deno.js, akankah menggantikan Node.js</title>
-      <link>localhost/artikel/denojs-akankah-menggantikan-nodejs/</link>
+      <link>http://localhost:1313/artikel/denojs-akankah-menggantikan-nodejs/</link>
       <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>localhost/artikel/denojs-akankah-menggantikan-nodejs/</guid>
+      <guid>http://localhost:1313/artikel/denojs-akankah-menggantikan-nodejs/</guid>
       <description>Pada kesempatan kali ini kita akan belajar tentang Deno.js. Nama Deno.</description>
     </item>
-    
     <item>
       <title>Berkenalan dengan Pyscript</title>
-      <link>localhost/artikel/berkenalan-dengan-pyscript/</link>
+      <link>http://localhost:1313/artikel/berkenalan-dengan-pyscript/</link>
       <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>localhost/artikel/berkenalan-dengan-pyscript/</guid>
+      <guid>http://localhost:1313/artikel/berkenalan-dengan-pyscript/</guid>
       <description>Pada kesempatan kali ini kita akan berkenalan dengan Pyscript, Python yang dapat berjalan di sisi browser.</description>
     </item>
-    
     <item>
       <title>Cara Menjalankan PHP Tanpa Web Server Apache atau XAMPP</title>
-      <link>localhost/artikel/cara-menjalankan-php-tanpa-web-server-apache-atau-xampp/</link>
+      <link>http://localhost:1313/artikel/cara-menjalankan-php-tanpa-web-server-apache-atau-xampp/</link>
       <pubDate>Tue, 27 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>localhost/artikel/cara-menjalankan-php-tanpa-web-server-apache-atau-xampp/</guid>
+      <guid>http://localhost:1313/artikel/cara-menjalankan-php-tanpa-web-server-apache-atau-xampp/</guid>
       <description>Pada kesempatan kali ini kita akan belajar bagaimana caranya menjalankan PHP tanpa web server Apache atau menggunakan XAMPP.</description>
     </item>
-    
     <item>
       <title>Cara Membuat Elemen Melayang Saat Discroll pada Website Menggunakan Library AOS</title>
-      <link>localhost/artikel/cara-membuat-elemen-melayang-saat-di-scroll/</link>
+      <link>http://localhost:1313/artikel/cara-membuat-elemen-melayang-saat-di-scroll/</link>
       <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>localhost/artikel/cara-membuat-elemen-melayang-saat-di-scroll/</guid>
+      <guid>http://localhost:1313/artikel/cara-membuat-elemen-melayang-saat-di-scroll/</guid>
       <description>Pada tutorial kali ini kita akan belajar bagaimana caranya membuat elemen melayang saat discroll pada website.</description>
     </item>
-    
   </channel>
 </rss>

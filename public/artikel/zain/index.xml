@@ -2,10 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Profile Zain on Zalepik</title>
-    <link>localhost/artikel/zain/</link>
+    <link>http://localhost:1313/artikel/zain/</link>
     <description>Recent content in Profile Zain on Zalepik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Nov 2022 13:45:45 +0700</lastBuildDate><atom:link href="localhost/artikel/zain/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/artikel/zain/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

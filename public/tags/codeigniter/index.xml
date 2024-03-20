@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>codeigniter on Zalepik</title>
-    <link>localhost/tags/codeigniter/</link>
-    <description>Recent content in codeigniter on Zalepik</description>
+    <title>Codeigniter on Zalepik</title>
+    <link>http://localhost:1313/tags/codeigniter/</link>
+    <description>Recent content in Codeigniter on Zalepik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="localhost/tags/codeigniter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/codeigniter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Membuat Realtime Chat Sederhana Menggunakan Socket.io</title>
-      <link>localhost/artikel/membuat-realtime-chat-sederhana-menggunakan-socket.io/</link>
+      <link>http://localhost:1313/artikel/membuat-realtime-chat-sederhana-menggunakan-socket.io/</link>
       <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>localhost/artikel/membuat-realtime-chat-sederhana-menggunakan-socket.io/</guid>
+      <guid>http://localhost:1313/artikel/membuat-realtime-chat-sederhana-menggunakan-socket.io/</guid>
       <description>Socket.IO adalah library JavaScript yang digunakan untuk membuat aplikasi realtime seperti chat.</description>
     </item>
-    
   </channel>
 </rss>

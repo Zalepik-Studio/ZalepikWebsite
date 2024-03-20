@@ -1,38 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mysql on Zalepik</title>
-    <link>localhost/tags/mysql/</link>
-    <description>Recent content in mysql on Zalepik</description>
+    <title>MySQL on Zalepik</title>
+    <link>http://localhost:1313/tags/mysql/</link>
+    <description>Recent content in MySQL on Zalepik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="localhost/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Query SQL Penting Untuk Mengelola Database MySQL di phpMyAdmin</title>
-      <link>localhost/artikel/query-sql-penting-untuk-mengelola-database-mysql-di-phpmyadmin/</link>
+      <link>http://localhost:1313/artikel/query-sql-penting-untuk-mengelola-database-mysql-di-phpmyadmin/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>localhost/artikel/query-sql-penting-untuk-mengelola-database-mysql-di-phpmyadmin/</guid>
+      <guid>http://localhost:1313/artikel/query-sql-penting-untuk-mengelola-database-mysql-di-phpmyadmin/</guid>
       <description>SQL adalah bahasa standar untuk mengelola database. Berikut adalah beberapa query SQL penting yang perlu dipelajari untuk mengelola database MySQL di phpMyAdmin:</description>
     </item>
-    
     <item>
       <title>Membuat Realtime Chat Sederhana Menggunakan Socket.io</title>
-      <link>localhost/artikel/membuat-realtime-chat-sederhana-menggunakan-socket.io/</link>
+      <link>http://localhost:1313/artikel/membuat-realtime-chat-sederhana-menggunakan-socket.io/</link>
       <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>localhost/artikel/membuat-realtime-chat-sederhana-menggunakan-socket.io/</guid>
+      <guid>http://localhost:1313/artikel/membuat-realtime-chat-sederhana-menggunakan-socket.io/</guid>
       <description>Socket.IO adalah library JavaScript yang digunakan untuk membuat aplikasi realtime seperti chat.</description>
     </item>
-    
     <item>
       <title>Cara Membuat Animasi Bergerak Mengambang dengan CSS dan JavaScript</title>
-      <link>localhost/artikel/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript/</link>
+      <link>http://localhost:1313/artikel/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>localhost/artikel/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript/</guid>
+      <guid>http://localhost:1313/artikel/cara-membuat-animasi-bergerak-mengambang-dengan-css-dan-javascript/</guid>
       <description>Dalam membuat website, terkadang kita ingin menambahkan efek visual yang menarik dan dinamis seperti animasi yang bergerak mengambang naik turun secara terus menerus.</description>
     </item>
-    
   </channel>
 </rss>

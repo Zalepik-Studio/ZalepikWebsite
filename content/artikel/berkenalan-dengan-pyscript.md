@@ -33,7 +33,6 @@ Pyscript dikembangkan oleh Tim Anaconda termasuk Peter Wang dan akan terus dikem
 #### Mencoba Pyscript
 Kita bisa mencoba Pyscript menggunakan CDN CSS dan JS dibawah ini:
 CSS
-<pre class="language-python">
   <code class="language-python">
 <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
   </code>
