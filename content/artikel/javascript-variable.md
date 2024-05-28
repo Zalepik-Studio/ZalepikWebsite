@@ -91,8 +91,7 @@ Variabel yang dideklarasikan menggunakan keyword "const" adalah variabel konstan
 
 Untuk mendeklarasikan variabel di JavaScript menggunakan const, gunakan keyword const kemudian di ikuti dengan nama variabelnya.
 
-<pre class="language-javascript">
-  <code class="language-javascript">
+{{<langJs>}}
 const age = 18;
 
 console.log(age);
@@ -100,8 +99,7 @@ console.log(age);
 /* output
 18
 */
-  </code>
-</pre>
+{{</langJs>}}
 
 Seperti yang sudah disebutkan diatas, variabel yang di deklarasikan menggunakan const nilainya tidak bisa diubah. Jika kita mengubah nilai variabel yang di deklarasikan menggunakan const maka kita akan mendapati error “TypeError: Assignment to constant variable.”
 
