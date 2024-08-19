@@ -102,6 +102,25 @@ Contoh:
   </code>
 </pre>
 
+###### document.querySelectorAll
+ 
+document.querySelectorAll() digunakan untuk menyeleksi semua elemen yang cocok berdasarkan selektor yang diberikan.
+
+Contoh:
+
+<pre class="language-html">
+  <code class="language-html">
+    <section>
+        <div class="card">
+        </div>
+    </section>
+
+    <script>
+        document.querySelectorAll('card');
+    </script>
+  </code>
+</pre>
+
 
 #### DOM Manipulation
 
