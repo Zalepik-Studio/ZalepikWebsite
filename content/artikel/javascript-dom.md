@@ -1,7 +1,7 @@
 ---
 title: "JavaScript DOM"
 date: "2024-08-19"
-city: "Lampung"
+city: "Cikarang"
 writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
@@ -138,7 +138,7 @@ Contoh:
   </section>
 
   <script>
-    element = document.getElementById('card');
+    let element = document.getElementById('card');
     element.style.display = 'none';
   </script>
   </code>
@@ -168,7 +168,7 @@ Contoh:
 
   <script>
     // Menangkap elemen dengan id 'card'
-    element = document.getElementById('card');
+    let element = document.getElementById('card');
 
     // Menambahkan atribut 'class' ke elemen 'card'
     element.setAttribute('class', 'card');
