@@ -14,16 +14,19 @@ tags:
 - JavaScript DOM
 ---
 
-DOM adalah singkatan dari Document Object Model yang digunakan untuk menyeleksi dan memanipulasi element HTML. Dalam materi kali ini kita akan membahas DOM Selection dan DOM Manipulation.
+DOM adalah singkatan dari Document Object Model yang digunakan untuk menyeleksi dan memanipulasi element HTML. Dalam materi kali ini kita akan membahas mengenai DOM Selection dan DOM Manipulation.
 
 #### DOM Selection
+DOM Selection digunakan untuk menyeleksi dokumen HTML. Ada beberapa cara di JavaScript untuk menyeleksi dokumen. 
 
-Ada beberapa cara di JavaScript untuk menyeleksi dokumen
+###### document.getElementById()
+document.getElementById() digunakan untuk menyeleksi dokumen HTML berdasarkan id.
 
-<pre class="language-php">
-  <code class="language-php">
-<?php
-    echo "Hello World!";
+Contoh:
+
+<pre class="language-javascript">
+  <code class="language-javascript">
+    document.getElementById()
   </code>
 </pre>
 
