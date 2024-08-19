@@ -83,6 +83,26 @@ Contoh:
 
 Pada kode di atas JavaScript menyeleksi elemen berdasarkan tag div.
 
+###### document.querySelector
+ 
+document.querySelector() digunakan untuk menyeleksi elemen pertama pada HTML.
+
+Contoh:
+
+<pre class="language-html">
+  <code class="language-html">
+    <section>
+        <div class="card">
+        </div>
+    </section>
+
+    <script>
+        document.querySelector('card');
+    </script>
+  </code>
+</pre>
+
+
 #### DOM Manipulation
 
 DOM Manipulation digunakan untuk memanipulasi elemen HTML. Ada beberapa cara di JavaScript untuk memanipulasi dokumen HTML.
