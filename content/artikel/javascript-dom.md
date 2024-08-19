@@ -130,7 +130,7 @@ Contoh:
 <pre class="language-html">
   <code class="language-html">
   <section>
-    <div class="card">
+    <div id="card">
         <h2>Title</h2>
         <p>Card description here...</p>
         <button>Button</button>
