@@ -5,7 +5,7 @@ city: "Cikarang"
 writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
-description: "OOP (Object Oriented Programming) adalah paradigma pemrograman yang menggunakan konsep “objek” untuk merepresentasikan data dan fungsionalitas dalam suatu program..."
+description: ""
 thumbnail: "https://zalepik-studio.github.io/ZalepikWebsite/static/thumbnail"
 images: ["https://zalepik-studio.github.io/ZalepikWebsite/static/images"]
 banner: "https://zalepik-studio.github.io/ZalepikWebsite/static/banner"
@@ -48,7 +48,7 @@ Abstract classes adalah kelas yang tidak dapat diinstansiasi secara langsung. Ke
 
     $mango = new Mango();
     $mango->flavour(); // Output: This fruit is sour
-    $mango->like(); Output: I like this fruit
+    $mango->like(); // Output: I like this fruit
   </code>
 </pre>
 
