@@ -340,7 +340,7 @@ Dibawah ini kita akan melakukan studi kasus untuk menampilkan dan menyembunyikan
 
 <div class="zbarisbaru"></div>
 
-<iframe src="https://zalepik-studio.github.io/ZalepikWebsite/static/source-code/elemen-class-list.html" width="100%" height="520px">
+<iframe src="https://zalepik-studio.github.io/ZalepikWebsite/static/source-code/element-class-list.html" width="100%" height="520px">
 </iframe>
 
 <div class="zbarisbaru"></div>
