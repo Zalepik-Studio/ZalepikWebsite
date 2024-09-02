@@ -131,7 +131,7 @@ DOM Manipulation digunakan untuk memanipulasi elemen HTML. Ada beberapa cara di 
 
 ###### element.innerHTML
 
-element.innerHTML digunakan untuk menambahkan konten HTML baru ke dalam elemen.
+element.innerHTML digunakan untuk menambahkan lalu menimpa konten HTML baru ke dalam elemen.
 
 Contoh:
 
