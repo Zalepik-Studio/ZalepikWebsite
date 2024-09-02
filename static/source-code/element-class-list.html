@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>element.classList</title>
+    <style>
+      /* Kelas CSS untuk menyembunyikan elemen */
+      .hidden {
+        display: none;
+      }
+
+      /* Gaya elemen yang terlihat */
+      #card {
+        width: 200px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        background-color: lightblue;
+      }
+
+      button {
+        padding: 5px 10px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <!-- Tombol untuk menampilkan/menyembunyikan elemen -->
+      <button id="toggleButton">Sembunyikan</button>
+
+      <!-- Elemen yang akan ditampilkan/disembunyikan -->
+      <div id="card">
+        <h2>Title</h2>
+        <p>Card description here...</p>
+      </div>
+    </section>
+
+    <script>
+      // Menangkap elemen dengan id 'card'
+      let cardElement = document.getElementById("card");
+      // Menangkap tombol dengan id 'toggleButton'
+      let toggleButton = document.getElementById("toggleButton");
+
+      // Menambahkan event listener pada tombol untuk menangani klik
+      toggleButton.addEventListener("click", function () {
+        // Menggunakan classList.toggle untuk menambahkan atau menghapus kelas 'hidden'
+        cardElement.classList.toggle("hidden");
+
+        // Mengubah teks tombol berdasarkan kondisi
+        if (cardElement.classList.contains("hidden")) {
+          toggleButton.textContent = "Tampilkan";
+        } else {
+          toggleButton.textContent = "Sembunyikan";
+        }
+      });
+    </script>
+  </body>
+</html>
