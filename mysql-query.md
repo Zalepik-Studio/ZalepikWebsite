@@ -1,7 +1,7 @@
 ---
-title: "Query SQL Penting Untuk Mengelola Database MySQL di phpMyAdmin"
+title: "MySQL Query"
 date: "2023-01-30"
-city: "Lampung"
+city: "Lampung & Cikarang"
 writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
@@ -13,8 +13,6 @@ topik: "MySQL"
 tags: 
 - MySQL
 - phpMyAdmin
-- SQL
-- Query
 ---
 
 SQL adalah bahasa standar untuk mengelola database. Berikut adalah beberapa query SQL penting yang perlu dipelajari untuk mengelola database MySQL di phpMyAdmin:
@@ -290,5 +288,206 @@ Query di atas akan mengambil data dari tabel pemesanan dan produk dan mengurutka
 <div class="zbarisbaru"></div>
 
 Hasil dari query di atas akan menampilkan nama produk dan tanggal pemesanan, yang telah diurutkan berdasarkan tanggal pemesanan dalam urutan descending.
+
+#### INNER JOIN
+
+INNER JOIN di MySQL adalah jenis join yang menggabungkan baris dari dua atau lebih tabel berdasarkan kondisi tertentu. Hanya baris yang memiliki nilai yang sesuai di kedua tabel yang akan dimasukkan dalam hasil. Jika tidak ada kecocokan, maka baris tersebut tidak akan ditampilkan.
+
+<pre class="language-sql">
+  <code class="language-sql">
+    CREATE TABLE users (
+        id INT PRIMARY KEY AUTO_INCREMENT,
+        name VARCHAR(255) NOT NULL,
+        email VARCHAR(255) NOT NULL UNIQUE,
+        phone_number VARCHAR(20) NOT NULL UNIQUE,
+        password VARCHAR(255) NOT NULL,
+    );
+
+    CREATE TABLE products (
+        id INT PRIMARY KEY AUTO_INCREMENT,
+        user_id INT,
+        product_name VARCHAR(255) NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        FOREIGN KEY (user_id) REFERENCES users(id)
+    );
+  </code>
+</pre>
+
+**Contoh INNER JOIN:**
+
+<div class="zbarisbaru"></div>
+
+Misalkan kita ingin menampilkan nama pengguna (name), email pengguna (email) dan detail produk (product_name, product_desc) yang mereka buat. Maka query INNER JOIN akan terlihat seperti ini:
+
+<pre class="language-sql">
+  <code class="language-sql">
+    SELECT users.name, users.email, products.product_name, products.created_at
+    FROM users
+    INNER JOIN products ON users.id = products.user_id;
+  </code>
+</pre>
+
+**Contoh Hasil Query**
+
+<div class="zbarisbaru"></div>
+
+| name             | email                        | product_name | created_at |
+| ---------------- | ---------------------------- | ------------ | ---------- |
+| Heri Wahyudiono  | heriwahyudiono@gmail.com     | Handphone    | 2024-09-05 |
+| Dwi Sulyanto     | dwisulyanto@gmail.com        | Laptop       | 2024-09-05 |
+
+#### LEFT JOIN
+
+LEFT JOIN digunakan untuk menggabungkan dua atau lebih tabel, tetapi dengan perbedaan bahwa semua baris dari tabel kiri (tabel pertama yang disebut dalam query) akan ditampilkan, meskipun tidak ada kecocokan di tabel kanan. Jika tidak ada kecocokan di tabel kanan, nilai di kolom tabel kanan akan diisi dengan NULL.
+
+<pre class="language-sql">
+  <code class="language-sql">
+    CREATE TABLE users (
+        id INT PRIMARY KEY AUTO_INCREMENT,
+        name VARCHAR(255) NOT NULL,
+        email VARCHAR(255) NOT NULL UNIQUE,
+        phone_number VARCHAR(20) NOT NULL UNIQUE,
+        password VARCHAR(255) NOT NULL,
+    );
+
+    CREATE TABLE products (
+        id INT PRIMARY KEY AUTO_INCREMENT,
+        user_id INT,
+        product_name VARCHAR(255) NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        FOREIGN KEY (user_id) REFERENCES users(id)
+    );
+  </code>
+</pre>
+
+**Contoh LEFT JOIN:**
+
+<div class="zbarisbaru"></div>
+
+Misalkan kita ingin menampilkan semua pengguna dari tabel users meskipun mereka tidak memiliki produk di tabel products. Untuk itu, kita menggunakan LEFT JOIN.
+
+<pre class="language-sql">
+  <code class="language-sql">
+SELECT users.name, users.email, products.product_name, products.created_at
+FROM users
+LEFT JOIN products ON users.id = products.user_id;
+  </code>
+</pre>
+
+#### RIGHT JOIN
+
+RIGHT JOIN adalah kebalikan dari LEFT JOIN. Dengan RIGHT JOIN, semua baris dari tabel kanan (tabel kedua yang disebut dalam query) akan ditampilkan, meskipun tidak ada kecocokan di tabel kiri. Jika tidak ada kecocokan di tabel kiri, maka kolom dari tabel kiri akan diisi dengan nilai NULL.
+
+**Contoh Struktur Tabel:**
+
+Mari kita gunakan contoh tabel yang sama seperti sebelumnya:
+
+<pre class="language-sql">
+  <code class="language-sql">
+    CREATE TABLE users (
+        id INT PRIMARY KEY AUTO_INCREMENT,
+        name VARCHAR(255) NOT NULL,
+        email VARCHAR(255) NOT NULL UNIQUE,
+        phone_number VARCHAR(20) NOT NULL UNIQUE,
+        password VARCHAR(255) NOT NULL,
+    );
+
+    CREATE TABLE products (
+        id INT PRIMARY KEY AUTO_INCREMENT,
+        user_id INT,
+        product_name VARCHAR(255) NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        FOREIGN KEY (user_id) REFERENCES users(id)
+    );
+  </code>
+</pre>
+
+**Contoh RIGHT JOIN:**
+
+Misalkan kita ingin menampilkan semua produk dari tabel products, meskipun ada beberapa produk yang tidak terkait dengan pengguna di tabel users. Maka kita bisa menggunakan RIGHT JOIN.
+
+<pre class="language-sql">
+  <code class="language-sql">
+    SELECT users.name, users.email, products.product_name, products.created_at
+    FROM users
+    RIGHT JOIN products ON users.id = products.user_id;
+  </code>
+</pre>
+
+**CROSS JOIN**
+
+CROSS JOIN adalah jenis join yang menghasilkan perkalian Cartesian dari dua tabel. Ini berarti setiap baris di tabel pertama akan digabungkan dengan setiap baris di tabel kedua, tanpa mempertimbangkan apakah ada kecocokan atau tidak antara dua tabel tersebut. Hasilnya adalah kombinasi dari semua baris di tabel pertama dengan semua baris di tabel kedua.
+
+**Contoh Struktur Tabel:**
+
+<pre class="language-sql">
+  <code class="language-sql">
+    CREATE TABLE users (
+        id INT PRIMARY KEY AUTO_INCREMENT,
+        name VARCHAR(255) NOT NULL,
+        email VARCHAR(255) NOT NULL UNIQUE,
+        phone_number VARCHAR(20) NOT NULL UNIQUE,
+        password VARCHAR(255) NOT NULL,
+    );
+
+    CREATE TABLE products (
+        id INT PRIMARY KEY AUTO_INCREMENT,
+        product_name VARCHAR(255) NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        FOREIGN KEY (user_id) REFERENCES users(id)
+    );
+  </code>
+</pre>
+
+**Contoh CROSS JOIN:**
+
+Jika ingin menggabungkan setiap pengguna dari tabel users dengan setiap produk dari tabel products, maka kita bisa menggunakan CROSS JOIN.
+
+<pre class="language-sql">
+  <code class="language-sql">
+    SELECT users.name, products.product_name
+    FROM users
+    CROSS JOIN products;
+  </code>
+</pre>
+
+#### Self Join
+
+SELF JOIN digunakan untuk menggabungkan tabel dengan dirinya sendiri. Ini berguna ketika Anda ingin membandingkan baris dalam tabel yang sama. SELF JOIN sebenarnya adalah INNER JOIN, LEFT JOIN, atau RIGHT JOIN, tetapi di sini tabel yang sama digunakan dua kali dalam query.
+
+Untuk membedakan antara dua salinan tabel yang sama, kita perlu memberikan alias pada tabel dalam query.
+
+**Contoh Penggunaan SELF JOIN:**
+Misalkan kita memiliki tabel users di mana kita ingin menemukan pasangan pengguna tertentu berdasarkan kriteria tertentu. Sebagai contoh, mari kita ambil skenario di mana kita ingin membandingkan pengguna dengan nama yang sama atau mirip.
+
+<pre class="language-sql">
+  <code class="language-sql">
+    CREATE TABLE users (
+        id INT PRIMARY KEY AUTO_INCREMENT,
+        name VARCHAR(255) NOT NULL,
+        email VARCHAR(255) NOT NULL UNIQUE,
+        phone_number VARCHAR(20) NOT NULL UNIQUE,
+        password VARCHAR(255) NOT NULL,
+    );
+  </code>
+</pre>
+
+**Contoh SELF JOIN:**
+
+Misalkan kita ingin menemukan pasangan pengguna yang memiliki nama yang sama dalam tabel users.
+
+<pre class="language-sql">
+  <code class="language-sql">
+    SELECT u1.name AS User1, u2.name AS User2, u1.email, u2.email
+    FROM users u1
+    JOIN users u2 ON u1.name = u2.name AND u1.id != u2.id;
+  </code>
+</pre>
+
+**Contoh Hasil Query:**
+
+| User1            | User2        | email User1              | email User2           |
+| ---------------- | ------------ | ------------------------ | --------------------- |
+| Heri Wahyudiono  | Dwi Sulyanto | heriwahyudiono@gmail.com | dwisulyanto@gmail.com |
 
 ---
