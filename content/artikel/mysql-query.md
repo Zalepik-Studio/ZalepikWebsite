@@ -486,8 +486,8 @@ Misalkan kita ingin menemukan pasangan pengguna yang memiliki nama yang sama dal
 
 **Contoh Hasil Query:**
 
-| User1            | User2        | email User1              | email User2           |
-| ---------------- | ------------ | ------------------------ | --------------------- |
-| Heri Wahyudiono  | Dwi Sulyanto | heriwahyudiono@gmail.com | dwisulyanto@gmail.com |
+| User1            | User2        | email User1              | email User2            |
+| ---------------- | ------------ | ------------------------ | ---------------------  |
+| Dwi Sulyanto     | Dwi Sulyanto | dwisulyanto1@gmail.com   | dwisulyanto2@gmail.com |
 
 ---
