@@ -5,7 +5,8 @@ city: "Cikarang"
 writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
-description: ""
+description: "
+DOM (Document Object Model) adalah metode di JavaScript untuk menyeleksi dan memanipulasi elemen HTML..."
 thumbnail: "https://zenzalepik.github.io/Zalepik_Images/artikel/tumbnail"
 images: ["https://zenzalepik.github.io/Zalepik_Images/artikel/tumbnail"]
 banner: "https://zenzalepik.github.io/Zalepik_Images/artikel/banner"
@@ -17,8 +18,6 @@ tags:
 DOM (Document Object Model) adalah metode di JavaScript untuk menyeleksi dan memanipulasi elemen HTML. Dalam materi kali ini kita akan membahas mengenai DOM Selection dan DOM Manipulation.
 
 <div class="zbarisbaru"></div>
-
-**DOM SELECTION**
 
 DOM Selection digunakan untuk menyeleksi elemen HTML. Ada beberapa cara di JavaScript untuk menyeleksi dokumen.
 
@@ -124,8 +123,6 @@ Contoh:
 </pre>
 
 <div class="zbarisbaru"></div>
-
-**DOM MANIPULATION**
 
 DOM Manipulation digunakan untuk memanipulasi elemen HTML. Ada beberapa cara di JavaScript untuk memanipulasi dokumen HTML.
 
@@ -381,6 +378,108 @@ Dibawah ini kita akan melakukan studi kasus untuk menampilkan dan menyembunyikan
 </pre>
 
 Pada kode di atas, elemen card di sembunyikan & di tampilkan menggunakan toggle dengan kelas hidden. Kelas hidden akan secara bergantian di tambahkan atau di hapus dari elemen card ketika button di klik. Tombol Tampilkan & Sembunyikan akan secara bergantian berdasarkan kondisi kelas hidden yang di periksa menggunakan method contains().
+
+###### document.createElement
+
+document.createElement() adalah method dalam JavaScript yang digunakan untuk membuat elemen HTML baru secara dinamis. Metode ini memungkinkan kita dapat membuat elemen dari node apa pun (seperti div, p, span dan sebagainya) tanpa langsung menulis kode HTML di dalam dokumen. Setelah elemen dibuat, kita bisa menambahkannya ke dalam DOM (Document Object Model) dengan method seperti appendChild() atau insertBefore().
+
+<pre class="language-javascript">
+  <code class="language-javascript">
+    document.createElement(tagName)
+  </code>
+</pre>
+
+Fungsi di atas akan membuat elemen dengan nama tag yang ditentukan pada parameter tagName. Setelah elemen dibuat, kita bisa menambahkan atribut, teks atau elemen anak ke dalam elemen tersebut. Setelah elemen dibuat, ia tidak langsung ditambahkan ke halaman. Kita perlu secara eksplisit memasukkannya ke dalam DOM menggunakan metode seperti appendChild().
+
+**Contoh:**
+
+<pre class="language-javascript">
+  <code class="language-javascript">
+    <section>
+      <div id="container">
+        <!-- Elemen baru akan ditambahkan di sini -->
+      </div>
+    </section>
+
+    <script>
+      // Membuat elemen baru menggunakan createElement
+      let newDiv = document.createElement('div');
+      let newHeading = document.createElement('h2');
+      let newParagraph = document.createElement('p');
+
+      // Menambahkan teks ke elemen yang baru dibuat
+      newHeading.textContent = "Judul Baru";
+      newParagraph.textContent = "Deskripsi untuk card ini.";
+
+      // Menambahkan elemen heading dan paragraph ke dalam div yang baru
+      newDiv.appendChild(newHeading);
+      newDiv.appendChild(newParagraph);
+
+      // Menambahkan div baru ke dalam elemen dengan id 'container'
+      let container = document.getElementById('container');
+      container.appendChild(newDiv);
+    </script>
+  </code>
+</pre>
+
+**Contoh membuat elemen secara dinamis:**
+
+<pre class="language-javascript">
+  <code class="language-javascript">
+    <h1>To-Do List</h1>
+    <input type="text" id="taskInput" placeholder="Enter a new task">
+    <button onclick="addTask()">Add Task</button>
+
+    <ul id="taskList">
+      <!-- Tugas akan ditambahkan di sini -->
+    </ul>
+
+    <script>
+      function addTask() {
+        // Ambil input dari pengguna
+        let task = document.getElementById('taskInput').value;
+
+        // Membuat elemen <li> baru
+        let li = document.createElement('li');
+        
+        // Tambahkan teks tugas ke dalam <li>
+        li.textContent = task;
+        
+        // Tambahkan elemen <li> baru ke dalam <ul> taskList
+        document.getElementById('taskList').appendChild(li);
+        
+        // Kosongkan input setelah menambahkan tugas
+        document.getElementById('taskInput').value = '';
+      }
+    </script>
+  </code>
+</pre>
+
+Kita juga bisa secara eksplisit memasukkan elemen ke dalam DOM menggunakan metode insertBefore(). insertBefore() adalah metode dalam JavaScript yang digunakan untuk menyisipkan elemen baru ke dalam DOM sebelum elemen referensi tertentu. Dengan kata lain, metode ini memungkinkan kita menempatkan elemen baru di posisi yang spesifik di dalam suatu parent node (elemen induk), tepat sebelum elemen anak yang sudah ada.
+
+**Contoh:**
+
+<pre class="language-javascript">
+  <code class="language-javascript">
+    <section id="section">
+      <div id="firstElement">First Element</div>
+      <div id="thirdElement">Third Element</div>
+    </section>
+
+    <script>
+      // Membuat elemen baru
+      let newDiv = document.createElement('div');
+      newDiv.textContent = "Second Element";
+
+      // Mengambil elemen parent (section) dan referensi elemen
+      let parentSection = document.getElementById('section');
+      let referenceElement = document.getElementById('thirdElement');
+
+      // Menyisipkan elemen baru sebelum elemen referensi (thirdElement)
+      parentSection.insertBefore(newDiv, referenceElement);
+    </script>
+  </code>
+</pre>
 
 <div class="zbarisbaru"></div>
 <div class="zbarisbaru"></div>
