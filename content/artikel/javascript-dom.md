@@ -393,8 +393,8 @@ Fungsi di atas akan membuat elemen dengan nama tag yang ditentukan pada paramete
 
 **Contoh:**
 
-<pre class="language-javascript">
-  <code class="language-javascript">
+<pre class="language-html">
+  <code class="language-html">
     <section>
       <div id="container">
         <!-- Elemen baru akan ditambahkan di sini -->
