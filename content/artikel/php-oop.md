@@ -212,7 +212,7 @@ Static properties di PHP adalah properti yang dimiliki oleh kelas, bukan oleh ob
 
 Static properties dideklarasikan dengan menggunakan kata kunci static dan diakses menggunakan self:: atau ClassName::.
 
-**Contoh Penggunaan Static Properties:**!SECTION
+**Contoh Penggunaan Static Properties:**
 
 <pre class="language-php">
   <code class="language-php">
