@@ -121,6 +121,117 @@ Sebuah interface hanya mendeklarasikan metode-metode yang harus diimplementasika
   </code>
 </pre>
 
+##### Traits
+
+Traits di PHP adalah mekanisme untuk mendefinisikan metode yang dapat digunakan kembali dalam beberapa kelas. Traits memungkinkan pengembang untuk menghindari masalah dengan pewarisan ganda di OOP. Meskipun PHP tidak mendukung pewarisan ganda (di mana sebuah kelas dapat mewarisi lebih dari satu kelas), dengan menggunakan traits kita bisa "mengimpor" fungsionalitas dari berbagai traits ke dalam satu kelas.
+
+<div class="zbarisbaru"></div>
+
+Traits dapat digunakan oleh satu atau lebih kelas, dan mereka bisa berisi metode serta properti. Namun, traits tidak dapat di instansiasi secara langsung seperti kelas. Trait berfungsi sebagai cara untuk mendaur ulang kode dalam PHP tanpa perlu menggunakan 
+pewarisan klasik atau interfaces.
+
+**Contoh Penggunaan Traits:**
+
+<pre class="language-php">
+  <code class="language-php">
+    trait HasFlavour {
+        public function flavour() {
+            echo "This fruit has a unique flavour.";
+        }
+    }
+
+    trait CanLike {
+        public function like() {
+            echo "I like this fruit.";
+        }
+    }
+
+    class Apple {
+        use HasFlavour, CanLike;
+
+        public function flavour() {
+            echo "This fruit is sweet.";
+        }
+    }
+
+    class Mango {
+        use HasFlavour, CanLike;
+
+        public function flavour() {
+            echo "This fruit is sour.";
+        }
+    }
+
+    $apple = new Apple();
+    $apple->flavour(); // Output: This fruit is sweet.
+    $apple->like(); // Output: I like this fruit.
+
+    $mango = new Mango();
+    $mango->flavour(); // Output: This fruit is sour.
+    $mango->like(); // Output: I like this fruit.
+  </code>
+</pre>
+
+Pada contoh di atas, trait HasFlavour dan CanLike digunakan di kedua kelas Apple dan Mango. Setiap kelas dapat mengimpor metode dari traits dan metode ini dapat diubah atau di override sesuai dengan kebutuhan. Traits lebih cocok digunakan untuk menyusun kembali fungsi atau metode yang sering digunakan di berbagai kelas tanpa harus mengatur hubungan pewarisan yang kompleks.
+
+##### Static Methods
+
+Static methods di PHP adalah metode yang dapat dipanggil tanpa perlu membuat instans dari sebuah kelas. Metode ini milik kelas, bukan objek dan sering digunakan untuk fungsi yang tidak bergantung pada data dari instance objek, tetapi lebih merupakan fungsi umum terkait dengan kelas itu sendiri.
+
+<div class="zbarisbaru"></div>
+
+Static methods dideklarasikan dengan menggunakan kata kunci static sebelum definisi metode. Karena metode ini tidak beroperasi pada instance, mereka tidak bisa menggunakan $this untuk mengakses properti atau metode instance dari kelas.
+
+**Contoh Penggunaan Static Methods:**
+
+<pre class="language-php">
+  <code class="language-php">
+    class MathHelper {
+        public static function add($a, $b) {
+            return $a + $b;
+        }
+
+        public static function multiply($a, $b) {
+            return $a * $b;
+        }
+    }
+
+    // Memanggil static methods tanpa instansiasi
+    echo MathHelper::add(5, 10);      // Output: 15
+    echo MathHelper::multiply(3, 4);  // Output: 12
+  </code>
+</pre>
+
+Pada contoh di atas, MathHelper memiliki dua static methods add dan multiply yang bisa langsung dipanggil tanpa membuat objek dari MathHelper. Ini cocok untuk fungsi-fungsi yang sifatnya tidak bergantung pada data spesifik dari objek. Static methods sering digunakan untuk fungsi-fungsi utilitas, validasi atau operasi umum yang tidak perlu berhubungan dengan state dari objek tertentu.
+
+##### Static Properties
+
+Static properties di PHP adalah properti yang dimiliki oleh kelas, bukan oleh objek dari kelas tersebut. Seperti static methods, static properties dapat diakses tanpa perlu membuat instans dari kelas. Static properties digunakan untuk menyimpan data yang terkait dengan kelas itu sendiri, bukan dengan objek individual.
+
+<div class="zbarisbaru"></div>
+
+Static properties dideklarasikan dengan menggunakan kata kunci static dan diakses menggunakan self:: atau ClassName::.
+
+**Contoh Penggunaan Static Properties:**!SECTION
+
+<pre class="language-php">
+  <code class="language-php">
+    class Counter {
+        public static $count = 0;
+
+        public static function increment() {
+            self::$count++;
+        }
+    }
+
+    Counter::increment();
+    Counter::increment();
+    echo Counter::$count; // Output: 2
+  </code>
+</pre>
+
+Pada contoh di atas, Counter::$count adalah static property yang menyimpan nilai yang dimiliki oleh kelas Counter. Setiap kali metode increment() dipanggil, nilai ini bertambah dan perubahan ini berlaku di seluruh kelas, bukan di objek individual. Static properties cocok digunakan untuk data yang harus tetap konsisten di seluruh objek, seperti penghitung, konfigurasi atau cache.
+
 <div class="zbarisbaru"></div>
 <div class="zbarisbaru"></div>
 
