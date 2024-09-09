@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+</head>
+<body>
+  <h1>To-Do List</h1>
+  <input type="text" id="taskInput" placeholder="Enter a new task">
+  <button onclick="addTask()">Add Task</button>
+
+  <div>
+    <ul id="taskList">
+      <!-- Tugas akan ditambahkan di sini -->
+    </ul>
+  </div>
+
+  <script>
+    function addTask() {
+      // Ambil input dari pengguna
+      let task = document.getElementById('taskInput').value;
+
+      // Membuat elemen <li> baru
+      let li = document.createElement('li');
+      
+      // Tambahkan teks tugas ke dalam <li>
+      li.textContent = task;
+      
+      // Tambahkan elemen <li> baru ke dalam <ul> taskList
+      document.getElementById('taskList').appendChild(li);
+      
+      // Kosongkan input setelah menambahkan tugas
+      document.getElementById('taskInput').value = '';
+    }
+  </script>
+</body>
+</html>
