@@ -430,9 +430,11 @@ Fungsi di atas akan membuat elemen dengan nama tag yang ditentukan pada paramete
     <input type="text" id="taskInput" placeholder="Enter a new task">
     <button onclick="addTask()">Add Task</button>
 
-    <ul id="taskList">
-      <!-- Tugas akan ditambahkan di sini -->
-    </ul>
+    <div>
+      <ul id="taskList">
+        <!-- Tugas akan ditambahkan di sini -->
+      </ul>
+    </div>
 
     <script>
       function addTask() {
@@ -454,6 +456,13 @@ Fungsi di atas akan membuat elemen dengan nama tag yang ditentukan pada paramete
     </script>
   </code>
 </pre>
+
+<div class="zbarisbaru"></div>
+
+<iframe src="https://zalepik-studio.github.io/ZalepikWebsite/static/source-code/to-do-list.html" width="100%" height="520px">
+</iframe>
+
+<div class="zbarisbaru"></div>
 
 Kita juga bisa secara eksplisit memasukkan elemen ke dalam DOM menggunakan metode insertBefore(). insertBefore() adalah metode dalam JavaScript yang digunakan untuk menyisipkan elemen baru ke dalam DOM sebelum elemen referensi tertentu. Dengan kata lain, metode ini memungkinkan kita menempatkan elemen baru di posisi yang spesifik di dalam suatu parent node (elemen induk), tepat sebelum elemen anak yang sudah ada.
 
