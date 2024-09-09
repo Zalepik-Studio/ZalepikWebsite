@@ -5,7 +5,7 @@ city: "Cikarang"
 writer: "Heri"
 zname_writer: "Heri Wahyudiono"
 zartikel: "artikel"
-description: ""
+description: "OOP (Object Oriented Programming) adalah paradigma pemrograman yang menggunakan konsep "objek" untuk merepresentasikan data dan fungsionalitas dalam suatu program..."
 thumbnail: "https://zalepik-studio.github.io/ZalepikWebsite/static/thumbnail"
 images: ["https://zalepik-studio.github.io/ZalepikWebsite/static/images"]
 banner: "https://zalepik-studio.github.io/ZalepikWebsite/static/banner"
@@ -56,7 +56,7 @@ Abstract classes adalah kelas yang tidak dapat diinstansiasi secara langsung. Ke
 
 Sebuah interface hanya mendeklarasikan metode-metode yang harus diimplementasikan oleh kelas, tanpa memberikan implementasi sebenarnya. Abstract Class dapat memiliki metode dengan implementasi, sementara interface hanya mendeklarasikan metode tanpa implementasi. Interface tidak dapat mendefinisikan properti (variabel). Mereka hanya berisi deklarasi metode. Kelas dapat mengimplementasikan banyak interface, tetapi hanya dapat mewarisi dari satu abstract class. Abstract class dapat memiliki properti dan metode non-abstrak, sementara interface hanya dapat mendeklarasikan metode.
 
-**Contoh Penggunaan Interface di PHP**
+**Contoh Penggunaan Interface di PHP:**
 
 <pre class="language-php">
   <code class="language-php">
@@ -90,7 +90,7 @@ Sebuah interface hanya mendeklarasikan metode-metode yang harus diimplementasika
   </code>
 </pre>
 
-**Contoh Penggunaan Multiple Interface**
+**Contoh Penggunaan Multiple Interface:**
 
 <pre class="language-php">
   <code class="language-php">
