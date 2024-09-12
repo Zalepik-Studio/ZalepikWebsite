@@ -490,4 +490,171 @@ Misalkan kita ingin menemukan pasangan pengguna yang memiliki nama yang sama dal
 | ---------------- | ------------ | ------------------------ | ---------------------  |
 | Dwi Sulyanto     | Dwi Sulyanto | dwisulyanto1@gmail.com   | dwisulyanto2@gmail.com |
 
+#### UNION 
+
+UNION digunakan untuk menggabungkan hasil dari dua atau lebih query SELECT menjadi satu set hasil gabungan. Setiap query yang digabungkan menggunakan UNION harus memiliki jumlah kolom yang sama dan tipe data yang serupa. Secara default, UNION menghapus duplikat, tetapi jika kita ingin menyertakan semua hasil, termasuk yang duplikat, kita bisa menggunakan UNION ALL.
+
+**Contoh Tabel:**
+
+<pre class="language-sql">
+  <code class="language-sql">
+    CREATE TABLE users (
+        id INT PRIMARY KEY AUTO_INCREMENT,
+        name VARCHAR(255) NOT NULL,
+        email VARCHAR(255) NOT NULL UNIQUE,
+        phone_number VARCHAR(20) NOT NULL UNIQUE,
+        password VARCHAR(255) NOT NULL
+    );
+
+    CREATE TABLE products (
+        id INT PRIMARY KEY AUTO_INCREMENT,
+        user_id INT(11),
+        product_name VARCHAR(255) NOT NULL,
+        product_desc VARCHAR(255) NOT NULL, 
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        FOREIGN KEY (user_id) REFERENCES users(id)
+    );
+  </code>
+</pre>
+
+**Data Dummy:**
+
+<pre class="language-sql">
+  <code class="language-sql">
+    INSERT INTO users (name, email, phone_number, password)
+    VALUES
+    ('John Doe', 'john.doe@example.com', '081234567890', 'password123'),
+    ('Jane Smith', 'jane.smith@example.com', '081234567891', 'password456'),
+    ('Michael Johnson', 'michael.j@example.com', '081234567892', 'password789'),
+    ('Emily Davis', 'emily.davis@example.com', '081234567893', 'password012'),
+    ('Chris Brown', 'chris.brown@example.com', '081234567894', 'password345');
+
+    INSERT INTO products (product_name, product_desc, user_id)
+    VALUES
+    (1, 'Laptop', 'High-end gaming laptop'),
+    (2, 'Smartphone', 'Latest smartphone with OLED display'),
+    (3, 'Headphones', 'Noise-cancelling over-ear headphones'),
+    (4, 'Smartwatch', 'Water-resistant smartwatch with GPS'),
+    (5, 'Camera', 'DSLR camera with 4K video recording');
+  </code>
+</pre>
+
+**Contoh Penggunaan UNION:**
+
+<pre class="language-sql">
+  <code class="language-sql">
+    SELECT name, email FROM users
+    UNION
+    SELECT product_name, product_desc FROM products;
+  </code>
+</pre>
+
+Hasilnya adalah gabungan semua nama dari tabel users dan nama produk dari tabel products. Kolom yang digabungkan harus memiliki tipe data yang sama atau bisa dikonversi satu sama lain. Jika jumlah kolom dan tipe data pada query UNION tidak sama, SQL akan menghasilkan error. Untuk UNION bekerja, setiap query yang digabungkan harus memiliki jumlah kolom yang sama. Setiap kolom harus memiliki tipe data yang kompatibel (misalnya, VARCHAR dapat digabungkan dengan TEXT, tetapi tidak dengan INT).
+
+**Contoh yang menyebabkan error:**
+
+<pre class="language-sql">
+  <code class="language-sql">
+    SELECT name, email FROM users
+    UNION
+    SELECT product_name FROM products;
+  </code>
+</pre>
+
+Contoh di atas akan gagal karena query pertama mengembalikan dua kolom (name dan email), sementara query kedua hanya mengembalikan satu kolom (product_name).
+
+**Cara mengatasi:**
+
+Jika jumlah kolom berbeda, kita bisa menambahkan kolom tambahan pada salah satu query dengan nilai default atau null agar jumlah kolomnya sama.
+
+**Contoh:**
+
+<pre class="language-sql">
+  <code class="language-sql">
+    SELECT name, email FROM users
+    UNION
+    SELECT product_name, NULL FROM products;
+  </code>
+</pre>
+
+Di sini, kita menambahkan NULL di query kedua untuk menyamakan jumlah kolom menjadi dua. Hasilnya adalah gabungan kolom name dan email dari users dengan kolom product_name dan NULL dari products.
+
+<div class="zbarisbaru"></div>
+
+Jika tipe data tidak kompatibel, kita bisa melakukan casting tipe data secara eksplisit agar sesuai.
+
+**Contoh:**
+
+<pre class="language-sql">
+  <code class="language-sql">
+    SELECT name FROM users
+    UNION
+    SELECT CAST(user_id AS CHAR) FROM products;
+  </code>
+</pre>
+
+Pada contoh di atas tipe data user_id (yang bertipe data INT) di ubah menjadi tipe CHAR agar bisa digabungkan dengan kolom name (yang bertipe VARCHAR).
+
+<div class="zbarisbaru"></div>
+
+Dengan penyesuaian ini, kita bisa menggunakan UNION meskipun struktur dan tipe data kolom awalnya berbeda.
+
+#### GROUP BY
+
+GROUP BY adalah klausa dalam SQL yang digunakan untuk mengelompokkan hasil query berdasarkan satu atau lebih kolom. Ini sering digunakan bersama dengan fungsi agregat seperti COUNT(), SUM(), AVG(), MAX(), dan MIN() untuk menghasilkan ringkasan atau agregat dari data yang dikelompokkan.
+
+**Contoh Penggunaan GROUP BY:**
+
+Misalnya jika ingin mengetahui berapa banyak produk yang dimiliki oleh setiap pengguna, kita bisa menggunakan GROUP BY dan COUNT():
+
+<pre class="language-sql">
+  <code class="language-sql">
+    SELECT users.name, COUNT(products.id) AS product_count
+    FROM users
+    LEFT JOIN products ON users.id = products.user_id
+    GROUP BY users.name;
+  </code>
+</pre>
+
+Contoh lainnya, misalnya kita ingin mengetahui rata-rata panjang deskripsi produk, maka kita juga dapat menggunakan GROUP BY.
+
+<pre class="language-sql">
+  <code class="language-sql">
+    SELECT AVG(LENGTH(product_desc)) AS avg_description_length
+    FROM products;
+  </code>
+</pre>
+
+#### HAVING
+
+Klausa HAVING di MySQL digunakan untuk menyaring hasil setelah pengelompokan data yang dilakukan oleh GROUP BY. Ini mirip dengan klausa WHERE, tetapi perbedaannya adalah WHERE digunakan untuk menyaring data sebelum pengelompokan, sedangkan HAVING digunakan setelah hasil dari GROUP BY terbentuk.
+
+<div class="zbarisbaru"></div>
+
+HAVING biasanya digunakan bersama fungsi agregat seperti COUNT(), SUM(), AVG(), MAX(), atau MIN(), untuk memfilter grup berdasarkan hasil perhitungan agregat.
+
+**Contoh Penggunaan HAVING:**
+
+Misalkan kita ingin menghitung berapa banyak produk yang dimiliki setiap pengguna, tetapi hanya menampilkan pengguna yang memiliki lebih dari 1 produk.
+
+<pre class="language-sql">
+  <code class="language-sql">
+    SELECT users.name, COUNT(products.id) AS product_count
+    FROM users
+    LEFT JOIN products ON users.id = products.user_id
+    GROUP BY users.name
+    HAVING COUNT(products.id) > 1;
+  </code>
+</pre>
+
+Contoh lain, jika kita memiliki tabel products dengan kolom price, dan ingin menampilkan nama produk yang memiliki rata-rata harga lebih dari 1.500.000, maka dapat menggunakan query berikut:
+
+<pre class="language-sql">
+  <code class="language-sql">
+    SELECT product_name, product_price
+    FROM products
+    WHERE product_price > 1500000;
+  </code>
+</pre>
+
 ---
