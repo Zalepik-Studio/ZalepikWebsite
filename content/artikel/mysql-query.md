@@ -529,7 +529,7 @@ UNION digunakan untuk menggabungkan hasil dari dua atau lebih query SELECT menja
     ('Emily Davis', 'emily.davis@example.com', '081234567893', 'password012'),
     ('Chris Brown', 'chris.brown@example.com', '081234567894', 'password345');
 
-    INSERT INTO products (product_name, product_desc, user_id)
+    INSERT INTO products (user_id, product_name, product_desc)
     VALUES
     (1, 'Laptop', 'High-end gaming laptop'),
     (2, 'Smartphone', 'Latest smartphone with OLED display'),
