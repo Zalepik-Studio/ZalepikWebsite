@@ -232,6 +232,107 @@ Static properties dideklarasikan dengan menggunakan kata kunci static dan diakse
 
 Pada contoh di atas, Counter::$count adalah static property yang menyimpan nilai yang dimiliki oleh kelas Counter. Setiap kali metode increment() dipanggil, nilai ini bertambah dan perubahan ini berlaku di seluruh kelas, bukan di objek individual. Static properties cocok digunakan untuk data yang harus tetap konsisten di seluruh objek, seperti penghitung, konfigurasi atau cache.
 
+##### Namespaces
+
+Namespaces di PHP OOP adalah fitur yang memungkinkan kita mengatur dan mengelompokkan kode berdasarkan konteks atau ruang lingkup tertentu, sehingga memudahkan dalam mengelola proyek besar dengan banyak kelas, fungsi, atau konstanta. Namespace juga menghindari tabrakan nama (name collision) yang mungkin terjadi ketika ada dua kelas atau fungsi dengan nama yang sama tetapi berasal dari pustaka yang berbeda.
+
+<div class="zbarisbaru"></div>
+
+Dengan menggunakan namespaces, kita bisa mengelompokkan kode dan memanggilnya dengan lebih spesifik. Namespace sering digunakan saat bekerja dengan proyek yang besar atau ketika kita mengimpor pustaka eksternal.
+
+**Contoh Penggunaan Namespaces:**
+
+<pre class="language-php">
+  <code class="language-php">
+    namespace Fruits;
+
+    class Apple {
+        public function getType() {
+            echo "This is an apple";
+        }
+    }
+  </code>
+</pre>
+
+<pre class="language-php">
+  <code class="language-php">
+    namespace Vegetables;
+
+    class Carrot {
+        public function getType() {
+            echo "This is a carrot";
+        }
+    }
+  </code>
+</pre>
+
+<div class="zbarisbaru"></div>
+
+Untuk menggunakan namespace, kita bisa melakukan import atau menyebutnya secara langsung.
+
+**Menggunakan Kelas dari Namespace:**
+
+<pre class="language-php">
+  <code class="language-php">
+    use Fruits\Apple;
+
+    $apple = new Apple();
+    $apple->getType(); // Output: This is an apple
+  </code>
+</pre>
+
+<pre class="language-php">
+  <code class="language-php">
+    use Vegetables\Carrot;
+
+    $carrot = new Carrot();
+    $carrot->getType(); // Output: This is a carrot
+  </code>
+</pre>
+
+Jika namespace terlalu panjang, kita bisa menggunakan alias untuk mempersingkat pemanggilannya.
+
+<pre class="language-php">
+  <code class="language-php">
+    use Fruits\Apple as Apl;
+
+    $apple = new Apl();
+    $apple->getType(); // Output: This is an apple
+  </code>
+</pre>
+
+<pre class="language-php">
+  <code class="language-php">
+    use Vegetables\Carrot as Crt;
+
+    $carrot = new Crt();
+    $carrot->getType(); // Output: This is a carrot
+  </code>
+</pre>
+
+##### Iterables
+
+Iterables adalah tipe data yang bisa di iterasi atau di loop seperti array atau objek. Tipe data ini memungkinkan kita menggunakan struktur data yang bisa dijalankan dalam perulangan dengan konstruksi seperti foreach.
+
+<div class="zbarisbaru"></div>
+
+iterable bisa digunakan sebagai tipe parameter dan tipe pengembalian dalam metode atau fungsi. Hal ini memberi fleksibilitas, karena kita bisa menerima baik array maupun objek yang dapat diiterasi.
+
+**Contoh:**
+
+<pre class="language-php">
+  <code class="language-php">
+    function printIterable(iterable $items) {
+        foreach ($items as $item) {
+            echo $item . " ";
+        }
+    }
+
+    $array = [1, 2, 3];
+    printIterable($array); // Output: 1 2 3
+  </code>
+</pre>
+
 <div class="zbarisbaru"></div>
 <div class="zbarisbaru"></div>
 
