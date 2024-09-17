@@ -316,7 +316,7 @@ Iterables adalah tipe data yang bisa di iterasi atau di loop seperti array atau 
 
 <div class="zbarisbaru"></div>
 
-iterable bisa digunakan sebagai tipe parameter dan tipe pengembalian dalam metode atau fungsi. Hal ini memberi fleksibilitas, karena kita bisa menerima baik array maupun objek yang dapat diiterasi.
+Iterable bisa digunakan sebagai tipe parameter dan tipe pengembalian dalam metode atau fungsi. Hal ini memberi fleksibilitas, karena kita bisa menerima baik array maupun objek yang dapat diiterasi.
 
 **Contoh:**
 
